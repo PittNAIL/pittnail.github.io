@@ -25,7 +25,7 @@ jobs:
 
       - name: Push Changes to Branch `main`
         env:
-          TOKEN: ${{ secrets.WEBSITE_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           mv public ..
           git checkout main
