@@ -1,0 +1,79 @@
+// General {{{
+
+a
+    color: #000000;
+    font-size: 16px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #003594;
+    text-underline-offset: 4px;
+
+body
+    background-color: #ffffff;
+
+html
+    overflow-y: scroll;
+
+hr
+    border: 0;
+    border-top: 1px solid black;
+
+img
+    width: 256px;
+    box-shadow: 8px 8px 1px #ccc;
+    -webkit-box-shadow: 4px 4px 1px #ccc;
+    -moz-box-shadow: 4px 4px 1px #ccc;
+
+summary
+    color: #000000;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+
+#main
+    margin: 64px auto;
+    width: 70%;
+
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #1b1b1c;
+
+// }}}
+
+// Scrollbar {{{
+
+::-webkit-scrollbar
+    width: 1rem;
+
+::-webkit-scrollbar-thumb
+    background: lightgray;
+    border-radius: 0.5rem;
+
+::-webkit-scrollbar-thumb:hover
+    background: gray;
+
+// }}}
+
+// Syntax highlighting {{{
+
+pre
+    font-size: 12px;
+    line-height: 1.5em;
+    overflow: auto;
+    padding: 1rem;
+
+// }}}
+
+// Responsive design {{{
+
+@media screen and (max-width: 1400px)
+    #main
+        width: 90%;
+
+@media screen and (max-width: 700px)
+    #main
+        width: 100%;
+
+// }}}
