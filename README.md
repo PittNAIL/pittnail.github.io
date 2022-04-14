@@ -10,8 +10,8 @@ zola build && zola serve
 ## Workflow
 
 1. Edit the files in `content`, under the specific folder.
-2. Run `zola build` after making the changes.
-3. Push the changes.
+2. Push the changes.
+3. Run `zola build` after making the changes.
 4. Move the generated `public` folder to the directory outside the repository.
 5. `git checkout` the `main` branch and remove all the files (except the `.git` folder).
 6. Copy the contents from the generated `public` folder to the `main` branch.
