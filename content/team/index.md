@@ -12,7 +12,7 @@ Research Interests: Clinical Natural Language Processing, Deep Learning
 
 ![Haneef](/team/haneef.jpg)
 
-Haneef Ahmed, _Graduate Researcher_
+Haneef Ahmed Mohammad, _Graduate Researcher_
 
 Research Interests: Clinical Natural Language Processing
 

@@ -1,6 +1,6 @@
 base_url = "https://pittnail.github.io"
-description = "Clinical NLP and AI Innovation Library"
-title = "NAIL"
+description = "The University of Pittsburgh Clinical NLP and AI Innovation Laboratory"
+title = "PittNAIL"
 
 compile_sass = true
 
@@ -12,7 +12,7 @@ highlight_code = true
 highlight_theme = "ayu-dark"
 
 [extra]
-author = "NAIL"
+author = "PittNAIL"
 og_image = "logo.png"
 
 [extra.options]
@@ -27,6 +27,7 @@ links = [
     {url = "$BASE_URL/blog", title = "Blog"},
     {url = "$BASE_URL/research", title = "Research"},
     {url = "$BASE_URL/projects", title = "Projects"},
+    {url = "$BASE_URL/funding", title = "Funding"},
     {url = "$BASE_URL/rss.xml", title = "RSS"}
 ]
 
