@@ -78,50 +78,46 @@
     {% endblock head %}
 
     <body>
-        <div id="main">
-            <!-- Starts a header -->
-            {% block header %}
-                <!-- Checks if header links exist and if they do, populates the header -->
-                {% if config.extra.header.links %}
-                    <nav style="text-align: center;" role="navigation">
-                        {% for item in config.extra.header.links %}
-                            <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.title }}</a>
-                            &nbsp;
-                        {% endfor %}
-                    </nav>
-                {% endif %}
-            {% endblock header %}
+        <!-- Starts a header -->
+        <!-- Checks if header links exist and if they do, populates the header -->
+        {% if config.extra.header.links %}
+            <nav style="text-align: center;" role="navigation">
+                {% for item in config.extra.header.links %}
+                    <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.title }}</a>
+                    &nbsp;
+                {% endfor %}
+            </nav>
+        {% endif %}
 
-            <!-- Displays a header -->
-            <h2 style="text-align: center; font-weight: normal;">
-                PittNAIL - The University of Pittsburgh Clinical NLP and AI Innovation Laboratory
-            </h2>
+        <!-- Displays a header -->
+        <h2 style="text-align: center; font-weight: normal;">
+            PittNAIL - The University of Pittsburgh Clinical NLP and AI Innovation Laboratory
+        </h2>
 
-            <!-- Parses contents of a Markdown file -->
-            {% block content %}
-                {{ section.content | safe }}
-            {% endblock content %}
+        <!-- Parses contents of a Markdown file -->
+        {% block content %}
+            {{ section.content | safe }}
+        {% endblock content %}
 
-            <!-- Starts a footer -->
-            {% block footer %}
-                <footer role="contentinfo">
-                    <!-- Signifies the start of the footer -->
-                    <hr />
+        <!-- Starts a footer -->
+        {% block footer %}
+            <footer role="contentinfo">
+                <!-- Signifies the start of the footer -->
+                <hr />
 
-                    <!-- External links -->
-                    <div style="text-align: center;">
-                        <!-- Displays footer-related social links -->
-                        {% for item in config.extra.footer.links %}
-                            <a style="text-decoration: none;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}"><i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}</a>
-                        {% endfor %}
-                    </div>
+                <!-- External links -->
+                <div style="text-align: center;">
+                    <!-- Displays footer-related social links -->
+                    {% for item in config.extra.footer.links %}
+                        <a style="text-decoration: none;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}"><i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}</a>
+                    {% endfor %}
+                </div>
 
-                    <!-- Displays the footer message -->
-                    <p style="text-align: center">
-                        <small>&copy; 2022 NAIL</small>
-                    </p>
-                </footer>
-            {% endblock footer %}
-        </div>
+                <!-- Displays the footer message -->
+                <p style="text-align: center">
+                    <small>&copy; 2022 NAIL</small>
+                </p>
+            </footer>
+        {% endblock footer %}
     </body>
 </html>
