@@ -2,9 +2,17 @@
 title = "Team"
 +++
 
+![Dr. Wang](/team/drwang.jpg)
+
+[Yanshan Wang, PhD, FAMIA][drwang], Assistant Professor of Health Informatics and Vice Chair of Research
+
+Research Interests: Artificial Intelligence, Clinical Natural Language Processing, Deep Learning
+
+---
+
 ![Sonish](/team/sonish.jpg)
 
-[Sonish Sivarajkumar](https://sonishsivarajkumar.github.io/homepage/), _PhD Student_
+[Sonish Sivarajkumar][sonish], _PhD Student_
 
 Research Interests: Clinical Natural Language Processing, Deep Learning
 
@@ -44,6 +52,10 @@ Research Interests: Clinical Natural Language Processing
 
 ![David](/team/david.jpg)
 
-[David Oniani](https://davidoniani.com), _Staff Machine Learning Research Scientist_
+[David Oniani][david], _Staff Machine Learning Research Scientist_
 
 Research Interests: Deep Learning, Software Engineering, Clinical Natural Language Processing
+
+[drwang]: https://sites.pitt.edu/~yaw89/
+[sonish]: https://sonishsivarajkumar.github.io/homepage/
+[david]: https://davidoniani.com
