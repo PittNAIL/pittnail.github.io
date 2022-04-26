@@ -54,7 +54,7 @@ Research Interests: Clinical Natural Language Processing
 
 [David Oniani][david], _Staff Machine Learning Research Scientist_
 
-Research Interests: Deep Learning, Software Engineering, Clinical Natural Language Processing
+Research Interests: Artificial Intelligence, Software Engineering, Clinical Natural Language Processing
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
