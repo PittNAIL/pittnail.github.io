@@ -9,6 +9,11 @@ zola build && zola serve
 
 ## Workflow
 
+The workflow has been fully automated. One just needs to make changes in the `code` branch and the
+rest will be handled by GitHub Actions workflow.
+
+## Manual Workflow
+
 1. Edit the files in `content`, under the specific folder.
 2. Push the changes.
 3. Run `zola build` after making the changes.
