@@ -22,7 +22,7 @@ jobs:
           zola build
       - name: Push Changes to Branch `main`
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.PITTNAIL_WEBSITE_TOKEN }}
         run: |
           mv public ..
           git checkout main
