@@ -33,4 +33,4 @@ jobs:
           rm -rf themes
           git add .
           git commit -m "Redeployment" || exit 0
-          git push https://${TOKEN}@github.com/pittnail/pittnail.github.io.git
+          git push origin main # https://${TOKEN}@github.com/pittnail/pittnail.github.io.git
