@@ -22,7 +22,7 @@ jobs:
           zola build
       - name: Push Changes to Branch `main`
         env:
-          TOKEN: ${{ secrets.PITTNAIL_WEBSITE_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           mv public ..
           git checkout main
@@ -33,4 +33,4 @@ jobs:
           rm -rf themes
           git add .
           git commit -m "Redeployment" || exit 0
-          git push origin main https://${TOKEN}@github.com/pittnail/pittnail.github.io.git
+          git push https://${TOKEN}@github.com/pittnail/pittnail.github.io.git
