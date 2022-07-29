@@ -20,6 +20,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Jul 15, 2022 We have 1 paper and 2 posters accepted by [AMIA 2022 Annual Symposium][amia2022]
 - Feb 23, 2022 Welcome [David Oniani][david] to join my lab again!
 - Feb 22, 2022 Welcome Hunter Osterhoudt from Department of Computer Science to join my lab!
 - Feb 15, 2022 Our proposal "Understanding Bias in Big Data and Artificial Intelligence for Health Care Through an Educational Health Informatics Hackathon" is funded by the Year of Data and Society!
@@ -40,5 +41,6 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 [pitt]: https://www.pitt.edu/
 [david]: https://davidoniani.com
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
+[amia2022]: https://amia.org/education-events/annual-symposium
 
 <!-- }}} -->
