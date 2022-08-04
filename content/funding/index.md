@@ -4,6 +4,7 @@ title = "Funding"
 
 PittNAIL is well-funded by the federal government, research institutions, and companies:
 
+- Dean’s Research and Development Award. AI-driven Precision Rehabilitation for Chronic Musculoskeletal Pain.
 - Pitt Momentum Funds 2022. Improving Health Equity by Analyzing Social Determinants of Health from the Electronic Health Records.
 - The Year of Data and Society Award. Understanding Bias in Big Data and Artificial Intelligence for Health Care Through an Educational Health Informatics Hackathon.
 - CTSI Pilot Awards. A3ST – AI Based Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation.

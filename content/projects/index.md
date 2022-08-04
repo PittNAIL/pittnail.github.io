@@ -2,6 +2,10 @@
 title = "Projects"
 +++
 
+**_AI-driven Precision Rehabilitation_**
+
+The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies with the best clinical outcomes for individual patients, including specific types of exercises, number of sessions, types of manual therapies, and therapeutic modalities, etc.
+
 **_Zero-shot Learning for Clinical Natural Language Processing_**
 
 The lack of gold standard datasets is the biggest bottleneck for Clinical Natural Language
