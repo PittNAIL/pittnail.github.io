@@ -54,7 +54,13 @@ Research Interests: Clinical Natural Language Processing
 
 [David Oniani][david], _Staff Machine Learning Research Scientist_
 
-Research Interests: Artificial Intelligence, Software Engineering, Clinical Natural Language Processing
+Research Interests: Artificial Intelligence, Software Engineering, Emerging Technologies
+
+---
+
+Stephen Shaffran, _PhD Student_
+
+Research Interests: [PLACEHOLDER]
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
