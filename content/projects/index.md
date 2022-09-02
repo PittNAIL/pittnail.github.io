@@ -39,7 +39,7 @@ This project aims to develop novel few-shot learning (FSL) approaches for Clinic
 This project aims to leverage NLP and AI techniques to tackle the health literacy problem faced by
 both patients and clinicians.
 
-- Project Lead: Sreekanth Sreekumar
+- Project Lead: [David Oniani][david], Sreekanth Sreekumar
 
 ---
 
