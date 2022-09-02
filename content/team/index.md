@@ -2,7 +2,7 @@
 title = "Team"
 +++
 
-![Dr. Wang](/team/drwang.jpg)
+![Dr. Wang](/pic/drwang.jpg)
 
 [Yanshan Wang, PhD, FAMIA][drwang], Assistant Professor of Health Informatics and Vice Chair of Research
 
@@ -10,7 +10,7 @@ Research Interests: Artificial Intelligence, Clinical Natural Language Processin
 
 ---
 
-![Sonish](/team/sonish.jpg)
+![Sonish](/pic/sonish.jpg)
 
 [Sonish Sivarajkumar][sonish], _PhD Student_
 
@@ -18,7 +18,7 @@ Research Interests: Clinical Natural Language Processing, Deep Learning
 
 ---
 
-![Haneef](/team/haneef.jpg)
+![Haneef](/pic/haneef.jpg)
 
 Haneef Ahmed Mohammad, _Graduate Researcher_
 
@@ -26,7 +26,7 @@ Research Interests: Clinical Natural Language Processing
 
 ---
 
-![Sreekanth](/team/sreekanth.jpg)
+![Sreekanth](/pic/sreekanth.jpg)
 
 Sreekanth Sreekumar, _Graduate Researcher_
 
@@ -34,7 +34,7 @@ Research Interests: Health Literacy, Natural Language Processing
 
 ---
 
-![Hunter](/team/hunter.jpg)
+![Hunter](/pic/hunter.jpg)
 
 Hunter Osterhoudt, _Graduate Researcher_
 
@@ -42,7 +42,7 @@ Research Interests: Multimodal Machine Learning
 
 ---
 
-![Samuel](/team/samuel.jpg)
+![Samuel](/pic/samuel.jpg)
 
 Samuel Viggiano, _Graduate Researcher_
 
@@ -50,7 +50,7 @@ Research Interests: Clinical Natural Language Processing
 
 ---
 
-![David](/team/david.jpg)
+![David](/pic/david.jpg)
 
 [David Oniani][david], _Staff Machine Learning Research Scientist_
 
