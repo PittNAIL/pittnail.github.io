@@ -58,9 +58,11 @@ Research Interests: Artificial Intelligence, Software Engineering, Emerging Tech
 
 ---
 
+![Stephen](/pic/stephen.jpg)
+
 Stephen Shaffran, _PhD Student_
 
-Research Interests: [PLACEHOLDER]
+Research Interests: Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
