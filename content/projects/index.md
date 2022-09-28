@@ -41,7 +41,7 @@ clinical and translational research.
 
 ---
 
-### Few-shot Learning for Clinical Natural Language Processing
+### Few-Shot Learning for Clinical Natural Language Processing
 
 This project aims to develop novel few-shot learning (FSL) approaches for Clinical NLP.
 
