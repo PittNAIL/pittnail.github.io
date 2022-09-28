@@ -6,10 +6,6 @@ title = "Select Publications"
   <small>Sonish Sivarajkumar, **Yanshan Wang**</small>  
   AMIA 2022 Annual Symposium. 2022.
 
-- Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing.  
-  <small>Haneef Ahamed Mohammad, Sonish Sivarajkumar, Samual Viggiano, David Oniani, Shyam Visweswaran, and **Yanshan Wang**</small>  
-  medRxiv. 2022.
-
 - Unsupervised Machine Learning for the Discovery of Latent Disease Clusters and Patient Subgroups
   Using Electronic Health Records.  
   <small>**Yanshan Wang**, Yiqing Zhao, Terry M. Therneau, Elizabeth J. Atkinson, Ahmad P. Tafti,
@@ -45,3 +41,18 @@ title = "Select Publications"
   <small>**Yanshan Wang**, Majid Rastegar-Mojarad, Ravikumar Komandur-Elayavilli, Hongfang
   Liu.</small>  
   Database. 2017.
+
+## Other Manuscripts
+
+- Toward Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models  
+  <small>David Oniani, Sreekanth Sreekumar, Renuk DeAlmeida, Dinuk DeAlmeida, Vivian Hui,
+  Young Ji Lee, Yiye Zhang, Leming Zhou, **Yanshan Wang**</small>  
+  arXiv. 2022.
+
+- Few-Shot Learning for Clinical Natural Language Processing Using Siamese Neural Networks  
+  <small>David Oniani, Sonish Sivarajkumar, **Yanshan Wang**</small>  
+  arXiv. 2022.
+
+- Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing.  
+  <small>Haneef Ahamed Mohammad, Sonish Sivarajkumar, Samual Viggiano, David Oniani, Shyam Visweswaran, and **Yanshan Wang**</small>  
+  medRxiv. 2022.
