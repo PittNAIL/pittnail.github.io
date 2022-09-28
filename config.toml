@@ -1,6 +1,6 @@
 base_url = "https://pittnail.github.io"
 description = "The University of Pittsburgh Clinical NLP and AI Innovation Laboratory"
-title = "PittNAIL"
+title = "The University of Pittsburgh Clinical NLP and AI Innovation Laboratory"
 
 compile_sass = true
 

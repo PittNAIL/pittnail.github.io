@@ -19,4 +19,3 @@ PittNAIL is well-funded by the federal government, research institutions, and co
   and outcomes analysis in psychiatric disorders.
 - NIH NINDS-R01 Enabling Comparative Effectiveness Research in Silent Brain Infarction Through
   Natural Language Processing and Big Data.
-

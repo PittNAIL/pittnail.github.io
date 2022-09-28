@@ -3,8 +3,6 @@
 
 <!-- NAIL {{{ -->
 
-<img src="/logo.png" alt="NAIL" style="display: block; margin-left: auto; margin-right: auto; width: 20%;">
-
 Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural Language Processing and **A**rtificial
 **I**ntelligence Innovation **L**aboratory. PittNAIL is led by [Dr. Yanshan Wang][drwang].
 
@@ -12,8 +10,8 @@ Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural
 
 <!-- Intro {{{ -->
 
-PittNAIL's research focus centers on clinical natural language processing (NLP), artificial
-intelligence (AI), machine learning (ML), and deep learning (DL) methodologies and applications in
+PittNAIL's research focus centers on clinical Natural Language Processing (NLP), Artificial
+Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) methodologies and applications in
 healthcare. Our research goal is to leverage different dimensions of data (electronic health
 records, biomedical literature, health education materials, etc) and data-driven computational
 approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients, and customers.
@@ -22,8 +20,8 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 - Aug 4, 2022 Welcome Stephen Shaffran to join the lab. Stephen is a Pitt ISP PhD student.
 - Jul 29, 2022 Our proposal entitled “AI-driven Precision Rehabilitation for Chronic Musculoskeletal Pain” has been selected for funding by the Dean’s Research and Development Award!
-- Jun 1, 2022 Dr. Wang is organizing the AMIA 2022 NLP Working Group Pre-Symposium on Nov 5th at Washington, DC. See more details [here][amia22nlp]
-- May 1, 2022 We have 1 paper and 2 posters accepted by [AMIA 2022 Annual Symposium][amia2022]
+- Jun 1, 2022 Dr. Wang is organizing the AMIA 2022 NLP Working Group Pre-Symposium on Nov 5th at Washington, DC. See more details [here][amia22nlp].
+- May 1, 2022 We have 1 paper and 2 posters accepted by [AMIA 2022 Annual Symposium][amia2022].
 - Feb 23, 2022 Welcome [David Oniani][david] to join the lab again! David is a Machine Learning Research Scientist.
 - Feb 22, 2022 Welcome Hunter Osterhoudt from Department of Computer Science to join my lab!
 - Feb 15, 2022 Our proposal "Understanding Bias in Big Data and Artificial Intelligence for Health Care Through an Educational Health Informatics Hackathon" is funded by the Year of Data and Society!

@@ -1,12 +1,13 @@
 +++
 title = "Select Publications"
 +++
-- HealthPrompt: A Zero-shot Learning Paradigm for Clinical Natural Language Processing.
-  <small>Sonish Sivarajkumar, **Yanshan Wang**</small>
+
+- HealthPrompt: A Zero-shot Learning Paradigm for Clinical Natural Language Processing.  
+  <small>Sonish Sivarajkumar, **Yanshan Wang**</small>  
   AMIA 2022 Annual Symposium. 2022.
 
-- Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing.
-  <small>Haneef Ahamed Mohammad, Sonish Sivarajkumar, Samual Viggiano, David Oniani, Shyam Visweswaran, and **Yanshan Wang**</small>
+- Extraction of Sleep Information from Clinical Notes of Alzheimer's Disease Patients Using Natural Language Processing.  
+  <small>Haneef Ahamed Mohammad, Sonish Sivarajkumar, Samual Viggiano, David Oniani, Shyam Visweswaran, and **Yanshan Wang**</small>  
   medRxiv. 2022.
 
 - Unsupervised Machine Learning for the Discovery of Latent Disease Clusters and Patient Subgroups
