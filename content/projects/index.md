@@ -34,7 +34,7 @@ develop novel ZSL methods tailored to Clinical NLP.
 
 ### Next-generation Clinical Information Retrieval Framework
 
-This project aims to develop next-generation information retrieval (IR) framework to facilitate
+This project aims to develop next-generation Information Retrieval (IR) framework to facilitate
 clinical and translational research.
 
 - Project Lead: [Sonish Sivarajkumar][sonish]
