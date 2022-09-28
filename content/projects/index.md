@@ -4,16 +4,19 @@ title = "Projects"
 
 ### AI-driven Precision Rehabilitation
 
-The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies with the best clinical outcomes for individual patients, including specific types of exercises, number of sessions, types of manual therapies, and therapeutic modalities, etc.
+The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies
+with the best clinical outcomes for individual patients, including specific types of exercises,
+number of sessions, types of manual therapies, and therapeutic modalities, etc.
+
+- Project Lead: Stephen Shaffran
 
 ---
 
 ### Zero-shot Learning for Clinical Natural Language Processing
 
 The lack of gold standard datasets is the biggest bottleneck for Clinical Natural Language
-Processing (NLP).  
-This project will apply zero-shot learning (ZSL) approaches to clinical NLP and develop novel ZSL
-methods tailored to clinical NLP.
+Processing (NLP). This project will apply zero-shot learning (ZSL) approaches to Clinical NLP and
+develop novel ZSL methods tailored to Clinical NLP.
 
 - Project Lead: [Sonish Sivarajkumar][sonish]
 
@@ -24,7 +27,7 @@ methods tailored to clinical NLP.
 This project aims to develop next-generation information retrieval (IR) framework to facilitate
 clinical and translational research.
 
-- Project Lead: Sonish Sivarajkumar
+- Project Lead: [Sonish Sivarajkumar][sonish]
 
 ---
 
