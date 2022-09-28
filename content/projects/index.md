@@ -22,7 +22,7 @@ number of sessions, types of manual therapies, and therapeutic modalities, etc.
 
 ---
 
-### Zero-shot Learning for Clinical Natural Language Processing
+### Zero-Shot Learning for Clinical Natural Language Processing
 
 The lack of gold standard datasets is the biggest bottleneck for Clinical Natural Language
 Processing (NLP). This project will apply zero-shot learning (ZSL) approaches to Clinical NLP and
