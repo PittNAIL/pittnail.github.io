@@ -25,7 +25,7 @@ number of sessions, types of manual therapies, and therapeutic modalities, etc.
 ### Zero-Shot Learning for Clinical Natural Language Processing
 
 The lack of gold standard datasets is the biggest bottleneck for Clinical Natural Language
-Processing (NLP). This project will apply zero-shot learning (ZSL) approaches to Clinical NLP and
+Processing (NLP). This project will apply Zero-Shot Learning (ZSL) approaches to Clinical NLP and
 develop novel ZSL methods tailored to Clinical NLP.
 
 - Project Lead: [Sonish Sivarajkumar][sonish]
@@ -43,7 +43,7 @@ clinical and translational research.
 
 ### Few-Shot Learning for Clinical Natural Language Processing
 
-This project aims to develop novel few-shot learning (FSL) approaches for Clinical NLP.
+This project aims to develop novel Few-Shot Learning (FSL) approaches for Clinical NLP.
 
 - Project Lead: [David Oniani][david]
 
