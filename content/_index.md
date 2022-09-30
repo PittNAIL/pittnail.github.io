@@ -36,7 +36,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 - Dec 1, 2021 Welcome [Sonish Sivarajkumar][sonish] from Intelligent System Programs to join my lab!
 - Sep, 2021 Yanshan gave a talk at the OHDSI NLP WG Monthly Meeting.
 - Sep 1, 2021 Welcome Haneef Mohammad from Department of Information Science to join my lab!
-- Jul, 2021 Yanshan's co-first-authored paper titled "Social and behavioral determinants of health in the era of artificial intelligence with electronic health records: A scoping review" is accepted at Health Data Science, a Science Partner Journal.
+- Jul, 2021 Yanshan's co-first-authored paper titled "Social and Behavioral Determinants of Health in the Era of Artificial Intelligence with Electronic Health Records: A Scoping Review" is accepted at Health Data Science, a Science Partner Journal.
 - Jun, 2021 Yanshan joined the University of Pittsburgh as Assistant Professor and Vice Chair of Research at the Department of Health Information Management.
 
 <!-- }}} -->
