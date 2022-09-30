@@ -34,10 +34,10 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 - Feb 2, 2022 Welcome Sreekanth Sreekumar from Department of Computer Science to join my lab!
 - Dec 17, 2021 Our proposal titled "A3ST – AI Based Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation" is funded by Clinical and Translational Science Institute (CTSI)!
 - Dec 1, 2021 Welcome [Sonish Sivarajkumar][sonish] from Intelligent System Programs to join my lab!
-- Sep, 2021 Yanshan gave a talk at the OHDSI NLP WG Monthly Meeting.
+- Sep, 2021 Dr. Wang gave a talk at the OHDSI NLP WG Monthly Meeting.
 - Sep 1, 2021 Welcome Haneef Mohammad from Department of Information Science to join my lab!
-- Jul, 2021 Yanshan's co-first-authored paper titled "Social and Behavioral Determinants of Health in the Era of Artificial Intelligence with Electronic Health Records: A Scoping Review" is accepted at Health Data Science, a Science Partner Journal.
-- Jun, 2021 Yanshan joined the University of Pittsburgh as Assistant Professor and Vice Chair of Research at the Department of Health Information Management.
+- Jul, 2021 Dr. Wang's co-first-authored paper titled "Social and Behavioral Determinants of Health in the Era of Artificial Intelligence with Electronic Health Records: A Scoping Review" is accepted at Health Data Science, a Science Partner Journal.
+- Jun, 2021 Dr. Wang joined the University of Pittsburgh as Assistant Professor and Vice Chair of Research at the Department of Health Information Management.
 
 <!-- }}} -->
 
