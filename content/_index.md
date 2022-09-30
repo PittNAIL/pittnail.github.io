@@ -22,9 +22,9 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
-- Sep 6, 2022 Our paper entitled “HealthPrompt: A zero-shot learning paradigm for Clinical Natural Language Processing” has been selected as one of the eight student paper finalists in the AMIA 2022 Annual Symposium. Congratulations Sonish!
+- Sep 6, 2022 Our paper titled “HealthPrompt: A zero-shot learning paradigm for Clinical Natural Language Processing” has been selected as one of the eight student paper finalists in the AMIA 2022 Annual Symposium. Congratulations Sonish!
 - Aug 4, 2022 Welcome Stephen Shaffran to join the lab. Stephen is a Pitt ISP PhD student.
-- Jul 29, 2022 Our proposal entitled "AI-driven Precision Rehabilitation for Chronic Musculoskeletal Pain" has been selected for funding by the Dean’s Research and Development Award!
+- Jul 29, 2022 Our proposal titled "AI-driven Precision Rehabilitation for Chronic Musculoskeletal Pain" has been selected for funding by the Dean’s Research and Development Award!
 - Jun 1, 2022 Dr. Wang is organizing the AMIA 2022 NLP Working Group Pre-Symposium on Nov 5th at Washington, DC. See more details [here][amia22nlp].
 - May 1, 2022 We have 1 paper and 2 posters accepted by [AMIA 2022 Annual Symposium][amia2022].
 - Feb 23, 2022 Welcome [David Oniani][david] to join the lab again! David is a Machine Learning Research Scientist.
@@ -32,11 +32,11 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 - Feb 15, 2022 Our proposal "Understanding Bias in Big Data and Artificial Intelligence for Health Care Through an Educational Health Informatics Hackathon" is funded by the Year of Data and Society!
 - Feb 10, 2022 Our project on "Improving Health Equity by Analyzing Social Determinants of Health from the Electronic Health Records" is funded by Pitt Momentum Funds!
 - Feb 2, 2022 Welcome Sreekanth Sreekumar from Department of Computer Science to join my lab!
-- Dec 17, 2021 Our proposal entitled "A3ST – AI Based Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation" is funded by Clinical and Translational Science Institute (CTSI)!
+- Dec 17, 2021 Our proposal titled "A3ST – AI Based Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation" is funded by Clinical and Translational Science Institute (CTSI)!
 - Dec 1, 2021 Welcome [Sonish Sivarajkumar][sonish] from Intelligent System Programs to join my lab!
 - Sep, 2021 Yanshan gave a talk at the OHDSI NLP WG Monthly Meeting.
 - Sep 1, 2021 Welcome Haneef Mohammad from Department of Information Science to join my lab!
-- Jul, 2021 Yanshan's co-first authored paper entitled "Social and behavioral determinants of health in the era of artificial intelligence with electronic health records: A scoping review" is accepted at Health Data Science, a Science Partner Journal.
+- Jul, 2021 Yanshan's co-first authored paper titled "Social and behavioral determinants of health in the era of artificial intelligence with electronic health records: A scoping review" is accepted at Health Data Science, a Science Partner Journal.
 - Jun, 2021 Yanshan joined the University of Pittsburgh as Assistant Professor and Vice Chair of Research at the Department of Health Information Management.
 
 <!-- }}} -->
