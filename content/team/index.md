@@ -6,7 +6,8 @@ title = "Team"
 
 [Yanshan Wang, PhD, FAMIA][drwang]  
 Assistant Professor of Health Informatics and Vice Chair of Research  
-Research Interests: Artificial Intelligence, Clinical Natural Language Processing, Deep Learning
+Research Interests: Artificial Intelligence, Clinical Natural Language Processing, Deep Learning  
+[Pitt Portal](https://www.shrs.pitt.edu/people/yanshan-wang)
 
 ---
 
@@ -15,6 +16,7 @@ Research Interests: Artificial Intelligence, Clinical Natural Language Processin
 [Sonish Sivarajkumar][sonish]  
 PhD Student  
 Research Interests: Clinical Natural Language Processing, Deep Learning
+[Pitt Portal](https://www.isp.pitt.edu/people/sonish-sivarajkumar)
 
 ---
 
@@ -54,7 +56,8 @@ Research Interests: Clinical Natural Language Processing
 
 [David Oniani][david]  
 Staff Machine Learning Research Scientist  
-Research Interests: Artificial Intelligence, Software Engineering, Emerging Technologies
+Research Interests: Artificial Intelligence, Software Engineering, Emerging Technologies  
+[Pitt Portal](https://www.shrs.pitt.edu/people/david-oniani)
 
 ---
 
@@ -62,7 +65,8 @@ Research Interests: Artificial Intelligence, Software Engineering, Emerging Tech
 
 Stephen Shaffran  
 PhD Student  
-Research Interests: Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics
+Research Interests: Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics  
+[Pitt Portal](https://www.isp.pitt.edu/people/stephen-shaffran)
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
