@@ -15,7 +15,7 @@ Research Interests: Artificial Intelligence, Clinical Natural Language Processin
 
 [Sonish Sivarajkumar][sonish]  
 PhD Student  
-Research Interests: Clinical Natural Language Processing, Deep Learning
+Research Interests: Clinical Natural Language Processing, Deep Learning  
 [Pitt Portal](https://www.isp.pitt.edu/people/sonish-sivarajkumar)
 
 ---
@@ -74,7 +74,7 @@ Research Interests: Clinical Natural Language Processing, Precision Rehabilitati
 
 Chenyu Li  
 PhD Student  
-Research Interest: Clinical Research Informatics, Clinical NLP, Secondary Use of EHRs  
+Research Interests: Clinical Research Informatics, Clinical NLP, Secondary Use of EHRs  
 [Pitt Portal](https://www.dbmi.pitt.edu/directory/name/chenyu-li)
 
 ---
@@ -82,7 +82,9 @@ Research Interest: Clinical Research Informatics, Clinical NLP, Secondary Use of
 ![Taylor](/pic/taylor.jpg)
 
 Taylor Horne  
-PhD Student
+PhD Student  
+Research Interests: Health Disparities, Intelligent Patient Education, ADRD  
+[Pitt Portal](https://www.shrs.pitt.edu/people/taylor-horne)
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
