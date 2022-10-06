@@ -68,6 +68,22 @@ PhD Student
 Research Interests: Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics  
 [Pitt Portal](https://www.isp.pitt.edu/people/stephen-shaffran)
 
+---
+
+![Chenyu](/pic/chenyu.jpg)
+
+Chenyu Li  
+PhD Student  
+Research Interest: Clinical Research Informatics, Clinical NLP, Secondary Use of EHRs  
+[Pitt Portal](https://www.dbmi.pitt.edu/directory/name/chenyu-li)
+
+---
+
+![Taylor](/pic/taylor.jpg)
+
+Taylor Horne  
+PhD Student
+
 [drwang]: https://sites.pitt.edu/~yaw89/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
 [david]: https://davidoniani.com
