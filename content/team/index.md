@@ -28,14 +28,6 @@ Research Interests: Clinical Natural Language Processing
 
 ---
 
-![Sreekanth](/pic/sreekanth.jpg)
-
-Sreekanth Sreekumar  
-Graduate Researcher  
-Research Interests: Health Literacy, Natural Language Processing
-
----
-
 ![Hunter](/pic/hunter.jpg)
 
 Hunter Osterhoudt  

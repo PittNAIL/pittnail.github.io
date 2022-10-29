@@ -2,16 +2,6 @@
 title = "Projects"
 +++
 
-### Fairness and Algorithmic Bias in Artificial Intelligence
-
-The ubiquity of deep learning in our daily lives has demonstrated the need for [fair AI][fairai].
-This research effort attempts to design and engineer models and algorithms for fair Artificial
-Intelligence.
-
-- Project Lead: [David Oniani][david]
-
----
-
 ### AI-driven Precision Rehabilitation
 
 The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies
