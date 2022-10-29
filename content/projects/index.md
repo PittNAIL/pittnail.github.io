@@ -43,7 +43,7 @@ problem faced by both patients and clinicians.
 This project examines the documentation and extraction of SDOH in clinical notes for a variety of
 diseases.
 
-- Project Lead: Haneef Ahmed Mohammad
+- Project Lead: Haneef Ahamed Mohammad
 
 ---
 
