@@ -2,13 +2,12 @@
 title = "Projects"
 +++
 
-### AI-driven Precision Rehabilitation
+### Next-generation Clinical Information Retrieval Framework
 
-The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies
-with the best clinical outcomes for individual patients, including specific types of exercises,
-number of sessions, types of manual therapies, and therapeutic modalities, etc.
+This project aims to develop next-generation Information Retrieval (IR) framework to facilitate
+clinical and translational research.
 
-- Project Lead: Stephen Shaffran
+- Project Lead: [Sonish Sivarajkumar][sonish]
 
 ---
 
@@ -17,15 +16,6 @@ number of sessions, types of manual therapies, and therapeutic modalities, etc.
 The lack of gold standard datasets is the biggest bottleneck for Clinical Natural Language
 Processing (NLP). This project will apply Zero-Shot Learning (ZSL) approaches to Clinical NLP and
 develop novel ZSL methods tailored to Clinical NLP.
-
-- Project Lead: [Sonish Sivarajkumar][sonish]
-
----
-
-### Next-generation Clinical Information Retrieval Framework
-
-This project aims to develop next-generation Information Retrieval (IR) framework to facilitate
-clinical and translational research.
 
 - Project Lead: [Sonish Sivarajkumar][sonish]
 
@@ -41,10 +31,10 @@ This project aims to develop novel Few-Shot Learning (FSL) approaches for Clinic
 
 ### Natural Language Processing for Health Literacy
 
-This project aims to leverage NLP and AI techniques to tackle the health literacy problem faced by
-both patients and clinicians.
+This project aims to leverage state-of-the-art AI and NLP techniques to tackle the health literacy
+problem faced by both patients and clinicians.
 
-- Project Lead: [David Oniani][david], Sreekanth Sreekumar
+- Project Lead: [David Oniani][david]
 
 ---
 
@@ -63,6 +53,16 @@ This project aims to develop automated approaches to automate fidelity assessmen
 rehabilitation strategy training.
 
 - Project Lead: Hunter Osterhoudt
+
+---
+
+### AI-driven Precision Rehabilitation
+
+The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies
+with the best clinical outcomes for individual patients, including specific types of exercises,
+number of sessions, types of manual therapies, and therapeutic modalities, etc.
+
+- Project Lead: Stephen Shaffran
 
 [david]: https://davidoniani.com
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
