@@ -3,7 +3,6 @@ title = "Team"
 +++
 
 {{ person(picture="/pic/drwang.jpg"
-          alt="Dr. Wang"
           url="https://sites.pitt.edu/~yaw89/"
           pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
           name="Dr. Yanshan Wang"
@@ -14,7 +13,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/sonish.jpg"
-          alt="Sonish"
           url="https://sonishsivarajkumar.github.io/homepage/"
           pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
           name="Sonish Sivarajkumar"
@@ -25,7 +23,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/haneef.jpg"
-          alt="Haneef"
           url=""
           pitt_portal=""
           name="Haneef Ahamed Mohammad"
@@ -36,7 +33,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/hunter.jpg"
-          alt="Hunter"
           url=""
           pitt_portal=""
           name="Hunter Osterhoudt"
@@ -47,7 +43,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/samuel.jpg"
-          alt="Samuel"
           url=""
           pitt_portal=""
           name="Samuel Viggiano"
@@ -58,7 +53,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/david.jpg"
-          alt="David"
           url="https://www.davidoniani.com/"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
@@ -69,7 +63,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/stephen.jpg"
-          alt="Stephen"
           url=""
           pitt_portal="https://www.isp.pitt.edu/people/stephen-shaffran"
           name="Stephen Shaffran"
@@ -80,7 +73,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/chenyu.jpg"
-          alt="Chenyu"
           url=""
           pitt_portal="https://www.dbmi.pitt.edu/directory/name/chenyu-li"
           name="Chenyu Li"
@@ -91,7 +83,6 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/taylor.jpg"
-          alt="Taylor"
           url=""
           pitt_portal="https://www.shrs.pitt.edu/people/taylor-horne"
           name="Taylor Horne"
