@@ -2,82 +2,99 @@
 title = "Team"
 +++
 
-![Dr. Wang](/pic/drwang.jpg)
-
-[Yanshan Wang, PhD, FAMIA][drwang]  
-Assistant Professor of Health Informatics and Vice Chair of Research  
-Research Interests: Artificial Intelligence, Clinical Natural Language Processing, Deep Learning  
-[Pitt Portal](https://www.shrs.pitt.edu/people/yanshan-wang)
-
----
-
-![Sonish](/pic/sonish.jpg)
-
-[Sonish Sivarajkumar][sonish]  
-PhD Student  
-Research Interests: Clinical Natural Language Processing, Deep Learning  
-[Pitt Portal](https://www.isp.pitt.edu/people/sonish-sivarajkumar)
+{{ person(picture="/pic/drwang.jpg"
+          alt="Dr. Wang"
+          url="https://sites.pitt.edu/~yaw89/"
+          pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
+          name="Dr. Yanshan Wang"
+          position="Assistant Professor of Health Informatics and Vice Chair of Research"
+          research_interests="Artificial Intelligence, Clinical Natural Language Processing, Deep Learning"
+    ) }}
 
 ---
 
-![Haneef](/pic/haneef.jpg)
-
-Haneef Ahamed Mohammad  
-Graduate Researcher  
-Research Interests: Clinical Natural Language Processing
-
----
-
-![Hunter](/pic/hunter.jpg)
-
-Hunter Osterhoudt  
-Graduate Researcher  
-Research Interests: Multimodal Machine Learning
+{{ person(picture="/pic/sonish.jpg"
+          alt="Sonish"
+          url="https://sonishsivarajkumar.github.io/homepage/"
+          pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
+          name="Sonish Sivarajkumar"
+          position="PhD Student"
+          research_interests="Clinical Natural Language Processing, Deep Learning"
+    ) }}
 
 ---
 
-![Samuel](/pic/samuel.jpg)
-
-Samuel Viggiano  
-Graduate Researcher  
-Research Interests: Clinical Natural Language Processing
-
----
-
-![David](/pic/david.jpg)
-
-[David Oniani][david]  
-Staff Machine Learning Research Scientist  
-Research Interests: Artificial Intelligence, Software Engineering, Emerging Technologies  
-[Pitt Portal](https://www.shrs.pitt.edu/people/david-oniani)
+{{ person(picture="/pic/haneef.jpg"
+          alt="Haneef"
+          url=""
+          pitt_portal=""
+          name="Haneef Ahamed Mohammad"
+          position="Graduate Researcher"
+          research_interests="Clinical Natural Language Processing"
+    ) }}
 
 ---
 
-![Stephen](/pic/stephen.jpg)
-
-Stephen Shaffran  
-PhD Student  
-Research Interests: Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics  
-[Pitt Portal](https://www.isp.pitt.edu/people/stephen-shaffran)
-
----
-
-![Chenyu](/pic/chenyu.jpg)
-
-Chenyu Li  
-PhD Student  
-Research Interests: Clinical Research Informatics, Clinical NLP, Secondary Use of EHRs  
-[Pitt Portal](https://www.dbmi.pitt.edu/directory/name/chenyu-li)
+{{ person(picture="/pic/hunter.jpg"
+          alt="Hunter"
+          url=""
+          pitt_portal=""
+          name="Hunter Osterhoudt"
+          position="Graduate Researcher"
+          research_interests="Multimodal Machine Learning"
+    ) }}
 
 ---
 
-![Taylor](/pic/taylor.jpg)
+{{ person(picture="/pic/samuel.jpg"
+          alt="Samuel"
+          url=""
+          pitt_portal=""
+          name="Samuel Viggiano"
+          position="Graduate Researcher"
+          research_interests="Clinical Natural Language Processing"
+    ) }}
 
-Taylor Horne  
-PhD Student  
-Research Interests: Health Disparities, Intelligent Patient Education, ADRD  
-[Pitt Portal](https://www.shrs.pitt.edu/people/taylor-horne)
+---
 
-[drwang]: https://sites.pitt.edu/~yaw89/
-[sonish]: https://sonishsivarajkumar.github.io/homepage/
-[david]: https://davidoniani.com
+{{ person(picture="/pic/david.jpg"
+          alt="David"
+          url="https://www.davidoniani.com/"
+          pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
+          name="David Oniani"
+          position="Staff Machine Learning Research Scientist"
+          research_interests="Artificial Intelligence, Software Engineering, Emerging Technologies"
+    ) }}
+
+---
+
+{{ person(picture="/pic/stephen.jpg"
+          alt="Stephen"
+          url=""
+          pitt_portal="https://www.isp.pitt.edu/people/stephen-shaffran"
+          name="Stephen Shaffran"
+          position="PhD Student"
+          research_interests="Clinical Natural Language Processing, Precision Rehabilitation, Clinical Research Informatics"
+    ) }}
+
+---
+
+{{ person(picture="/pic/chenyu.jpg"
+          alt="Chenyu"
+          url=""
+          pitt_portal="https://www.dbmi.pitt.edu/directory/name/chenyu-li"
+          name="Chenyu Li"
+          position="PhD Student"
+          research_interests="Clinical Research Informatics, Clinical NLP, Secondary Use of EHRs"
+    ) }}
+
+---
+
+{{ person(picture="/pic/taylor.jpg"
+          alt="Taylor"
+          url=""
+          pitt_portal="https://www.shrs.pitt.edu/people/taylor-horne"
+          name="Taylor Horne"
+          position="PhD Student"
+          research_interests="Health Disparities, Intelligent Patient Education, ADRD"
+    ) }}

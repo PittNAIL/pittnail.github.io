@@ -1,0 +1,19 @@
+<figure style="margin-left: 0;">
+    <img src="{{ picture }}" alt="{{ alt }}">
+    <figcaption>
+    {% if url %}
+        <a href="{{ url }}">{{ name }}</a>
+    {% else %}
+        {{ name }}
+    {% endif %}
+    </figcaption>
+
+    {{ position }}<br>
+
+    Research Interests: {{ research_interests }}
+
+    {% if pitt_portal %}
+        <br>
+        <a href="{{ pitt_portal }}">Pitt Portal</a>
+    {% endif %}
+</figure>
