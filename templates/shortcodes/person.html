@@ -6,14 +6,23 @@
     {% else %}
         {{ name }}
     {% endif %}
+    {% if pitt_portal %}
+        |
+        <a href="{{ pitt_portal }}">Pitt Portal</a>
+        <br>
+    {% endif %}
     </figcaption>
 
-    {{ position }}<br>
+    <em>{{ position }}</em><br>
 
-    Research Interests: {{ research_interests }}
-
-    {% if pitt_portal %}
-        <br>
-        <a href="{{ pitt_portal }}">Pitt Portal</a>
-    {% endif %}
+    <em>
+    Research Interests:
+    {% for research_interest in research_interests %}
+        {% if loop.last %}
+            {{ research_interest }}
+        {% else %}
+            {{ research_interest }},
+        {% endif %}
+    {% endfor %}
+    </em>
 </figure>
