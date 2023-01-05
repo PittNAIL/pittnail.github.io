@@ -1,0 +1,36 @@
+base_url = "https://pittnail.github.io"
+description = "The University of Pittsburgh Clinical NLP and AI Innovation Laboratory"
+title = "PittNAIL"
+
+compile_sass = true
+
+feed_filename = "rss.xml"
+generate_feed = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+author = "PittNAIL"
+og_image = "logo.png"
+
+[extra.options]
+katex = true
+seo = true
+
+[extra.header]
+links = [
+    {url = "$BASE_URL", title = "Home"},
+    {url = "$BASE_URL/team", title = "Team"},
+    {url = "$BASE_URL/blog", title = "Blog"},
+    {url = "$BASE_URL/projects", title = "Projects"},
+    {url = "$BASE_URL/publications", title = "Publications"},
+    {url = "$BASE_URL/funding", title = "Funding"},
+    {url = "$BASE_URL/rss.xml", title = "RSS"}
+]
+
+[extra.footer]
+links = [
+    {url = "https://github.com/PittNAIL", name = "GitHub", icon = "fab fa-github"},
+]
