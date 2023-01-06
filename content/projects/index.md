@@ -64,6 +64,6 @@ number of sessions, types of manual therapies, and therapeutic modalities, etc.
 
 - Project Lead: Stephen Shaffran
 
-[david]: https://davidoniani.com
+[david]: https://oniani.ai/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
 [fairai]: https://en.wikipedia.org/wiki/Fairness_(machine_learning)

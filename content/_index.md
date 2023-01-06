@@ -46,7 +46,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 [drwang]: https://sites.pitt.edu/~yaw89/
 [pitt]: https://www.pitt.edu/
-[david]: https://davidoniani.com
+[david]: https://oniani.ai/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
 [amia2022]: https://amia.org/education-events/annual-symposium
 [amia22nlp]: https://pittnail.github.io/AMIANLP2022/

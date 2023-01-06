@@ -23,7 +23,7 @@ title = "Team"
 ---
 
 {{ person(picture="/pic/david.jpg"
-          website="https://www.davidoniani.com/"
+          website="https://oniani.ai/"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
