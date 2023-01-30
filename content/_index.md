@@ -22,7 +22,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
-- Dec 20, 2022 Two papers entitled "Toward Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models" and "Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation using Natural Language Processing" are accepted by AMIA 2023 Informatics Summit. Congratulations to [David][david] and Hunter.
+- Dec 20, 2022 Two papers titled "Toward Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models" and "Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation using Natural Language Processing" are accepted by AMIA 2023 Informatics Summit. Congratulations to [David][david] and Hunter.
 - Sep 6, 2022 Our paper titled “HealthPrompt: A zero-shot learning paradigm for Clinical Natural Language Processing” has been selected as one of the eight student paper finalists in the AMIA 2022 Annual Symposium. Congratulations Sonish!
 - Aug 4, 2022 Welcome Stephen Shaffran to join the lab. Stephen is a Pitt ISP PhD student.
 - Jul 29, 2022 Our proposal titled "AI-driven Precision Rehabilitation for Chronic Musculoskeletal Pain" has been selected for funding by the Dean’s Research and Development Award!
