@@ -27,7 +27,16 @@ title = "Team"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
-          research_interests=["Artificial Intelligence", "Software Engineering", "Emerging Technologies"]
+          research_interests=["AI Systems", "Algorithmic Fairness", "Software Engineering", "Emerging Technologies"]
+    ) }}
+
+---
+
+{{ person(picture="/pic/fengyi.jpg"
+          website=""
+          name="Chenyu Li"
+          position="PhD Student"
+          research_interests=["Clinical Research Informatics", "Data Mining", "Precision Rehabilitation"]
     ) }}
 
 ---
@@ -88,4 +97,13 @@ title = "Team"
           name="Taylor Horne"
           position="PhD Student"
           research_interests=["Health Disparities", "Intelligent Patient Education", "ADRD"]
+    ) }}
+
+---
+
+{{ person(picture="/pic/xizhi.jpg"
+          website=""
+          name="Xizhi Wu"
+          position="PhD Student"
+          research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
     ) }}
