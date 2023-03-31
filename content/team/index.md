@@ -34,8 +34,8 @@ title = "Team"
 
 {{ person(picture="/pic/fengyi.jpg"
           website=""
-          name="Chenyu Li"
-          position="PhD Student"
+          name="Fengyi Gao"
+          position="Master's Student"
           research_interests=["Clinical Research Informatics", "Data Mining", "Precision Rehabilitation"]
     ) }}
 
