@@ -27,7 +27,7 @@ title = "Team"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
-          research_interests=["AI Systems", "Algorithmic Fairness", "Software Engineering", "Emerging Technologies"]
+          research_interests=["Machine Learning Systems", "Algorithmic Fairness", "Software Engineering"]
     ) }}
 
 ---
