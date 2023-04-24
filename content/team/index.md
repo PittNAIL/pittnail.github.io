@@ -35,7 +35,7 @@ title = "Team"
 {{ person(picture="/pic/fengyi.jpg"
           website=""
           name="Fengyi Gao"
-          position="Master's Student"
+          position="Master Student"
           research_interests=["Clinical Research Informatics", "Data Mining", "Precision Rehabilitation"]
     ) }}
 
@@ -45,7 +45,7 @@ title = "Team"
           website=""
           pitt_portal=""
           name="Haneef Ahamed Mohammad"
-          position="Graduate Researcher"
+          position="Master Student"
           research_interests=["Clinical Natural Language Processing"]
     ) }}
 
@@ -55,20 +55,20 @@ title = "Team"
           website=""
           pitt_portal=""
           name="Hunter Osterhoudt"
-          position="Graduate Researcher"
+          position="Master Student"
           research_interests=["Multimodal Machine Learning"]
     ) }}
 
 ---
 
-{{ person(picture="/pic/samuel.jpg"
+<!-- {{ person(picture="/pic/samuel.jpg"
           website=""
           pitt_portal=""
           name="Samuel Viggiano"
           position="Graduate Researcher"
           research_interests=["Clinical Natural Language Processing"]
     ) }}
-
+--->
 ---
 
 {{ person(picture="/pic/sonish.jpg"
@@ -104,6 +104,6 @@ title = "Team"
 {{ person(picture="/pic/xizhi.jpg"
           website=""
           name="Xizhi Wu"
-          position="PhD Student"
+          position="Master Student"
           research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
     ) }}
