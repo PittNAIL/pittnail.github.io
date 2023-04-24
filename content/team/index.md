@@ -12,14 +12,14 @@ title = "Team"
 
 ---
 
-{{ person(picture="/pic/chenyu.jpg"
+<!-- {{ person(picture="/pic/chenyu.jpg"
           website=""
           pitt_portal="https://www.dbmi.pitt.edu/directory/name/chenyu-li"
           name="Chenyu Li"
           position="PhD Student"
           research_interests=["Clinical Research Informatics", "Clinical NLP", "Secondary Use of EHRs"]
     ) }}
-
+-->
 ---
 
 {{ person(picture="/pic/david.jpg"
