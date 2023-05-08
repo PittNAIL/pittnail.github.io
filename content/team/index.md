@@ -19,8 +19,8 @@ title = "Team"
           position="PhD Student"
           research_interests=["Clinical Research Informatics", "Clinical NLP", "Secondary Use of EHRs"]
     ) }}
--->
 ---
+-->
 
 {{ person(picture="/pic/david.jpg"
           website="https://oniani.ai/"
@@ -68,8 +68,8 @@ title = "Team"
           position="Graduate Researcher"
           research_interests=["Clinical Natural Language Processing"]
     ) }}
---->
 ---
+--->
 
 {{ person(picture="/pic/sonish.jpg"
           website="https://sonishsivarajkumar.github.io/homepage/"
