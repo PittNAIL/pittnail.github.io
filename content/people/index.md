@@ -1,5 +1,5 @@
 +++
-title = "Team"
+title = "People"
 +++
 
 {{ person(picture="/pic/drwang.jpg"
@@ -27,7 +27,7 @@ title = "Team"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
-          research_interests=["Natural Language Processing", "Machine Learning Systems", "Algorithmic Fairness"]
+          research_interests=["NLP", "Trustworthy AI", "AI for Health"]
     ) }}
 
 ---

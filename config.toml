@@ -22,11 +22,11 @@ seo = true
 [extra.header]
 links = [
     {url = "$BASE_URL", title = "Home"},
-    {url = "$BASE_URL/team", title = "Team"},
-    {url = "$BASE_URL/blog", title = "Blog"},
+    {url = "$BASE_URL/people", title = "People"},
     {url = "$BASE_URL/projects", title = "Projects"},
     {url = "$BASE_URL/publications", title = "Publications"},
     {url = "$BASE_URL/funding", title = "Funding"},
+    {url = "$BASE_URL/blog", title = "Blog"},
     {url = "$BASE_URL/rss.xml", title = "RSS"}
 ]
 
