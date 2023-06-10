@@ -5,6 +5,9 @@ Project Lead:
 {% else %}
     {{ project_lead }}
 {% endif %}<br>
+{% if collaborators %}
+    Collaborators: {{ collaborators }}<br>
+{% endif %}
 Description: {{ description }}</em><br>
 {% if not last_entry %}
      <br>
