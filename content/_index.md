@@ -22,6 +22,10 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- July 17, 2023 Our 5-year R01 grant "Closing the loop with an automatic referral population and summarization system", in colloration with [Yifan Peng][yifan] from Cornel, [Justin F. Rousseau][justin], [Ying Ding][ying], and [Greg Durrett][greg] from UT Austin, is funded by NLM! 
+- July 6, 2023 Our paper "ReDWINE: A Clinical Datamart with Text Analytical Capabilities to Facilitate Rehabilitation Research" is published in the International Journal of Medical Informatics.
+- April 22, 2023 Our paper "Few-Shot Learning for Clinical Natural Language Processing Using Siamese Neural Networks" is published in JMIR AI.
+- March 1, 2023 The paper "Less Likely Brainstorming: Using Language Models to Generate Alternative Hypotheses" is accepted by ACL 2023.
 - Dec 20, 2022 Two papers titled "Toward Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models" and "Automated Fidelity Assessment for Strategy Training in Inpatient Rehabilitation using Natural Language Processing" are accepted by AMIA 2023 Informatics Summit. Congratulations to [David][david] and Hunter.
 - Sep 6, 2022 Our paper titled “HealthPrompt: A zero-shot learning paradigm for Clinical Natural Language Processing” has been selected as one of the eight student paper finalists in the AMIA 2022 Annual Symposium. Congratulations Sonish!
 - Aug 4, 2022 Welcome Stephen Shaffran to join the lab. Stephen is a Pitt ISP PhD student.
@@ -50,5 +54,9 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 [sonish]: https://sonishsivarajkumar.github.io/homepage/
 [amia2022]: https://amia.org/education-events/annual-symposium
 [amia22nlp]: https://pittnail.github.io/AMIANLP2022/
+[yifan]: https://pengyifan.com/
+[justin]: https://dellmed.utexas.edu/directory/justin-rousseau
+[ying]: https://yingding.ischool.utexas.edu/
+[greg]: https://www.cs.utexas.edu/~gdurrett/
 
 <!-- }}} -->
