@@ -107,3 +107,11 @@ title = "People"
           position="Master Student"
           research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
     ) }}
+
+---
+
+{{ person(picture="/pic/alisa.jpg"
+          name="Alisa Stolyar"
+          position="Undergraduate Student"
+          research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+    ) }}
