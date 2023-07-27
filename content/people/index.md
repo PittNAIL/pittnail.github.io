@@ -100,7 +100,7 @@ title = "People"
 
 ---
 
-{{ person(picture=""
+{{ person(picture="/pic/profile.jpg"
           name="Jordan Hilsman"
           position="Research Assistant, MS in Health Informatics"
           research_interests=["Few-shot Learning", "Clinical Natural Language Processing"]
@@ -108,7 +108,7 @@ title = "People"
 
 ---
 
-{{ person(picture=""
+{{ person(picture="/pic/profile.jpg"
           name="Ananya Gubbi Mohanbabu"
           position="Research Assistant, MS in Computer Science, UT Austin"
           research_interests=["Human Computer Interface", "UI Design"]
@@ -124,7 +124,7 @@ title = "People"
 
 ---
 
-{{ person(picture=""
+{{ person(picture="/pic/profile.jpg"
           name="Premkumar Chandrasekar"
           position="Research Assistant, BS in Health Informatics"
           research_interests=["Clinical Natural Language Processing"]
@@ -132,7 +132,7 @@ title = "People"
 
 ---
 
-{{ person(picture=""
+{{ person(picture="/pic/profile.jpg"
           name="Shiven Verma"
           position="Research Assistant, Upper St. Clair High School"
           research_interests=["Health Literacy"]
