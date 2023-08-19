@@ -8,7 +8,7 @@ title = "Selected Publications"
 
 - David Oniani, Bambang Parmanto, Andi Saptono, Allyn Bove, Janet K. Freburger, Shyam Visweswaran, Nickie Cappella, Brian McLay, Jonathan Silverstein, Michael Becich, Shyam Visweswaran, Anthony Delitto, Beth Skidmore, Yanshan Wang. ReDWINE: A Clinical Datamart with Text Analytical Capabilities to Facilitate Rehabilitation Research. International Journal of Medical Informatics. 2023.
 
-- David Oniani, Sreekanth Sreekumar, Renuk DeAlmeida, Dinuk DeAlmeida, Vivian Hui, Young Ji Lee, Yiye Zhang, Leming Zhou,  Yanshan Wang. Towards Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models. AMIA Informatics Summit. 2023.
+- David Oniani, Sreekanth Sreekumar, Renuk DeAlmeida, Dinuk DeAlmeida, Vivian Hui, Young Ji Lee, Yiye Zhang, Leming Zhou, Yanshan Wang. Towards Improving Health Literacy in Patient Education Materials with Neural Machine Translation Models. AMIA Informatics Summit. 2023.
 
 - Sonish Sivarajkumar, Haneef Ahamed Mohammad, David Oniani, Kirk Roberts, William Hersh, Hongfang Liu, Daqing He, Shyam Visweswaran, and Yanshan Wang. "Clinical Information Retrieval: A literature review." JHIR. Under review. 2023.
 

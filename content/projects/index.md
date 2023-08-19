@@ -11,7 +11,7 @@ title = "Projects"
 ) }}
 
 {{ project(
-       title="Few-Shot Learning for Rare Disease Classification"
+       title="Prompting Approaches for Rare Disease Identification"
        description="This project aims to build a dataset as well as develop novel Few-Shot Learning (FSL) approaches for rare disease classification."
        collaborators="Dr. Hang Dong, Jordan Hilsman"
        project_lead="David Oniani"

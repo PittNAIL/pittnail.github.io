@@ -3,6 +3,7 @@ title = "Funding"
 +++
 
 PittNAIL is well-funded by the federal government, research institutions, and companies:
+
 - CTSI Health Sciences Team Science & Leadership Program. Pittsburgh Resource for EEG and Data Science to Inform Precision Care and Transform Patient Outcomes (PREDICT).
 - Hearst Foundations. Hearing: Scale of Usability Performance, and Participation for Optimizing Real Word Technology.
 - NIH NLM-R01. Closing the loop with an automatic referral population and summarization system.
