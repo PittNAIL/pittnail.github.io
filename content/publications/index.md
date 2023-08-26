@@ -2,6 +2,10 @@
 title = "Selected Publications"
 +++
 
+- David Oniani, Jordan Hilsman, Hang Dong, Fengyi Gao, Shiven Verma, Yanshan Wang. Large Language Models Vote: Prompting for Rare Disease Identification. arXiv preprint arXiv:2308.12890. 2023.
+
+- David Oniani, Jordan Hilsman, Yifan Peng, COL (Ret.) Ronald K. Poropatich, COL Jeremy C. Pamplin, LTC Gary L. Legault, Yanshan Wang. From Military to Healthcare: Adopting and Expanding Ethical Principles for Generative Artificial Intelligence. arXiv preprint arXiv:2308.02448. 2023.
+
 - Sonish Sivarajkumar, Yufei Huang, and Yanshan Wang. Fair Patient Model: Mitigating Bias in the Patient Representation Learned from the Electronic Health Records. arXiv preprint arXiv:2306.03179. 2023..
 
 - David Oniani, Chandrasekar P, Sivarajkumar S, Yanshan Wang. Few-Shot Learning for Clinical Natural Language Processing Using Siamese Neural Networks: Algorithm Development and Validation Study. JMIR AI 2023.

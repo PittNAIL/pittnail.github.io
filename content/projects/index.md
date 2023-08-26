@@ -11,24 +11,6 @@ title = "Projects"
 ) }}
 
 {{ project(
-       title="Prompting Approaches for Rare Disease Identification"
-       description="This project aims to build a dataset as well as develop novel Few-Shot Learning (FSL) approaches for rare disease classification."
-       collaborators="Dr. Hang Dong, Jordan Hilsman"
-       project_lead="David Oniani"
-       project_lead_website="https://oniani.ai/"
-       last_entry=false
-) }}
-
-{{ project(
-       title="Ethical Principles for Generative AI in Healthcare"
-       description="This project aims to develop a set of ethical principles for generative AI in healthcare."
-       project_lead="David Oniani"
-       collaborators="Jordan Hilsman"
-       project_lead_website="https://oniani.ai/"
-       last_entry=false
-) }}
-
-{{ project(
        title="Fair Patient Model"
        description="Mitigating Bias in the Patient Representations Learned from Electronic Health Records (EHRs)."
        project_lead="Sonish Sivarajkumar"
