@@ -3,8 +3,32 @@ title = "Projects"
 +++
 
 {{ project(
+       title="Understanding In-Context Learning?"
+       description="Understanding In-Context Learning (ICL) and its capabilities."
+       project_lead="David Oniani"
+       project_lead_website="https://oniani.ai/"
+       last_entry=false
+) }}
+
+{{ project(
        title="Large Language Models for Drug Discovery"
-       description="This project explores the feasibility of using Large Language Models (LLMs) for novel drug discovery."
+       description="Creative approaches for facilitating drug discovery via LLMs."
+       project_lead="David Oniani"
+       project_lead_website="https://oniani.ai/"
+       last_entry=false
+) }}
+
+{{ project(
+       title="Generative AI Ethics"
+       description="Ethical principles to guide the use of Generative AI technologies."
+       project_lead="David Oniani"
+       project_lead_website="https://oniani.ai/"
+       last_entry=false
+) }}
+
+{{ project(
+       title="Prompting Methods for Large Language Models"
+       description="Development of AI methods for improving the success rate of LLMs."
        project_lead="David Oniani"
        project_lead_website="https://oniani.ai/"
        last_entry=false
