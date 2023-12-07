@@ -3,27 +3,33 @@ title = "Projects"
 +++
 
 {{ project(
+       title="Understanding In-Context Learning"
+       description="What is In-Context Learning (ICL)? and is there a limit to its capabilities?"
+       project_lead="David Oniani"
+       project_lead_website="https://oniani.ai/"
+       last_entry=false
+) }}
+
+{{ project(
        title="Large Language Models for Drug Discovery"
-       description="This project explores the feasibility of using Large Language Models (LLMs) for novel drug discovery."
+       description="Designing creative LLM-based approaches to facilitate drug discovery."
        project_lead="David Oniani"
        project_lead_website="https://oniani.ai/"
        last_entry=false
 ) }}
 
 {{ project(
-       title="Few-Shot Learning for Rare Disease Classification"
-       description="This project aims to build a dataset as well as develop novel Few-Shot Learning (FSL) approaches for rare disease classification."
-       collaborators="Dr. Hang Dong, Jordan Hilsman"
+       title="Generative AI Ethics"
+       description="Ethical principles to guide the use of Generative AI."
        project_lead="David Oniani"
        project_lead_website="https://oniani.ai/"
        last_entry=false
 ) }}
 
 {{ project(
-       title="Ethical Principles for Generative AI in Healthcare"
-       description="This project aims to develop a set of ethical principles for generative AI in healthcare."
+       title="Prompting Methods for Large Language Models"
+       description="Development of AI methods for improving the success rate of LLMs."
        project_lead="David Oniani"
-       collaborators="Jordan Hilsman"
        project_lead_website="https://oniani.ai/"
        last_entry=false
 ) }}
