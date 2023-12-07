@@ -22,6 +22,9 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Dec, 2023. The GREAT PLEA ethical principles have been reported in several media coverages: [news-medical][great1], [AI in Healthcare][great2].
+- Dec, 2023. Our paper "Adopting and expanding ethical principles for generative artificial intelligence from military to healthcare" is published in the Nature npj Digital Medicine. In this paper, we propose the “GREAT PLEA” ethical principles, namely Governability, Reliability, Equity, Accountability, Traceability, Privacy, Lawfulness, Empathy, and Autonomy, for generative AI applications in healthcare. [link][great]
+- Nov, 2023. Our paper "Mitigating bias in the patient representation learned from the electronic health records" is published in the Journal of Biomedical Informatics. [link][fpm]
 - July 17, 2023 Our 5-year R01 grant "Closing the loop with an automatic referral population and summarization system", in colloration with [Yifan Peng][yifan] from Cornel, [Justin F. Rousseau][justin], [Ying Ding][ying], and [Greg Durrett][greg] from UT Austin, is funded by NLM! 
 - July 6, 2023 Our paper "ReDWINE: A Clinical Datamart with Text Analytical Capabilities to Facilitate Rehabilitation Research" is published in the International Journal of Medical Informatics.
 - April 22, 2023 Our paper "Few-Shot Learning for Clinical Natural Language Processing Using Siamese Neural Networks" is published in JMIR AI.
@@ -58,5 +61,8 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 [justin]: https://dellmed.utexas.edu/directory/justin-rousseau
 [ying]: https://yingding.ischool.utexas.edu/
 [greg]: https://www.cs.utexas.edu/~gdurrett/
-
+[fpm]: https://doi.org/10.1016/j.jbi.2023.104544
+[great]: https://www.nature.com/articles/s41746-023-00965-x
+[great1]: https://www.news-medical.net/news/20231205/GREAT-PLEA-system-proposed-for-responsible-use-of-generative-AI-in-healthcare.aspx
+[great2]: https://aiin.healthcare/topics/artificial-intelligence/ethical-healthcare-ai-8-mnemonic-elements
 <!-- }}} -->
