@@ -17,7 +17,7 @@ title = "People"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
-          research_interests=["Artificial Intelligence", "NLP", "Trustworthy AI", "AI for Health"]
+          research_interests=["Artificial Intelligence", "NLP", "Trustworthy AI", "AI for Science"]
     ) }}
 
 ---
