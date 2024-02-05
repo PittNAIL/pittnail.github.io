@@ -3,8 +3,9 @@
 
 <!-- NAIL {{{ -->
 
-Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural Language Processing and **A**rtificial
-**I**ntelligence Innovation **L**aboratory. PittNAIL is led by [Dr. Yanshan Wang][drwang].
+Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural Language Processing
+and **A**rtificial **I**ntelligence Innovation **L**aboratory. PittNAIL is led by [Dr. Yanshan
+Wang][drwang]. PittNAIL's Associate Director is [David Oniani][david].
 
 <!-- }}} -->
 
@@ -52,6 +53,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 <!-- Links {{{ -->
 
 [drwang]: https://sites.pitt.edu/~yaw89/
+[david]: https://oniani.ai
 [pitt]: https://www.pitt.edu/
 [david]: https://oniani.ai/
 [sonish]: https://sonishsivarajkumar.github.io/homepage/

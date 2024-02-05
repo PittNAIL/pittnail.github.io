@@ -7,6 +7,7 @@ title = "People"
           pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
           name="Dr. Yanshan Wang"
           position="Assistant Professor of Health Informatics and Vice Chair of Research"
+          lab_position="Director of PittNAIL"
           research_interests=["Artificial Intelligence", "Clinical Natural Language Processing", "Deep Learning"]
     ) }}
 
@@ -17,47 +18,18 @@ title = "People"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
           position="Staff Machine Learning Research Scientist"
+          lab_position="Associate Director of PittNAIL"
           research_interests=["Artificial Intelligence", "NLP", "Trustworthy AI", "AI for Science"]
     ) }}
 
 ---
 
-<!-- {{ person(picture="/pic/chenyu.jpg"
-          website=""
-          pitt_portal="https://www.dbmi.pitt.edu/directory/name/chenyu-li"
-          name="Chenyu Li"
-          position="PhD Student"
-          research_interests=["Clinical Research Informatics", "Clinical NLP", "Secondary Use of EHRs"]
-    ) }}
----
--->
-
-<!-- {{ person(picture="/pic/samuel.jpg"
-          website=""
-          pitt_portal=""
-          name="Samuel Viggiano"
-          position="Graduate Researcher"
-          research_interests=["Clinical Natural Language Processing"]
-    ) }}
----
---->
-
 {{ person(picture="/pic/sonish.jpg"
           website="https://sonishsivarajkumar.github.io/homepage/"
           pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
           name="Sonish Sivarajkumar"
-          position="Research Assistant, PhD in Intelligent Systems Program"
+          position="Research Assistant, PhD Student in Intelligent Systems Program"
           research_interests=["Clinical Natural Language Processing", "Deep Learning"]
-    ) }}
-
----
-
-{{ person(picture="/pic/stephen.jpg"
-          website=""
-          pitt_portal="https://www.isp.pitt.edu/people/stephen-shaffran"
-          name="Stephen Shaffran"
-          position="Research Assistant, PhD in Intelligent Systems Program"
-          research_interests=["Clinical Natural Language Processing", "Clinical Research Informatics"]
     ) }}
 
 ---
@@ -66,8 +38,12 @@ title = "People"
           website=""
           pitt_portal="https://www.shrs.pitt.edu/people/taylor-horne"
           name="Taylor Horne"
-          position="Research Assistant, PhD in Health Informatics"
-          research_interests=["Health Disparities", "Intelligent Patient Education", "ADRD"]
+          position="Research Assistant, PhD Student in Health Informatics"
+          research_interests=[
+            "Health Disparities",
+            "Intelligent Patient Education",
+            "ADRD"
+          ]
     ) }}
 
 ---
@@ -108,14 +84,6 @@ title = "People"
 
 ---
 
-{{ person(picture="/pic/profile.jpg"
-          name="Ananya Gubbi Mohanbabu"
-          position="Research Assistant, MS in Computer Science, UT Austin"
-          research_interests=["Human Computer Interface", "UI Design"]
-    ) }}
-
----
-
 {{ person(picture="/pic/alisa.jpg"
           name="Alisa Stolyar"
           position="Research Assistant, BS in Computer Science"
@@ -124,7 +92,7 @@ title = "People"
 
 ---
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/premkumar.jpg"
           name="Premkumar Chandrasekar"
           position="Research Assistant, BS in Health Informatics"
           research_interests=["Clinical Natural Language Processing"]
@@ -132,8 +100,45 @@ title = "People"
 
 ---
 
-{{ person(picture="/pic/profile.jpg"
-          name="Shiven Verma"
-          position="Research Assistant, Upper St. Clair High School"
-          research_interests=["Health Literacy"]
+{{ person(picture="/pic/yuelyu.jpg"
+          website="https://joydajunspacecraft.github.io/YuelyuJi.github.io"
+          name="Yuelyu Ji"
+          position="Research Assistant, PhD Student in Information Science"
+          research_interests=[
+            "Natural Language Understanding in Biomedical Area",
+            "Multi-Model Generation, Reinforcement Learning",
+            "Transfer Learning",
+            "Large Language Model Deployment"
+          ]
     ) }}
+
+---
+
+{{ person(picture="/pic/maneesh.jpg"
+          website="https://bmaneesh.github.io/"
+          pitt_portal="https://www.isp.pitt.edu/people/maneesh-bilalpur"
+          name="Maneesh Bilalpur"
+          position="Research Assistant, PhD Student in Intelligent Systems Program"
+          research_interests=[
+            "Machine Learning for Healthcare",
+            "Multimodal Dialogue systems"
+          ]
+    ) }}
+
+<!-- ---
+
+{{ person(picture="/pic/thomas.jpg"
+          name="Thomas Tam"
+          position=""
+          research_interests=[]
+    ) }} -->
+
+---
+
+## Past Members
+
+- [Ananya Gubbi Mohanbabu](https://www.linkedin.com/in/ananyagm/), Graduate Research Assistant at UT Austin
+- [Samuel Viggiano](https://www.linkedin.com/in/samuel-viggiano-mshi-42090b98/), Member of the Board of Advisors at MSHI
+- [Stephen Shaffran](https://www.linkedin.com/in/stephen-shaffran-bb0839225/)
+- [Chenyu Li](https://www.linkedin.com/in/chenyu-li-80375196/)
+- Shiven Verma, High School Student at Upper St. Clair High School
