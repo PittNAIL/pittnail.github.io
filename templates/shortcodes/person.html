@@ -1,11 +1,13 @@
 <figure style="margin-left: 0;">
     <img src="{{ picture }}" alt="{{ name }}">
     <figcaption>
-    {% if website %}
-        <a href="{{ website }}">{{ name }}</a>
-    {% else %}
-        {{ name }}
-    {% endif %}
+    <strong>
+        {% if website %}
+            <a href="{{ website }}">{{ name }}</a>
+        {% else %}
+            {{ name }}
+        {% endif %}
+    </strong>
     {% if pitt_portal %}
         |
         <a href="{{ pitt_portal }}">Pitt Portal</a>
@@ -14,6 +16,9 @@
     </figcaption>
 
     {{ position }}<br>
+    {% if lab_position %}
+        {{ lab_position }}<br>
+    {% endif %}
 
     Research Interests:
     {% for research_interest in research_interests %}
