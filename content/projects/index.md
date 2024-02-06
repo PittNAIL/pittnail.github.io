@@ -66,26 +66,12 @@ title = "Projects"
        last_entry=false
 ) }}
 
-{{ project(
-       title="Extraction of Social Determinants of Health (SDOH) from Clinical Notes"
-       description="This project examines the documentation and extraction of SDOH in clinical notes for a variety of diseases."
-       project_lead="Haneef Ahamed Mohammad"
-       project_lead_website=""
-       last_entry=false
-) }}
 
 {{ project(
        title="Automated Fedelity Assessment in Rehabilitation Strategy Training"
        description="This project aims to develop automated approaches to automate fidelity assessment during rehabilitation strategy training."
-       project_lead="Hunter Osterhoudt"
+       project_lead="Hunter Osterhoudt, Maneesh Bilalpur"
        project_lead_website=""
        last_entry=false
 ) }}
 
-{{ project(
-       title="AI-driven Precision Rehabilitation"
-       description="The AI-driven Precision Rehabilitation models will be able to recommend rehabilitation strategies with the best clinical outcomes for individual patients, including specific types of exercises, number of sessions, types of manual therapies, and therapeutic modalities, etc."
-       project_lead="Stephen Shaffran"
-       project_lead_website=""
-       last_entry=true
-) }}
