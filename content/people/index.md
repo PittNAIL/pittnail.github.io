@@ -30,8 +30,8 @@ title = ""
 
 {{ person(picture="/pic/profile.jpg"
           name="Jordan Hilsman"
-          position="Research Assistant, MS in Health Informatics"
-          research_interests=["Few-shot Learning", "Clinical Natural Language Processing"]
+          position="AI Research Engineer"
+          research_interests=["Clinical NLP Infrastructure", "Clinical Research Informatics"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
