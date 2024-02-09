@@ -1,5 +1,4 @@
-This is the PittNAIL website hosted via [GitHub Pages](https://pages.github.com/) and generated
-using [Zola](https://www.getzola.org/).
+This is the PittNAIL website hosted via [GitHub Pages][pages] and generated using [Zola][zola].
 
 Run the command below to build and deploy it locally:
 
@@ -21,3 +20,6 @@ rest will be handled by GitHub Actions workflow.
 5. Move the generated `public` folder to the directory outside the repository.
 6. `git checkout` the `main` branch and remove all the files (except the `.git` folder).
 7. Copy the contents from the generated `public` folder to the `main` branch.
+
+[pages]: https://pages.github.com/
+[zola]: https://www.getzola.org/
