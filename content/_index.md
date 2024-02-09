@@ -4,8 +4,8 @@
 <!-- NAIL {{{ -->
 
 Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural Language Processing
-and **A**rtificial **I**ntelligence Innovation **L**aboratory. PittNAIL is led by [Dr. Yanshan
-Wang][drwang]. PittNAIL's Associate Director is [David Oniani][david].
+and **A**rtificial **I**ntelligence Innovation **L**aboratory. PittNAIL is led by
+[Dr. Yanshan Wang][drwang]. PittNAIL's Associate Director is [David Oniani][david].
 
 <!-- }}} -->
 
@@ -67,4 +67,5 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 [great]: https://www.nature.com/articles/s41746-023-00965-x
 [great1]: https://www.news-medical.net/news/20231205/GREAT-PLEA-system-proposed-for-responsible-use-of-generative-AI-in-healthcare.aspx
 [great2]: https://aiin.healthcare/topics/artificial-intelligence/ethical-healthcare-ai-8-mnemonic-elements
+
 <!-- }}} -->

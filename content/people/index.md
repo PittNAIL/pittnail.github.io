@@ -23,9 +23,9 @@ title = ""
           website="https://oniani.ai/"
           pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
           name="David Oniani"
-          position="Staff Machine Learning Research Scientist"
+          position="Machine Learning Research Scientist"
           lab_position="Associate Director of PittNAIL"
-          research_interests=["Artificial Intelligence", "NLP", "Trustworthy AI", "AI for Science"]
+          research_interests=["AI Methods", "Trustworthy AI", "ML Systems", "AI for Science"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
