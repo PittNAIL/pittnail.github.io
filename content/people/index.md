@@ -28,7 +28,7 @@ title = ""
           research_interests=["AI Methods", "Trustworthy AI", "ML Systems", "AI for Science"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/jordan.jpg"
           name="Jordan Hilsman"
           position="AI Research Engineer"
           research_interests=["Clinical NLP Infrastructure", "Clinical Research Informatics"]
@@ -113,6 +113,16 @@ title = ""
           research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
     ) }}
 
+{{ person(picture="/pic/thomas.jpg"
+          name="Thomas Tam"
+          position="Research Assistant, MS in Public Policy and Data Analytics"
+          research_interests=[
+            "Clinical Natural Language Processing",
+            "Generative Language Model Evaluation and Deployment",
+            "Deep Learning"
+          ]
+    ) }}
+
 ## Undergraduate Students
 
 ---
@@ -128,14 +138,6 @@ title = ""
           position="Research Assistant, BS in Computer Science"
           research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
-
-<!-- ---
-
-{{ person(picture="/pic/thomas.jpg"
-          name="Thomas Tam"
-          position=""
-          research_interests=[]
-    ) }} -->
 
 ---
 
