@@ -3,6 +3,21 @@ title = "Projects"
 +++
 
 {{ project(
+       title="Patient Recommendation System"
+       description="A System for Recommending Patients"
+       project_lead="Jordan Hilsman and David Oniani"
+       last_entry=false
+) }}
+
+{{ project(
+       title="AI and Precision Nutrition"
+       description="How has AI been used in precision nutrition?"
+       project_lead="David Oniani"
+       project_lead_website="https://oniani.ai/"
+       last_entry=false
+) }}
+
+{{ project(
        title="Understanding In-Context Learning"
        description="What is In-Context Learning (ICL)? and is there a limit to its capabilities?"
        project_lead="David Oniani"
@@ -66,7 +81,6 @@ title = "Projects"
        last_entry=false
 ) }}
 
-
 {{ project(
        title="Automated Fedelity Assessment in Rehabilitation Strategy Training"
        description="This project aims to develop automated approaches to automate fidelity assessment during rehabilitation strategy training."
@@ -74,4 +88,3 @@ title = "Projects"
        project_lead_website=""
        last_entry=false
 ) }}
-

@@ -25,7 +25,7 @@ title = ""
           name="David Oniani"
           position="Machine Learning Research Scientist"
           lab_position="Associate Director of PittNAIL"
-          research_interests=["AI Methods", "Trustworthy AI", "ML Systems", "AI for Science"]
+          research_interests=["Artificial Intelligence", "Software Systems", "AI Alignment", "AI for Science"]
     ) }}
 
 {{ person(picture="/pic/jordan.jpg"
