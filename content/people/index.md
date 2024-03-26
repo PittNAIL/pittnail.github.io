@@ -135,7 +135,7 @@ title = ""
 
 {{ person(picture="/pic/alisa.jpg"
           name="Alisa Stolyar"
-          position="Research Assistant, BS in Computer Science"
+          position="Research Assistant, BS in Data Science"
           research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
 
