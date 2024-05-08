@@ -21,5 +21,11 @@ rest will be handled by GitHub Actions workflow.
 6. `git checkout` the `main` branch and remove all the files (except the `.git` folder).
 7. Copy the contents from the generated `public` folder to the `main` branch.
 
+## Implementation
+
+[Website][patientcompass] has been implemented by [David Oniani][david].
+
 [pages]: https://pages.github.com/
 [zola]: https://www.getzola.org/
+[website]: https://github.com/pittnail/pittnail.github.io
+[david]: https://oniani.ai
