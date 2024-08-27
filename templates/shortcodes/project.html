@@ -1,0 +1,14 @@
+<strong>{{ title }}</strong><br>
+Project Lead:
+{% if project_lead_website %}
+     <a href="{{ project_lead_website }}">{{ project_lead }}</a>
+{% else %}
+    {{ project_lead }}
+{% endif %}<br>
+{% if collaborators %}
+    Collaborators: {{ collaborators }}<br>
+{% endif %}
+Description: {{ description }}</em><br>
+{% if not last_entry %}
+     <br>
+{% endif %}
