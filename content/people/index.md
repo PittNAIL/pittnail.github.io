@@ -106,7 +106,7 @@ title = ""
           research_interests=["Multimodal Machine Learning"]
     ) }}
 
-{{ person(picture="/pic/xizhi.jpg"
+{{ person(picture="/pic/xizhi1.jpg"
           website=""
           name="Xizhi Wu"
           position="Research Assistant, MS in Information Science"

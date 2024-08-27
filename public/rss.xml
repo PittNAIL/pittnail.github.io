@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PittNAIL</title>
+      <link>https://pittnail.github.io</link>
+      <description>The University of Pittsburgh Clinical NLP and AI Innovation Laboratory</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pittnail.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Sample blogpost</title>
+          <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pittnail.github.io/blog/blogpost0/</link>
+          <guid>https://pittnail.github.io/blog/blogpost0/</guid>
+          <description xml:base="https://pittnail.github.io/blog/blogpost0/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut sem a tellus rutrum accumsan sed
+in eros. Sed eget tristique neque, in malesuada nibh. Sed id placerat nunc. Aliquam erat volutpat.
+Nullam vitae ligula diam. Donec vehicula tempus libero, sed convallis quam rhoncus quis. Etiam
+dictum venenatis augue, eu ornare velit efficitur non. Aliquam efficitur commodo neque, nec sodales
+ipsum euismod quis. Sed hendrerit enim mi, sit amet varius ante scelerisque a.&lt;&#x2F;p&gt;
+&lt;p&gt;Quisque sit amet placerat diam, vel mattis justo. Nunc sodales felis urna, ut pulvinar felis aliquet
+in. Nullam non dolor sem. Phasellus mattis, augue et varius laoreet, ante quam feugiat sapien, in
+ornare lectus lorem vitae tellus. Mauris eget quam interdum, rhoncus dolor ut, facilisis justo.
+Nullam interdum nec leo at convallis. Praesent varius sem at sollicitudin scelerisque. Morbi ipsum
+quam, fringilla vitae nisi eu, mollis hendrerit tortor.&lt;&#x2F;p&gt;
+&lt;p&gt;Quisque elementum auctor tellus, sed commodo lorem hendrerit in. Aliquam nec arcu commodo ex
+vulputate cursus. Pellentesque id quam metus. Etiam dapibus venenatis turpis, eget aliquet lectus
+maximus ac. Ut vitae diam a felis vehicula suscipit nec et nisl. Suspendisse rhoncus ullamcorper
+malesuada. Phasellus pulvinar euismod nulla sed pellentesque. Vestibulum ante ipsum primis in
+faucibus orci luctus et ultrices posuere cubilia curae; Duis interdum sapien a augue tempus euismod.
+Aenean egestas odio ut ante rutrum aliquet.&lt;&#x2F;p&gt;
+&lt;p&gt;Sed id dui in sem venenatis aliquam. Phasellus sit amet ex eros. Vivamus vestibulum tincidunt
+tellus, non dictum purus dapibus quis. Phasellus scelerisque vulputate quam, et auctor elit eleifend
+molestie. Sed commodo eleifend massa, ac tincidunt tortor malesuada id. Aenean feugiat bibendum
+tempus. Duis euismod molestie massa, ut mollis risus. Curabitur dapibus varius tincidunt. Aliquam
+eget pellentesque est. Duis efficitur facilisis suscipit. Etiam felis nisl, ultricies ut elementum
+sed, elementum in dui.&lt;&#x2F;p&gt;
+&lt;p&gt;Integer ut ligula feugiat, euismod urna in, dictum ligula. Fusce ac tellus vel diam vulputate rutrum
+vitae vel odio. Praesent nec sapien pharetra, commodo nisi quis, blandit libero. Donec dignissim
+purus et metus blandit hendrerit. Nulla fringilla sapien ac aliquet pulvinar. Aenean ac mi eu elit
+bibendum finibus nec at nulla. Vivamus vel convallis dolor.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;cpp&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-cpp &quot;&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;lt;string&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;lt;cstddef&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;lt;concepts&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Declaration of the concept &amp;quot;Hashable&amp;quot;, which is satisfied by any type &amp;#39;T&amp;#39;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; such that for values &amp;#39;a&amp;#39; of type &amp;#39;T&amp;#39;, the expression std::hash&amp;lt;T&amp;gt;{}(a)
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; compiles and its result is convertible to std::size_t
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;template&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;typename&lt;&#x2F;span&gt;&lt;span&gt; T&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;concept Hashable &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;requires&lt;&#x2F;span&gt;&lt;span&gt;(T a)
+&lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    { std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;hash&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;T&amp;gt;{}(a) } &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;convertible_to&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;size_t&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;struct &lt;&#x2F;span&gt;&lt;span style=&quot;color:#59c2ff;&quot;&gt;meow &lt;&#x2F;span&gt;&lt;span&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Constrained C++20 function template:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;template&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;Hashable T&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;void &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;T&lt;&#x2F;span&gt;&lt;span&gt;) {}
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Alternative ways to apply the same constraint:
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; template&amp;lt;typename T&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F;     requires Hashable&amp;lt;T&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; void f(T) {}
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; template&amp;lt;typename T&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; void f(T) requires Hashable&amp;lt;T&amp;gt; {}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;using&lt;&#x2F;span&gt;&lt;span&gt; std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;operator&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;s&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ffb454;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;abc&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;s)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; OK, std::string satisfies Hashable
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; f(meow{}); &#x2F;&#x2F; Error: meow does not satisfy Hashable
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</description>
+      </item>
+    </channel>
+</rss>

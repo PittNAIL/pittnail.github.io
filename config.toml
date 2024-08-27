@@ -4,8 +4,8 @@ title = "PittNAIL"
 
 compile_sass = true
 
-feed_filename = "rss.xml"
-generate_feed = true
+feed_filenames = ["rss.xml"]
+generate_feeds = true
 
 [markdown]
 highlight_code = true
