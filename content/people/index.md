@@ -92,13 +92,6 @@ title = ""
 
 ---
 
-{{ person(picture="/pic/fengyi.jpg"
-          website=""
-          name="Fengyi Gao"
-          position="Research Assistant, MS in Health Informatics"
-          research_interests=["Data Mining", "Precision Rehabilitation"]
-    ) }}
-
 {{ person(picture="/pic/hunter.jpg"
           website=""
           pitt_portal=""
@@ -107,12 +100,6 @@ title = ""
           research_interests=["Multimodal Machine Learning"]
     ) }}
 
-{{ person(picture="/pic/xizhi1.jpg"
-          website=""
-          name="Xizhi Wu"
-          position="Research Assistant, MS in Information Science"
-          research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
-    ) }}
 
 {{ person(picture="/pic/thomas.jpg"
           name="Thomas Tam"
