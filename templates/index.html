@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% block head %}
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <!-- Displays the title -->
+            <title>
+                {% block title %}
+                    {{ config.title }}
+                {% endblock title %}
+            </title>
+
+            {% if config.extra.options.katex %}
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+                <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+                <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+            {% endif %}
+
+            <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
+
+            <link rel="shortcut icon" href="{{ get_url(path="favicon.ico") | safe }}" />
+
+            <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet" />
+            <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
+
+            {% block rss %}
+                <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+            {% endblock %}
+
+            {% set data = load_data(path="public/style.css", format="plain") -%}
+            <style>{{ data | safe }}</style>
+
+            <!-- Adds data for SEO -->
+            {% if config.extra.options.seo %}
+                {% block seo -%}
+                    {% if config.extra.author -%}
+                        <meta name="author" content="{{ config.extra.author }}" />
+                    {%- endif %}
+
+                    <meta property="og:site_name" content="{% block ogsitename %}{{ config.title }}{% endblock ogsitename %}" />
+                    <meta property="og:title" content="{% block ogtitle %}{{ config.title }}{% endblock ogtitle %}" />
+                    <meta property="og:description" content="{% block ogdesc %}{{ config.description }}{% endblock ogdesc %}" />
+                    <meta property="og:url" content="{% block ogurl %}{{ config.base_url | safe }}{% endblock ogurl %}" />
+                    <meta property="og:image" content="{% block og_image %}{% if config.extra.og_image %}{{ get_url(path=config.extra.og_image) | safe }}{% endif %}{% endblock og_image %}" />
+
+                    <!-- If date is not specified, it is a page and otherwise, it is an article -->
+                    {% if not page.date -%}
+                        <meta property="og:type" content="website" />
+                    {% else -%}
+                        <meta property="og:type" content="article" />
+                        <meta property="article:published_time" content="{{ page.date | date(format="%+") }}" />
+                    {%- endif %}
+
+                    {% if page.earlier -%}
+                        <link rel="prev" href="{{ page.earlier.permalink | safe }}" />
+                    {%- endif %}
+
+                    {% if page.later -%}
+                        <link rel="next" href="{{ page.later.permalink | safe }}" />
+                    {%- endif %}
+                {%- endblock seo -%}
+            {%- endif %}
+        </head>
+    {% endblock head %}
+
+    <body>
+        <!-- Starts the header -->
+        <div style="background-color: #003594; padding: 8px; border: 4px solid #ffb81c; text-align: center;">
+            <img style="padding: 8px 0px 24px; display: block; margin-left: auto; margin-right: auto; width: 192px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;" src="/logo.png" alt="NAIL">
+
+            <!-- Checks if header links exist and if they do, populates the header -->
+            {% if config.extra.header.links %}
+                <nav role="navigation">
+                    {% for item in config.extra.header.links %}
+                        <a style="color: white; font-size: 18px;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.title }}</a>
+                        &nbsp;
+                    {% endfor %}
+                </nav>
+            {% endif %}
+        </div>
+
+        <br>
+
+        <!-- Parses contents of a Markdown file -->
+        {% block content %}
+            {{ section.content | safe }}
+        {% endblock content %}
+
+        <!-- Starts a footer -->
+        {% block footer %}
+            <footer role="contentinfo">
+                <!-- Signifies the start of the footer -->
+                <hr />
+
+                <!-- External links -->
+                <div style="text-align: center;">
+                    <!-- Displays footer-related social links -->
+                    {% for item in config.extra.footer.links %}
+                        <a style="text-decoration: none;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}"><i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}</a>
+                    {% endfor %}
+                </div>
+
+                <!-- Displays the footer message -->
+                <p style="text-align: center">
+                    <small>&copy; 2022 NAIL</small>
+                </p>
+            </footer>
+        {% endblock footer %}
+    </body>
+</html>
