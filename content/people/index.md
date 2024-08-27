@@ -19,14 +19,6 @@ title = ""
 
 ---
 
-{{ person(picture="/pic/david.jpg"
-          website="https://oniani.ai/"
-          pitt_portal="https://www.shrs.pitt.edu/people/david-oniani"
-          name="David Oniani"
-          position="Machine Learning Research Scientist"
-          lab_position="Associate Director of PittNAIL"
-          research_interests=["Artificial Intelligence", "Software Systems", "AI Alignment", "AI for Science"]
-    ) }}
 
 {{ person(picture="/pic/jordan.jpg"
           name="Jordan Hilsman"
@@ -35,10 +27,11 @@ title = ""
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          name="Kate Tikhonova"
-          position="Research Project Manager"
-          research_interests=["AI for Health"]
+          name="Degan Hao"
+          position="Machine Learning Research Scientist"
+          research_interests=["Artificial Intelligence", "Software Systems", "Foundation Models"]
     ) }}
+
 
 ## PhD Students
 
@@ -48,26 +41,15 @@ title = ""
           website="https://sonishsivarajkumar.github.io/homepage/"
           pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
           name="Sonish Sivarajkumar"
-          position="Research Assistant, PhD Student in Intelligent Systems Program"
+          position="Research Assistant, 4th Year PhD Student in Intelligent Systems Program"
           research_interests=["Clinical Natural Language Processing", "Deep Learning"]
     ) }}
 
-{{ person(picture="/pic/taylor.jpg"
-          website=""
-          pitt_portal="https://www.shrs.pitt.edu/people/taylor-horne"
-          name="Taylor Horne"
-          position="Research Assistant, PhD Student in Health Informatics"
-          research_interests=[
-            "Health Disparities",
-            "Intelligent Patient Education",
-            "ADRD"
-          ]
-    ) }}
 
 {{ person(picture="/pic/yuelyu.jpg"
           website="https://joydajunspacecraft.github.io/YuelyuJi.github.io"
           name="Yuelyu Ji"
-          position="Research Assistant, PhD Student in Information Science"
+          position="Research Assistant, 2nd Year PhD Student in Information Science"
           research_interests=[
             "Natural Language Understanding in Biomedical Area",
             "Multi-Model Generation, Reinforcement Learning",
@@ -80,10 +62,29 @@ title = ""
           website="https://bmaneesh.github.io/"
           pitt_portal="https://www.isp.pitt.edu/people/maneesh-bilalpur"
           name="Maneesh Bilalpur"
-          position="Research Assistant, PhD Student in Intelligent Systems Program"
+          position="Research Assistant, 4th Year PhD Student in Intelligent Systems Program"
           research_interests=[
             "Machine Learning for Healthcare",
             "Multimodal Dialogue systems"
+          ]
+    ) }}
+
+{{ person(picture="/pic/xizhi.jpg"
+          website=""
+          name="Xizhi Wu"
+          position="Research Assistant, 1st Year PhD Student in Health Informatics"
+          research_interests=["Graph Neural Networks", "Large Language Models", "Clinical Decision Support"]
+    ) }}
+
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Hang (Brady) Zhang"
+          position="Research Assistant, 1st Year PhD Student in Intelligent Systems Program"
+          research_interests=[
+            "Neural Networks"
+            "Large Language Models",
+            "Clinical Natural Language Processing"
           ]
     ) }}
 
@@ -91,27 +92,6 @@ title = ""
 
 ---
 
-{{ person(picture="/pic/fengyi.jpg"
-          website=""
-          name="Fengyi Gao"
-          position="Research Assistant, MS in Health Informatics"
-          research_interests=["Data Mining", "Precision Rehabilitation"]
-    ) }}
-
-{{ person(picture="/pic/hunter.jpg"
-          website=""
-          pitt_portal=""
-          name="Hunter Osterhoudt"
-          position="Research Assistant, MS in Computer Science"
-          research_interests=["Multimodal Machine Learning"]
-    ) }}
-
-{{ person(picture="/pic/xizhi.jpg"
-          website=""
-          name="Xizhi Wu"
-          position="Research Assistant, MS in Information Science"
-          research_interests=["Graph Neural Networks", "Clinical Research Informatics", "Recommendation Systems"]
-    ) }}
 
 {{ person(picture="/pic/thomas.jpg"
           name="Thomas Tam"
@@ -121,6 +101,20 @@ title = ""
             "Generative Language Model Evaluation and Deployment",
             "Deep Learning"
           ]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Mariano De Leon"
+          position="Research Assistant, MS in Health Informatics"
+          research_interests=["Interface Design", "Chatbot"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Wenhe Ma"
+          position="Research Assistant, MS in Computer Engineering"
+          research_interests=["Deep Learning"]
     ) }}
 
 ## Undergraduate Students
@@ -138,6 +132,31 @@ title = ""
           position="Research Assistant, BS in Data Science"
           research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Karleigh McCarthy"
+          position="Research Assistant, BS in Health Informatics"
+          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Yufan Ren"
+          position="Research Assistant, BS in Health Informatics"
+          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Niki Chava"
+          position="Research Assistant, BS in Health Informatics"
+          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Tyler Lowe
+          position="Research Assistant, BS in Computer Science"
+          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+    ) }}
+
 
 ---
 
