@@ -5,7 +5,7 @@
 
 Welcome to PittNAIL, the [University of Pittsburgh][pitt]'s Clinical **N**atural Language Processing
 and **A**rtificial **I**ntelligence Innovation **L**aboratory. PittNAIL is led by
-[Dr. Yanshan Wang][drwang]. PittNAIL's Associate Director is [David Oniani][david].
+[Dr. Yanshan Wang][drwang].
 
 <!-- }}} -->
 
@@ -23,6 +23,9 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Aug, 2024. Welcome new PhD students and MS students.
+- Jun, 2024. Our study on generative AI ethics has been featured by [Forbes][forbes_news].
+- May, 2024. Dr. Wang's book chapter entitled "NLP Applications—Clinical Documents" has been published by Springer. [link][book]
 - Dec, 2023. The GREAT PLEA ethical principles have been reported in several media coverages: [news-medical][great1], [AI in Healthcare][great2].
 - Dec, 2023. Our paper "Adopting and expanding ethical principles for generative artificial intelligence from military to healthcare" is published in the Nature npj Digital Medicine. In this paper, we propose the “GREAT PLEA” ethical principles, namely Governability, Reliability, Equity, Accountability, Traceability, Privacy, Lawfulness, Empathy, and Autonomy, for generative AI applications in healthcare. [link][great]
 - Nov, 2023. Our paper "Mitigating bias in the patient representation learned from the electronic health records" is published in the Journal of Biomedical Informatics. [link][fpm]
@@ -67,5 +70,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 [great]: https://www.nature.com/articles/s41746-023-00965-x
 [great1]: https://www.news-medical.net/news/20231205/GREAT-PLEA-system-proposed-for-responsible-use-of-generative-AI-in-healthcare.aspx
 [great2]: https://aiin.healthcare/topics/artificial-intelligence/ethical-healthcare-ai-8-mnemonic-elements
+[forbes_news]: https://www.forbes.com/sites/forbesbooksauthors/2024/06/25/6-strategies-to-improve-trust-in-generative-ai-in-healthcare/
+[book]: https://link.springer.com/chapter/10.1007/978-3-031-55865-8_12
 
 <!-- }}} -->
