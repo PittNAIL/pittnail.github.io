@@ -77,12 +77,12 @@ title = ""
     ) }}
 
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/sanxingdui.jpg"
           website=""
           name="Hang (Brady) Zhang"
           position="Research Assistant, 1st Year PhD Student in Intelligent Systems Program"
           research_interests=[
-            "Neural Networks"
+            "Neural Networks",
             "Large Language Models",
             "Clinical Natural Language Processing"
           ]
@@ -118,7 +118,7 @@ title = ""
           research_interests=["Interface Design", "Chatbot"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/Wenhe.jpg"
           website=""
           name="Wenhe Ma"
           position="Research Assistant, MS in Computer Engineering"
@@ -147,7 +147,7 @@ title = ""
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/Yufan.jpg"
           name="Yufan Ren"
           position="Research Assistant, BS in Health Informatics"
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
