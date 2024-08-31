@@ -77,7 +77,7 @@ title = ""
     ) }}
 
 
-{{ person(picture="/pic/sanxingdui.jpg"
+{{ person(picture="/pic/Hang.png"
           website=""
           name="Hang (Brady) Zhang"
           position="Research Assistant, 1st Year PhD Student in Intelligent Systems Program"
