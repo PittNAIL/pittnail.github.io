@@ -92,14 +92,6 @@ title = ""
 
 ---
 
-{{ person(picture="/pic/hunter.jpg"
-          website=""
-          pitt_portal=""
-          name="Hunter Osterhoudt"
-          position="Research Assistant, MS in Computer Science"
-          research_interests=["Multimodal Machine Learning"]
-    ) }}
-
 
 {{ person(picture="/pic/thomas.jpg"
           name="Thomas Tam"
@@ -129,22 +121,10 @@ title = ""
 
 ---
 
-{{ person(picture="/pic/premkumar.jpg"
-          name="Premkumar Chandrasekar"
-          position="Research Assistant, BS in Health Informatics"
-          research_interests=["Clinical Natural Language Processing"]
-    ) }}
-
 {{ person(picture="/pic/alisa.jpg"
           name="Alisa Stolyar"
           position="Research Assistant, BS in Data Science"
           research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
-    ) }}
-
-{{ person(picture="/pic/profile.jpg"
-          name="Karleigh McCarthy"
-          position="Research Assistant, BS in Health Informatics"
-          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
 
 {{ person(picture="/pic/Yufan.jpg"
@@ -159,7 +139,7 @@ title = ""
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/tyler.png"
           name="Tyler Lowe
           position="Research Assistant, BS in Computer Science"
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
@@ -171,6 +151,9 @@ title = ""
 ## Alumni
 
 - [David Oniani](https://oniani.ai/), Machine Learning Research Scientist. Current: Applied Scientist II, Amazon
+- Premkumar Chandrasekar, Research Assistant. Current: MS in Computer Science, Northeastern University.
+- Karleigh McCarthy, Research Assistant. Current: Data Analyst, Kaleida Health.
+- Hunter Osterhoudt, Research Assistant.
 - Kate Tikhonova, Research Project Manager.
 - Hunter Osterhoudt, Research Assistant.
 - Fengyi Gao, Research Assistant.
