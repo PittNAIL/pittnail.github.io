@@ -140,7 +140,7 @@ title = ""
     ) }}
 
 {{ person(picture="/pic/tyler.png"
-          name="Tyler Lowe
+          name="Tyler Lowe"
           position="Research Assistant, BS in Computer Science"
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
@@ -155,7 +155,6 @@ title = ""
 - Karleigh McCarthy, Research Assistant. Current: Data Analyst, Kaleida Health.
 - Hunter Osterhoudt, Research Assistant.
 - Kate Tikhonova, Research Project Manager.
-- Hunter Osterhoudt, Research Assistant.
 - Fengyi Gao, Research Assistant.
 - [Ananya Gubbi Mohanbabu](https://www.linkedin.com/in/ananyagm/), Graduate Research Assistant at UT Austin
 - [Samuel Viggiano](https://www.linkedin.com/in/samuel-viggiano-mshi-42090b98/), Member of the Board of Advisors at MSHI
