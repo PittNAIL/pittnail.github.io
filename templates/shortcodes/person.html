@@ -1,31 +1,38 @@
-<figure style="margin-left: 0;">
-    <img src="{{ picture }}" alt="{{ name }}">
-    <figcaption>
-    <strong>
-        {% if website %}
-            <a href="{{ website }}">{{ name }}</a>
-        {% else %}
-            {{ name }}
-        {% endif %}
-    </strong>
-    {% if pitt_portal %}
-        |
-        <a href="{{ pitt_portal }}">Pitt Portal</a>
-        <br>
-    {% endif %}
-    </figcaption>
+<div class="card person-card fade-in">
+    <figure class="person-figure">
+        <img src="{{ picture }}" alt="{{ name }}" class="person-image">
+        <figcaption class="person-details">
+            <h3 class="person-name">
+                {% if website %}
+                    <a href="{{ website }}">{{ name }}</a>
+                {% else %}
+                    {{ name }}
+                {% endif %}
+            </h3>
+            
+            {% if pitt_portal %}
+                <a href="{{ pitt_portal }}" class="pitt-portal-link">Pitt Portal</a>
+            {% endif %}
 
-    {{ position }}<br>
-    {% if lab_position %}
-        {{ lab_position }}<br>
-    {% endif %}
+            <div class="person-position">
+                <p>{{ position }}</p>
+                {% if lab_position %}
+                    <p>{{ lab_position }}</p>
+                {% endif %}
+            </div>
 
-    Research Interests:
-    {% for research_interest in research_interests %}
-        {% if loop.last %}
-            {{ research_interest }}
-        {% else %}
-            {{ research_interest }},
-        {% endif %}
-    {% endfor %}
-</figure>
+            <div class="research-interests">
+                <h4>Research Interests</h4>
+                <p>
+                    {% for research_interest in research_interests %}
+                        {% if loop.last %}
+                            {{ research_interest }}
+                        {% else %}
+                            {{ research_interest }},
+                        {% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+        </figcaption>
+    </figure>
+</div>

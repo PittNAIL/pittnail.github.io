@@ -1,70 +1,504 @@
+// Variables {{{
+$primary-color: #003594  // Deep blue for academia
+$accent-color: #ffb81c   // Gold for emphasis
+$text-color: #2d3748    // Softer than pure black
+$bg-color: #ffffff
+$link-hover-color: #1a56db
+$font-stack: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+$header-height: 80px
+$max-width: 1200px
+// }}}
+
 // General {{{
+.lead
+    font-size: 1.2rem
+    color: lighten($text-color, 10%)
+    max-width: 800px
+    margin-bottom: 3rem
+    line-height: 1.6
 
-a, summary
-    color: #000000
-    font-size: 16px
-    text-decoration: underline
-    text-decoration-thickness: 2px
-    text-decoration-color: #003594
-    text-underline-offset: 4px
-
-body
-    font-family: "Arial", sans-serif
-    font-size: 16px
-    line-height: 32px
-
-    background-color: #ffffff
-    color: #1b1b1c
-
-    margin: 64px auto
-    width: 75%
+*, *::before, *::after
+    box-sizing: border-box
+    margin: 0
+    padding: 0
 
 html
     overflow-y: scroll
+    scroll-behavior: smooth
+
+body
+    font-family: $font-stack
+    font-size: 16px
+    line-height: 1.8
+    background-color: $bg-color
+    color: $text-color
+    margin: 0 auto
+    padding: 2rem
+    max-width: 1200px
+    width: 75%
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+h1, h2, h3, h4, h5, h6
+    color: $primary-color
+    line-height: 1.3
+    margin: 2rem 0 1rem
+    font-weight: 600
+
+h1
+    font-size: 2.5rem
+    margin-top: 0
+
+h2
+    font-size: 2rem
+
+h3
+    font-size: 1.5rem
+
+p
+    margin-bottom: 1.5rem
+
+a
+    color: $primary-color
+    text-decoration: none
+    position: relative
+    transition: color 0.2s ease
+    
+    &::after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 2px
+        bottom: -2px
+        left: 0
+        background-color: $accent-color
+        transform: scaleX(0)
+        transform-origin: bottom right
+        transition: transform 0.3s ease
+
+    &:hover
+        color: $link-hover-color
+        
+        &::after
+            transform: scaleX(1)
+            transform-origin: bottom left
 
 hr
     border: 0
-    border-top: 2.8px solid #ffb81c
+    height: 2px
+    background: linear-gradient(to right, $primary-color, $accent-color)
+    margin: 2rem 0
 
 img
-    width: 256px
-    border-radius: 16px
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px
+    max-width: 100%
+    height: auto
+    border-radius: 12px
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+    
+    &:hover
+        transform: translateY(-2px)
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+// }}}
 
+// Cards and Sections {{{
+.card
+    background: white
+    border-radius: 12px
+    padding: 1.5rem
+    margin-bottom: 1.5rem
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+    
+    &:hover
+        transform: translateY(-2px)
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+
+.section
+    margin: 4rem 0
+    
+    &:first-child
+        margin-top: 0
+
+// Funding Cards
+.funding-list
+    list-style: none
+    padding: 0
+    margin: 2rem 0
+
+.funding-card
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.95))
+    border-radius: 12px
+    padding: 1.5rem
+    margin-bottom: 1.5rem
+    border-left: 4px solid $primary-color
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+    position: relative
+    
+    &:hover
+        transform: translateY(-2px)
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+    
+    &.completed
+        border-left-color: $accent-color
+        background: linear-gradient(to right bottom, rgba(248, 250, 252, 0.9), rgba(248, 250, 252, 0.95))
+        padding-right: 7rem
+        
+        &::after
+            content: 'Completed'
+            position: absolute
+            top: 1.5rem
+            right: 1.5rem
+            background: $accent-color
+            color: $primary-color
+            padding: 0.35rem 1rem
+            border-radius: 20px
+            font-size: 0.85rem
+            font-weight: 600
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+.funding-title
+    font-size: 1.2rem
+    color: $primary-color
+    margin: 0 0 0.75rem
+    font-weight: 600
+    line-height: 1.4
+    letter-spacing: -0.01em
+
+.funding-source
+    font-size: 0.95rem
+    color: lighten($text-color, 20%)
+    margin-bottom: 0.5rem
+    font-style: italic
+    display: flex
+    align-items: center
+    gap: 0.5rem
+    
+    &::before
+        content: ''
+        display: inline-block
+        width: 6px
+        height: 6px
+        background-color: $accent-color
+        border-radius: 50%
+
+// Project Cards
+.projects-list
+    margin: 2rem 0
+
+.project-card
+    margin-bottom: 2rem
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.95))
+    backdrop-filter: blur(10px)
+    border: 1px solid rgba(0, 53, 148, 0.1)
+    border-radius: 12px
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+    
+    &:hover
+        transform: translateY(-2px)
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+
+    .project-content
+        padding: 2rem
+
+    .project-title
+        color: $primary-color
+        margin: 0 0 1.5rem
+        font-size: 1.75rem
+        font-weight: 600
+        letter-spacing: -0.01em
+        border-bottom: 2px solid $accent-color
+        padding-bottom: 0.5rem
+        display: inline-block
+
+    .project-leadership
+        margin-bottom: 1.5rem
+        display: flex
+        flex-direction: column
+        gap: 0.5rem
+
+        .project-lead, .project-collaborators
+            display: flex
+            align-items: center
+            gap: 0.75rem
+            
+            .label
+                font-weight: 600
+                color: $primary-color
+                font-size: 0.95rem
+                
+            a
+                text-decoration: none
+                color: $link-hover-color
+                position: relative
+                
+                &:hover
+                    color: darken($link-hover-color, 10%)
+
+    .project-description
+        p
+            margin: 0
+            line-height: 1.7
+            color: lighten($text-color, 10%)
+            font-size: 1.05rem
+
+.project-spacer
+    height: 1rem
+
+// Person Cards
+.person-card
+    display: inline-block
+    width: calc(33.333% - 1.5rem)
+    margin: 0.75rem
+    vertical-align: top
+    
+    @media (max-width: 1200px)
+        width: calc(50% - 1.5rem)
+    
+    @media (max-width: 768px)
+        width: 100%
+        margin: 0.75rem 0
+
+.person-figure
+    margin: 0
+    text-align: center
+
+.person-image
+    width: 200px
+    height: 200px
+    object-fit: cover
+    margin-bottom: 1rem
+    border-radius: 50%
+    border: 3px solid $accent-color
+
+.person-details
+    .person-name
+        margin: 0.5rem 0
+        font-size: 1.25rem
+        
+        a
+            text-decoration: none
+            color: $primary-color
+            
+            &:hover
+                color: $link-hover-color
+
+.pitt-portal-link
+    display: inline-block
+    margin: 0.5rem 0
+    padding: 0.25rem 0.75rem
+    background-color: $primary-color
+    color: white
+    border-radius: 20px
+    font-size: 0.9rem
+    text-decoration: none
+    transition: background-color 0.2s ease
+    
+    &:hover
+        background-color: $link-hover-color
+        color: white
+        
+        &::after
+            display: none
+
+.person-position
+    margin: 0.75rem 0
+    
+    p
+        margin: 0.25rem 0
+        color: $text-color
+        font-size: 0.95rem
+
+.research-interests
+    margin-top: 1rem
+    text-align: left
+    
+    h4
+        font-size: 1rem
+        color: $primary-color
+        margin: 0 0 0.5rem
+    
+    p
+        font-size: 0.9rem
+        line-height: 1.5
+        margin: 0
+        color: lighten($text-color, 10%)
+// }}}
+
+// Header and Navigation {{{
+.site-header
+    background: linear-gradient(to right, $primary-color, darken($primary-color, 10%))
+    border-bottom: 4px solid $accent-color
+    padding: 1rem 0
+    margin-bottom: 2rem
+    
+    .header-content
+        max-width: $max-width
+        margin: 0 auto
+        padding: 0 2rem
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        gap: 1rem
+    
+    .logo
+        width: 192px
+        margin: 0
+        padding: 0
+        box-shadow: none
+        transition: transform 0.3s ease
+        
+        &:hover
+            transform: scale(1.05)
+    
+    nav
+        ul
+            list-style: none
+            display: flex
+            gap: 2rem
+            margin: 0
+            padding: 0
+            
+            li a
+                color: white
+                font-weight: 500
+                font-size: 1.1rem
+                text-decoration: none
+                padding: 0.5rem 0
+                position: relative
+                
+                &::after
+                    content: ''
+                    position: absolute
+                    bottom: 0
+                    left: 0
+                    width: 100%
+                    height: 2px
+                    background-color: $accent-color
+                    transform: scaleX(0)
+                    transition: transform 0.3s ease
+                
+                &:hover
+                    color: $accent-color
+                    
+                    &::after
+                        transform: scaleX(1)
+// }}}
+
+// Content Wrapper {{{
+.content-wrapper
+    max-width: $max-width
+    margin: 0 auto
+    padding: 2rem
+    min-height: calc(100vh - #{$header-height} - 200px)
+// }}}
+
+// Footer {{{
+.site-footer
+    margin-top: 4rem
+    padding: 2rem
+    background: #f8fafc
+    
+    .footer-links
+        display: flex
+        justify-content: center
+        gap: 2rem
+        flex-wrap: wrap
+        margin-bottom: 1.5rem
+        
+        a
+            display: flex
+            align-items: center
+            gap: 0.5rem
+            color: $text-color
+            text-decoration: none
+            transition: color 0.2s ease
+            
+            i
+                font-size: 1.25rem
+            
+            &:hover
+                color: $primary-color
+    
+    .copyright
+        text-align: center
+        color: lighten($text-color, 20%)
+        margin: 0
+// }}}
+
+// Code and Pre {{{
+pre, code
+    font-family: "JetBrains Mono", "Fira Code", monospace
+    font-size: 0.9rem
+    line-height: 1.5
+    
+pre
+    background: #f7fafc
+    border-radius: 8px
+    padding: 1rem
+    overflow-x: auto
+    margin: 1.5rem 0
 // }}}
 
 // Scrollbar {{{
-
 ::-webkit-scrollbar
-    width: 1rem
+    width: 10px
+    height: 10px
+
+::-webkit-scrollbar-track
+    background: #f1f1f1
+    border-radius: 5px
 
 ::-webkit-scrollbar-thumb
-    background: lightgray
-    border-radius: 0.5rem
-
-::-webkit-scrollbar-thumb:hover
-    background: gray
-
-// }}}
-
-// Syntax highlighting {{{
-
-pre
-    font-size: 12px
-    line-height: 1.5em
-    overflow: auto
-    padding: 1rem
-
+    background: #c1c1c1
+    border-radius: 5px
+    
+    &:hover
+        background: #a1a1a1
 // }}}
 
 // Responsive design {{{
-
 @media screen and (max-width: 1400px)
     body
-        width: 90%
+        width: 85%
+        padding: 1.5rem
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 768px)
+    body
+        width: 95%
+        padding: 1rem
+    
+    h1
+        font-size: 2rem
+    
+    h2
+        font-size: 1.75rem
+    
+    h3
+        font-size: 1.5rem
+
+@media screen and (max-width: 480px)
     body
         width: 100%
+        padding: 1rem
+    
+    nav ul
+        flex-direction: column
+        gap: 0.5rem
+// }}}
 
+// Animations {{{
+@keyframes fadeIn
+    from
+        opacity: 0
+        transform: translateY(10px)
+    to
+        opacity: 1
+        transform: translateY(0)
+
+.fade-in
+    animation: fadeIn 0.5s ease forwards
 // }}}

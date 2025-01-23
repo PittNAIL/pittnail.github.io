@@ -5,7 +5,6 @@
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            <!-- Displays the title -->
             <title>
                 {% block title %}
                     {{ config.title }}
@@ -21,7 +20,9 @@
             <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
 
             <link rel="shortcut icon" href="{{ get_url(path="favicon.ico") | safe }}" />
-
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
             <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet" />
             <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet" />
 
@@ -32,7 +33,6 @@
             {% set data = load_data(path="public/style.css", format="plain") -%}
             <style>{{ data | safe }}</style>
 
-            <!-- Adds data for SEO -->
             {% if config.extra.options.seo %}
                 {% block seo -%}
                     {% if config.extra.author -%}
@@ -45,7 +45,6 @@
                     <meta property="og:url" content="{% block ogurl %}{{ config.base_url | safe }}{% endblock ogurl %}" />
                     <meta property="og:image" content="{% block og_image %}{% if config.extra.og_image %}{{ get_url(path=config.extra.og_image) | safe }}{% endif %}{% endblock og_image %}" />
 
-                    <!-- If date is not specified, it is a page and otherwise, it is an article -->
                     {% if not page.date -%}
                         <meta property="og:type" content="website" />
                     {% else -%}
@@ -66,45 +65,42 @@
     {% endblock head %}
 
     <body>
-        <!-- Starts the header -->
-        <div style="background-color: #003594; padding: 8px; border: 4px solid #ffb81c; text-align: center;">
-            <img style="padding: 8px 0px 24px; display: block; margin-left: auto; margin-right: auto; width: 192px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;" src="/logo.png" alt="NAIL">
+        <header class="site-header fade-in">
+            <div class="header-content">
+                <img class="logo" src="/logo.png" alt="NAIL">
+                {% if config.extra.header.links %}
+                    <nav role="navigation">
+                        <ul>
+                            {% for item in config.extra.header.links %}
+                                <li>
+                                    <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                {% endif %}
+            </div>
+        </header>
 
-            <!-- Checks if header links exist and if they do, populates the header -->
-            {% if config.extra.header.links %}
-                <nav role="navigation">
-                    {% for item in config.extra.header.links %}
-                        <a style="color: white; font-size: 18px;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">{{ item.title }}</a>
-                        &nbsp;
-                    {% endfor %}
-                </nav>
-            {% endif %}
-        </div>
+        <main class="content-wrapper fade-in">
+            {% block content %}
+                {{ section.content | safe }}
+            {% endblock content %}
+        </main>
 
-        <br>
-
-        <!-- Parses contents of a Markdown file -->
-        {% block content %}
-            {{ section.content | safe }}
-        {% endblock content %}
-
-        <!-- Starts a footer -->
         {% block footer %}
-            <footer role="contentinfo">
-                <!-- Signifies the start of the footer -->
+            <footer role="contentinfo" class="site-footer fade-in">
                 <hr />
-
-                <!-- External links -->
-                <div style="text-align: center;">
-                    <!-- Displays footer-related social links -->
+                <div class="footer-links">
                     {% for item in config.extra.footer.links %}
-                        <a style="text-decoration: none;" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}"><i class="{{ item.icon }}"></i>&nbsp;{{ item.name }}</a>
+                        <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) | safe }}">
+                            <i class="{{ item.icon }}"></i>
+                            <span>{{ item.name }}</span>
+                        </a>
                     {% endfor %}
                 </div>
-
-                <!-- Displays the footer message -->
-                <p style="text-align: center">
-                    <small>&copy; 2022 NAIL</small>
+                <p class="copyright">
+                    <small>&copy; 2022-2025 NAIL</small>
                 </p>
             </footer>
         {% endblock footer %}

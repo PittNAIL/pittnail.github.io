@@ -1,14 +1,32 @@
-<strong>{{ title }}</strong><br>
-Project Lead:
-{% if project_lead_website %}
-     <a href="{{ project_lead_website }}">{{ project_lead }}</a>
-{% else %}
-    {{ project_lead }}
-{% endif %}<br>
-{% if collaborators %}
-    Collaborators: {{ collaborators }}<br>
-{% endif %}
-Description: {{ description }}</em><br>
+<div class="card project-card fade-in">
+    <div class="project-content">
+        <h3 class="project-title">{{ title }}</h3>
+        
+        <div class="project-leadership">
+            {% if project_lead and project_lead != "" %}
+                <div class="project-lead">
+                    <span class="label">Project Lead:</span>
+                    {% if project_lead_website %}
+                        <a href="{{ project_lead_website }}">{{ project_lead }}</a>
+                    {% else %}
+                        {{ project_lead }}
+                    {% endif %}
+                </div>
+            {% endif %}
+            
+            {% if collaborators %}
+                <div class="project-collaborators">
+                    <span class="label">Collaborators:</span>
+                    <span>{{ collaborators }}</span>
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="project-description">
+            <p>{{ description }}</p>
+        </div>
+    </div>
+</div>
 {% if not last_entry %}
-     <br>
+    <div class="project-spacer"></div>
 {% endif %}
