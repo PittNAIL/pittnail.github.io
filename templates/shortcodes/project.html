@@ -1,6 +1,16 @@
-<div class="card project-card fade-in">
+<div class="card project-card fade-in" data-topics="{{ topic }}">
     <div class="project-content">
         <h3 class="project-title">{{ title }}</h3>
+        {% if topic %}
+            <div class="project-topics">
+                <span class="topics-label">Topics:</span>
+                <div class="topics-list">
+                    {% for t in topic | split(pat=",") %}
+                        <span class="topic-value">{{ t | trim }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
         
         <div class="project-leadership">
             {% if project_lead and project_lead != "" %}
