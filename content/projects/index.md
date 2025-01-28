@@ -87,19 +87,19 @@ document.addEventListener('DOMContentLoaded', initializeFiltering);
 
 {{ project(title="Generative AI for Medical Education", description="Investigate how generative AI will impact and advance medical education?", project_lead="Mariano De Leon", topic="LLM Application", last_entry=false) }}
 
-{{ project(title="Precision Rehabilitation", description="Use data-driven approach to identify the precision rehabilitation approaches that could result in optimal clinical outcomes", topic="LLM Application", last_entry=false) }}
+{{ project(title="Precision Rehabilitation", description="Use data-driven approach to identify the precision rehabilitation approaches that could result in optimal clinical outcomes", topic="LLM Application,Clinical NLP", last_entry=false) }}
 
 {{ project(title="Generative AI for Assisting People with Disabilities", description="Investigate how generative AI will assist people with disabilities?", project_lead="Mariano De Leon", topic="LLM Application", last_entry=false) }}
 
-{{ project(title="Generative AI for Pathology", description="Generative AI technologies to advance clinical pratice in pathology using pathology images and EHRs", topic="Foundation Models", last_entry=false) }}
+{{ project(title="Generative AI for Pathology", description="Generative AI technologies to advance clinical pratice in pathology using pathology images and EHRs", topic="Foundation Models,LLM Application", last_entry=false) }}
 
 {{ project(title="Evaluation Frameworks for Large Language Models in Healthcare Applications", description="Evaluation needs to be standardized and comprehensive before the adoption of LLMs in healthcare", project_lead="Thomas Tam, Sonish Sivarajkumar", topic="LLM Evaluation", last_entry=false) }}
 
 {{ project(title="Large Language Models for Drug Discovery", description="Designing creative LLM-based approaches to facilitate drug discovery.", project_lead="", topic="LLM Application", last_entry=false) }}
 
-{{ project(title="Generative Deep Patient", description="Foundational AI models and large language models for generative patient embeddings using EHRs", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Foundation Models", last_entry=false) }}
+{{ project(title="Generative Deep Patient", description="Foundational AI models and large language models for generative patient embeddings using EHRs", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Foundation Models,LLM Application,Clinical NLP", last_entry=false) }}
 
-{{ project(title="Precision Ontology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics", last_entry=true) }}
+{{ project(title="Precision Ontology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=true) }}
 
 {{ project(title="Cancer NLP", description="NLP to extract social determinants of health information from ontology progress notes.", project_lead="Xizhi Wu", topic="Clinical NLP,Cancer Informatics", last_entry=true) }}
 
