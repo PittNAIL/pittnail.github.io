@@ -139,7 +139,7 @@ title = ""
           research_interests=["Precision Rehabilitation", "Artificial Intelligence in Healthcare"]
     ) }}
 
-{{ person(picture="/pic/profile.png"
+{{ person(picture="/pic/profile.jpg"
           name="Shiven Verma"
           position="Research Assistant, BS in Computer Science"
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
