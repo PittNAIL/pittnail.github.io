@@ -20,18 +20,24 @@ title = ""
 ---
 
 
-{{ person(picture="/pic/jordan.jpg"
-          name="Jordan Hilsman"
+{{ person(picture="/pic/mingu.jpg"
+          name="MinGu Kwak"
+          position="Machine Learning Research Scientist"
+          research_interests=["Clinical Data Warehouse", "Clinical Natural Language Processing", "Foundation Models", "Clinical Research Informatics"]
+    ) }}
+
+{{ person(picture="/pic/chenyu.jpg"
+          name="Chenyu Li"
           position="AI Research Engineer"
-          research_interests=["Clinical NLP Infrastructure", "Clinical Research Informatics"]
+          research_interests=["Clinical Natural Language Processing", "Informatics Infrastructure", "Translational Research Informatics"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          name="Degan Hao"
-          position="Machine Learning Research Scientist"
-          research_interests=["Artificial Intelligence", "Software Systems", "Foundation Models"]
+          website=""
+          name="Mariano De Leon"
+          position="Software Developer"
+          research_interests=["Interface Design", "Generative AI"]
     ) }}
-
 
 ## PhD Students
 
@@ -103,12 +109,6 @@ title = ""
           ]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Mariano De Leon"
-          position="Research Assistant, MS in Health Informatics"
-          research_interests=["Interface Design", "Chatbot"]
-    ) }}
 
 {{ person(picture="/pic/Wenhe.jpg"
           website=""
@@ -134,13 +134,13 @@ title = ""
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          name="Niki Chava"
+          name="Yuxuan Liao"
           position="Research Assistant, BS in Health Informatics"
-          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+          research_interests=["Precision Rehabilitation", "Artificial Intelligence in Healthcare"]
     ) }}
 
-{{ person(picture="/pic/tyler.png"
-          name="Tyler Lowe"
+{{ person(picture="/pic/profile.png"
+          name="Shiven Verma"
           position="Research Assistant, BS in Computer Science"
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
