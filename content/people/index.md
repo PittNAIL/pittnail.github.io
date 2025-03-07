@@ -150,6 +150,8 @@ title = ""
 
 ## Alumni
 
+- Jordan Hilsman, AI Research Engineer. Current: Machine Learning Engineer, Children's healthcare of Atlanta.
+- Degan Hao, Machine Learning Research Scientist. Current: Data Scientist, Morgan Stanley. 
 - [David Oniani](https://oniani.ai/), Machine Learning Research Scientist. Current: Applied Scientist II, Amazon
 - Premkumar Chandrasekar, Research Assistant. Current: MS in Computer Science, Northeastern University.
 - Karleigh McCarthy, Research Assistant. Current: Data Analyst, Kaleida Health.
