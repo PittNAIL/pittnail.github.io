@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', initializeFiltering);
 
 {{ project(title="Generative Deep Patient", description="Foundational AI models and large language models for generative patient embeddings using EHRs", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Foundation Models,LLM Application,Clinical NLP", last_entry=false) }}
 
-{{ project(title="Precision Ontology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=true) }}
+{{ project(title="Precision Oncology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=true) }}
 
 {{ project(title="Cancer NLP", description="NLP to extract social determinants of health information from ontology progress notes.", project_lead="Xizhi Wu", topic="Clinical NLP,Cancer Informatics", last_entry=true) }}
 
