@@ -78,11 +78,17 @@ setTimeout(initializeFiltering, 100);
 document.addEventListener('DOMContentLoaded', initializeFiltering);
 </script>
 
-{{ project(title="PittTron", description="A Large Language Model Trained on University of Pittsburgh Medical Center Electronic Health Records", project_lead="Jordan Hilsman", topic="Clinical NLP,LLM Application", last_entry=false) }}
+{{ project(title="PittTron", description="A Large Language Model Trained on University of Pittsburgh Medical Center Electronic Health Records", project_lead="Chenyu Li", topic="Clinical NLP,LLM Application", last_entry=false) }}
 
-{{ project(title="ENACT NLP", description="Development and Validation of Natural Language Processing Algorithms in the ENACT National Electronic Health Record Research Network", project_lead="Jordan Hilsman", topic="Clinical NLP", last_entry=false) }}
+{{ project(title="ENACT NLP", description="Development and Validation of Natural Language Processing Algorithms in the ENACT National Electronic Health Record Research Network", project_lead="Chenyu Li", topic="Clinical NLP", last_entry=false) }}
+
+{{ project(title="Large Language Models for Clinical Research Informatics", description="Investigate how large language models could accelerate clinical research informatics infrastructure development.", project_lead="Min Gu Kwak", topic="Clinical NLP,LLM Application", last_entry=false) }}
+
+{{ project(title="ReDWINE", description="A clinical informatics data warehouse for rehabilitation care and research.", project_lead="Min Gu Kwak", topic="Clinical NLP", last_entry=false) }}
 
 {{ project(title="Safety of Large Language Models in Healthcare Applications", description="Measuring the safety of LLMs in healthcare", project_lead="Hang Zhang", topic="LLM Alignment", last_entry=false) }}
+
+{{ project(title="Reinforcement learning for Large Language Models", description="Investigate new reinforcement learning frameworks for LLMs", project_lead="Hang Zhang", topic="LLM Alignment", last_entry=false) }}
 
 {{ project(title="AI and Precision Nutrition", description="Investigate how AI has been used in precision nutrition", project_lead="Xizhi Wu", topic="Precision Nutrition", last_entry=false) }}
 
@@ -96,15 +102,15 @@ document.addEventListener('DOMContentLoaded', initializeFiltering);
 
 {{ project(title="Evaluation Frameworks for Large Language Models in Healthcare Applications", description="Evaluation needs to be standardized and comprehensive before the adoption of LLMs in healthcare", project_lead="Thomas Tam, Sonish Sivarajkumar", topic="LLM Evaluation", last_entry=false) }}
 
-{{ project(title="Large Language Models for Drug Discovery", description="Designing creative LLM-based approaches to facilitate drug discovery.", project_lead="", topic="LLM Application", last_entry=false) }}
+{{ project(title="Large Language Models for Drug Discovery", description="Designing creative LLM-based approaches to facilitate drug discovery.", project_lead="Averil Ludwick", topic="LLM Application", last_entry=false) }}
 
 {{ project(title="Generative Deep Patient", description="Foundational AI models and large language models for generative patient embeddings using EHRs", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Foundation Models,LLM Application,Clinical NLP", last_entry=false) }}
 
-{{ project(title="Precision Oncology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=true) }}
+{{ project(title="Precision Oncology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=false) }}
 
-{{ project(title="Cancer NLP", description="NLP to extract social determinants of health information from ontology progress notes.", project_lead="Xizhi Wu", topic="Clinical NLP,Cancer Informatics", last_entry=true) }}
+{{ project(title="Cancer NLP", description="NLP to extract social determinants of health information from ontology progress notes.", project_lead="Xizhi Wu", topic="Clinical NLP,Cancer Informatics", last_entry=false) }}
 
-{{ project(title="AI Agentic Systems for Clinical Oncology", description="Build Multi-agent AI systems for intelligent clinical oncology care.", project_lead="Praz Nagarajan", topic="AI Agents,Cancer Informatics", last_entry=true) }}
+{{ project(title="AI Agentic Systems for Clinical Oncology", description="Build Multi-agent AI systems for intelligent clinical oncology care.", project_lead="Praz Nagarajan", topic="AI Agents,Cancer Informatics", last_entry=false) }}
 
 {{ project(title="Multi-agentic AI for Headache Referral", description="Build Multi-agent AI systems for automated headache referral.", project_lead="Xizhi Wu", topic="Clinical NLP, AI Agents", last_entry=true) }}
 
