@@ -17,6 +17,7 @@ template = "page.html"
     <button class="topic-filter" data-topic="LLM Evaluation">LLM Evaluation</button>
     <button class="topic-filter" data-topic="Foundation Models">Foundation Models</button>
     <button class="topic-filter" data-topic="Cancer Informatics">Cancer Informatics</button>
+    <button class="topic-filter" data-topic="AI Agents">AI Agents</button>
 </div>
 
 <div class="projects-list fade-in">
@@ -102,5 +103,9 @@ document.addEventListener('DOMContentLoaded', initializeFiltering);
 {{ project(title="Precision Oncology", description="NLP and ML algorithms to predict immunotherapy response and metastases prediction on lung adenocarcinoma patients.", project_lead="Sonish Sivarajkumar", project_lead_website="https://sonishsivarajkumar.github.io/homepage/", topic="Cancer Informatics,Clinical NLP", last_entry=true) }}
 
 {{ project(title="Cancer NLP", description="NLP to extract social determinants of health information from ontology progress notes.", project_lead="Xizhi Wu", topic="Clinical NLP,Cancer Informatics", last_entry=true) }}
+
+{{ project(title="AI Agentic Systems for Clinical Oncology", description="Build Multi-agent AI systems for intelligent clinical oncology care.", project_lead="Praz Nagarajan", topic="AI Agents,Cancer Informatics", last_entry=true) }}
+
+{{ project(title="Multi-agentic AI for Headache Referral", description="Build Multi-agent AI systems for automated headache referral.", project_lead="Xizhi Wu", topic="Clinical NLP, AI Agents", last_entry=true) }}
 
 </div>
