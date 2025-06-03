@@ -99,7 +99,7 @@ title = ""
 ---
 
 
-{{ person(picture="/pic/thomas.jpg"
+{{ person(picture="/pic/profile.jpg"
           name="Thomas Tam"
           position="Research Assistant, MS in Public Policy and Data Analytics"
           research_interests=[
@@ -110,27 +110,15 @@ title = ""
     ) }}
 
 
-{{ person(picture="/pic/Wenhe.jpg"
-          website=""
-          name="Wenhe Ma"
-          position="Research Assistant, MS in Computer Engineering"
-          research_interests=["Deep Learning"]
-    ) }}
 
 ## Undergraduate Students
 
 ---
 
-{{ person(picture="/pic/alisa.jpg"
-          name="Alisa Stolyar"
-          position="Research Assistant, BS in Data Science"
-          research_interests=["Data Mining", "Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
-    ) }}
-
 {{ person(picture="/pic/Yufan.jpg"
           name="Yufan Ren"
           position="Research Assistant, BS in Health Informatics"
-          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
+          research_interests=["-"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
@@ -145,11 +133,30 @@ title = ""
           research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
     ) }}
 
+{{ person(picture="/pic/profile.jpg"
+          name="Praz Nagarajan"
+          position="Research Assistant, BS in Computer Science"
+          research_interests=["AI Agents", "Artificial Intelligence in Healthcare"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Averil Ludwick"
+          position="Summer Intern, BS in Computational Biology"
+          research_interests=["AI for Drug Discovery"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Becky Zhou"
+          position="Research Assistant, BS in Health Informatics"
+          research_interests=["-"]
+    ) }}
 
 ---
 
 ## Alumni
 
+- Alisa Stolyar, Research Assistant. Current: AION Biosystems.
+- Thomas Tam, Research Assistant. Current: University City Science Center.
 - Jordan Hilsman, AI Research Engineer. Current: Machine Learning Engineer, Children's healthcare of Atlanta.
 - Degan Hao, Machine Learning Research Scientist. Current: Data Scientist, Morgan Stanley. 
 - [David Oniani](https://oniani.ai/), Machine Learning Research Scientist. Current: Applied Scientist II, Amazon
