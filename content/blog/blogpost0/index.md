@@ -1,5 +1,5 @@
 +++
-title = "Lab Photos"
+title = "2025 Summer BBQ Party"
 date = 2025-07-19
 +++
 BBQ Party for Celebrating Sonish's Graduation
