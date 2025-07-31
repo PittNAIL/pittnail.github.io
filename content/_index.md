@@ -23,6 +23,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Jul, 2025. Sonish successfully defended his PhD dissertation. Congratulations, Dr. Sivarajkumar! He will join Eli Lilly as a Senior NLP Research Scientist.
 - May, 2025. Our paper "Mitigating the risk of health inequity exacerbated by large language models" is published in the Nature npj Digital Medicine.
 - Apr, 2025. Welcome Chenyu Li back to join the lab as an AI Research Engineer.
 - Mar, 2025. Welcome MinGu Kwak to join the lab as a Machine Learning Research Scientist.

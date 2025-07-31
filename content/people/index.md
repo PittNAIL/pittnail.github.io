@@ -155,6 +155,7 @@ title = ""
 
 ## Alumni
 
+- Sonish Sivarajkumar, PhD Graduate. Current: Senior NLP Research Scientist, Eli Lilly.
 - Alisa Stolyar, Research Assistant. Current: AION Biosystems.
 - Thomas Tam, Research Assistant. Current: University City Science Center.
 - Jordan Hilsman, AI Research Engineer. Current: Machine Learning Engineer, Children's healthcare of Atlanta.
