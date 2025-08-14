@@ -26,6 +26,7 @@ links = [
     {url = "$BASE_URL/projects", title = "Projects"},
     {url = "https://scholar.google.com/citations?user=Ggy4_UcAAAAJ&hl=en&oi=ao", title = "Publications"},
     {url = "$BASE_URL/funding", title = "Funding"},
+    {url = "$BASE_URL/openings", title = "Openings"},
     {url = "$BASE_URL/blog", title = "Blog"},
     {url = "$BASE_URL/rss.xml", title = "RSS"}
 ]
