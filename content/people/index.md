@@ -157,17 +157,18 @@ title = ""
 
 - Sonish Sivarajkumar, PhD Graduate. Current: Senior NLP Research Scientist, Eli Lilly.
 - Alisa Stolyar, Research Assistant. Current: AION Biosystems.
+- Yifei Zhao, Summer Research Assistant. Current: Student, NYU.
 - Thomas Tam, Research Assistant. Current: University City Science Center.
 - Jordan Hilsman, AI Research Engineer. Current: Machine Learning Engineer, Children's healthcare of Atlanta.
 - Degan Hao, Machine Learning Research Scientist. Current: Data Scientist, Morgan Stanley. 
 - [David Oniani](https://oniani.ai/), Machine Learning Research Scientist. Current: Applied Scientist II, Amazon
 - Premkumar Chandrasekar, Research Assistant. Current: MS in Computer Science, Northeastern University.
 - Karleigh McCarthy, Research Assistant. Current: Data Analyst, Kaleida Health.
-- Hunter Osterhoudt, Research Assistant.
-- Kate Tikhonova, Research Project Manager.
-- Fengyi Gao, Research Assistant.
-- [Ananya Gubbi Mohanbabu](https://www.linkedin.com/in/ananyagm/), Graduate Research Assistant at UT Austin
-- [Samuel Viggiano](https://www.linkedin.com/in/samuel-viggiano-mshi-42090b98/), Member of the Board of Advisors at MSHI
-- [Stephen Shaffran](https://www.linkedin.com/in/stephen-shaffran-bb0839225/)
-- [Chenyu Li](https://www.linkedin.com/in/chenyu-li-80375196/)
-- Shiven Verma, High School Student at Upper St. Clair High School
+- Hunter Osterhoudt, Research Assistant. 
+- Kate Tikhonova, Research Project Manager. Current: CS student, WGU.
+- Fengyi Gao, Research Assistant. Current: PhD Student, Pitt.
+- [Ananya Gubbi Mohanbabu](https://www.linkedin.com/in/ananyagm/), Summer Research Assistant. Current: PhD student, UT Austin
+- [Samuel Viggiano](https://www.linkedin.com/in/samuel-viggiano-mshi-42090b98/), Research Assistant. Current: Member of the Board of Advisors at MSHI
+- [Stephen Shaffran](https://www.linkedin.com/in/stephen-shaffran-bb0839225/), Research Assistant. 
+- [Chenyu Li](https://www.linkedin.com/in/chenyu-li-80375196/), Research Assistant. Current: AI Research Engineer, Pitt.
+- Shiven Verma, High School Student Research Assistant at Upper St. Clair High School. Current: Student, Pitt.
