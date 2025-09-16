@@ -10,6 +10,26 @@ template = "page.html"
 <div class="funding-list fade-in">
 
 <div class="funding-card">
+<div class="funding-title">ARISE-CARE: Advancing Rehabilitation for Stroke Patients with AI to Elevate Therapy Care</div>
+<div class="funding-source">NIH NLM-R01</div>
+</div>
+
+<div class="funding-card">
+<div class="funding-title">The Pediatric Precision Sleep Network: Deep phenotyping pediatric sleep and rhythms to predict mental health outcomes</div>
+<div class="funding-source">NIH NIMH-U01</div>
+</div>
+
+<div class="funding-card">
+<div class="funding-title">Natural Language Processing of Ophthalmologist notes for identification of social determinants of health</div>
+<div class="funding-source">Eye and Ear Foundation</div>
+</div>
+
+<div class="funding-card">
+<div class="funding-title">Retrospective EHR Studies</div>
+<div class="funding-source">Industrial Funding</div>
+</div>
+
+<div class="funding-card">
 <div class="funding-title">Pittsburgh Resource for EEG and Data Science to Inform Precision Care and Transform Patient Outcomes (PREDICT)</div>
 <div class="funding-source">CTSI Health Sciences Team Science & Leadership Program</div>
 </div>
