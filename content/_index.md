@@ -23,6 +23,7 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Aug, 2025. We have received a 4-year R01 grant “ARISE-CARE: Advancing Rehabilitation for Stroke Patients with AI to Elevate Therapy Care”, funded by the NIH/National Library of Medicine with a total award amount of ~$1.5m.
 - Jul, 2025. Sonish successfully defended his PhD dissertation. Congratulations, Dr. Sivarajkumar! He will join Eli Lilly as a Senior NLP Research Scientist.
 - May, 2025. Our paper "Mitigating the risk of health inequity exacerbated by large language models" is published in the Nature npj Digital Medicine.
 - Apr, 2025. Welcome Chenyu Li back to join the lab as an AI Research Engineer.
