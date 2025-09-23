@@ -39,17 +39,24 @@ title = ""
           research_interests=["Interface Design", "Generative AI"]
     ) }}
 
+{{ person(picture="/pic/hongjian.jpg"
+          website=""
+          name="Hongjian Wang"
+          position="AI Research Assistant"
+          research_interests=["Clinical Natural Language Processing"]
+    ) }}
+
 ## PhD Students
 
 ---
 
-{{ person(picture="/pic/sonish.jpg"
+<!-- {{ person(picture="/pic/sonish.jpg"
           website="https://sonishsivarajkumar.github.io/homepage/"
           pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
           name="Sonish Sivarajkumar"
           position="Research Assistant, 4th Year PhD Student in Intelligent Systems Program"
           research_interests=["Clinical Natural Language Processing", "Deep Learning"]
-    ) }}
+    ) }} -->
 
 
 {{ person(picture="/pic/yuelyu.jpg"
@@ -139,10 +146,10 @@ title = ""
           research_interests=["AI Agents", "Artificial Intelligence in Healthcare"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
-          name="Averil Ludwick"
-          position="Summer Intern, BS in Computational Biology"
-          research_interests=["AI for Drug Discovery"]
+{{ person(picture="/pic/haoyang.jpg"
+          name="Haoyang Sun"
+          position="Research Assistant, BS in Computer Science, Sichuan University-Pittsburgh Institute"
+          research_interests=["Large Langauge Models"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
