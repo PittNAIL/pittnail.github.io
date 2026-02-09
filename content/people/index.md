@@ -10,7 +10,7 @@ title = ""
           website="https://sites.pitt.edu/~yaw89/"
           pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
           name="Dr. Yanshan Wang"
-          position="Assistant Professor of Health Informatics and Vice Chair of Research"
+          position="Associate Professor (Tenured) of Health Informatics and Vice Chair of Research"
           lab_position="Director of PittNAIL"
           research_interests=["Artificial Intelligence", "Clinical Natural Language Processing", "Deep Learning"]
     ) }}
@@ -46,6 +46,13 @@ title = ""
           research_interests=["Clinical Natural Language Processing"]
     ) }}
 
+{{ person(picture="/pic/jay.jpg"
+          website=""
+          name="Jay Zeng"
+          position="GenAI Software Engineer"
+          research_interests=["Software Engineer", "Generative AI"]
+    ) }}
+
 ## PhD Students
 
 ---
@@ -71,7 +78,7 @@ title = ""
           ]
     ) }}
 
-{{ person(picture="/pic/maneesh.jpg"
+<!-- {{ person(picture="/pic/maneesh.jpg"
           website="https://bmaneesh.github.io/"
           pitt_portal="https://www.isp.pitt.edu/people/maneesh-bilalpur"
           name="Maneesh Bilalpur"
@@ -80,7 +87,7 @@ title = ""
             "Machine Learning for Healthcare",
             "Multimodal Dialogue systems"
           ]
-    ) }}
+    ) }} -->
 
 {{ person(picture="/pic/xizhi.jpg"
           website=""
@@ -106,7 +113,7 @@ title = ""
 ---
 
 
-{{ person(picture="/pic/profile.jpg"
+<!-- {{ person(picture="/pic/profile.jpg"
           name="Thomas Tam"
           position="Research Assistant, MS in Public Policy and Data Analytics"
           research_interests=[
@@ -114,7 +121,7 @@ title = ""
             "Generative Language Model Evaluation and Deployment",
             "Deep Learning"
           ]
-    ) }}
+    ) }} -->
 
 
 
@@ -126,12 +133,6 @@ title = ""
           name="Yufan Ren"
           position="Research Assistant, BS in Health Informatics"
           research_interests=["-"]
-    ) }}
-
-{{ person(picture="/pic/profile.jpg"
-          name="Yuxuan Liao"
-          position="Research Assistant, BS in Health Informatics"
-          research_interests=["Precision Rehabilitation", "Artificial Intelligence in Healthcare"]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
@@ -158,12 +159,20 @@ title = ""
           research_interests=["-"]
     ) }}
 
+{{ person(picture="/pic/profile.jpg"
+          name="Akhil Bodahanapati"
+          position="Research Assistant, BS in Computer Science"
+          research_interests=["AI", "Software Engineer"]
+    ) }}
+
 ---
 
 ## Alumni
 
 - Sonish Sivarajkumar, PhD Graduate. Current: Senior NLP Research Scientist, Eli Lilly.
+- Maneesh Bilalpur, PhD Graduate. Current: TBD.
 - Alisa Stolyar, Research Assistant. Current: AION Biosystems.
+- Yuxuan Liao, Undergrad RA. Current: Master student at Yale University.
 - Yifei Zhao, Summer Research Assistant. Current: Student, NYU.
 - Thomas Tam, Research Assistant. Current: University City Science Center.
 - Jordan Hilsman, AI Research Engineer. Current: Machine Learning Engineer, Children's healthcare of Atlanta.
