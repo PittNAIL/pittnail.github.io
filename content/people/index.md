@@ -159,7 +159,7 @@ title = ""
           research_interests=["-"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/akhil.jpg"
           name="Akhil Bodahanapati"
           position="Research Assistant, BS in Computer Science"
           research_interests=["AI", "Software Engineer"]
