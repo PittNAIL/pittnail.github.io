@@ -7,10 +7,6 @@ compile_sass = true
 feed_filenames = ["rss.xml"]
 generate_feeds = true
 
-[markdown]
-highlight_code = true
-highlight_theme = "ayu-dark"
-
 [extra]
 author = "PittNAIL"
 og_image = "logo.png"
@@ -24,6 +20,7 @@ links = [
     {url = "$BASE_URL", title = "Home"},
     {url = "$BASE_URL/people", title = "People"},
     {url = "$BASE_URL/projects", title = "Projects"},
+    {url = "$BASE_URL/portfolio", title = "Portfolio"},
     {url = "https://scholar.google.com/citations?user=Ggy4_UcAAAAJ&hl=en&oi=ao", title = "Publications"},
     {url = "$BASE_URL/funding", title = "Funding"},
     {url = "$BASE_URL/openings", title = "Openings"},

@@ -308,6 +308,263 @@ img
 .project-spacer
     height: 1rem
 
+// Portfolio Cards {{{
+.portfolio-list
+    margin: 2rem 0
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+.portfolio-card
+    width: 100%
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.95))
+    backdrop-filter: blur(10px)
+    border: 1px solid rgba(0, 53, 148, 0.1)
+    border-radius: 12px
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+    overflow: hidden
+    display: flex
+    flex-direction: column
+    
+    &:hover
+        transform: translateY(-2px)
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)
+
+    .portfolio-header
+        background: linear-gradient(135deg, $primary-color, darken($primary-color, 10%))
+        color: white
+        padding: 2rem
+        border-bottom: 4px solid $accent-color
+
+    .portfolio-title
+        color: white
+        margin: 0
+        font-size: 2rem
+        font-weight: 600
+        letter-spacing: -0.01em
+        
+        &::after
+            display: none
+
+    .portfolio-content
+        padding: 2rem
+        display: flex
+        flex-direction: column
+        flex: 1
+
+    .portfolio-description
+        margin-bottom: 2rem
+        flex: 1
+        
+        h4
+            color: $primary-color
+            margin: 0 0 1rem
+            font-size: 1.2rem
+            font-weight: 600
+        
+        p
+            color: lighten($text-color, 10%)
+            line-height: 1.7
+            font-size: 1.05rem
+            margin: 0
+
+    .portfolio-info
+        margin-bottom: 2rem
+        display: flex
+        flex-direction: column
+        gap: 1rem
+
+        .portfolio-item
+            display: grid
+            grid-template-columns: auto 1fr
+            gap: 1rem
+            align-items: flex-start
+            padding-bottom: 1rem
+            border-bottom: 1px solid rgba(0, 53, 148, 0.1)
+            
+            &:last-child
+                border-bottom: none
+                padding-bottom: 0
+
+            .info-label
+                font-weight: 600
+                color: $primary-color
+                font-size: 0.95rem
+                white-space: nowrap
+                padding-top: 0.25rem
+
+            .info-value
+                color: lighten($text-color, 10%)
+                font-size: 0.95rem
+                line-height: 1.6
+
+    .portfolio-gallery
+        margin-top: auto
+        
+        h4
+            color: $primary-color
+            margin: 0 0 1rem
+            font-size: 1.1rem
+            font-weight: 600
+
+        .gallery-scroll
+            overflow-x: auto
+            scroll-snap-type: x mandatory
+            -webkit-overflow-scrolling: touch
+            scrollbar-width: thin
+            scrollbar-color: rgba(0, 53, 148, 0.3) rgba(0, 53, 148, 0.1)
+            
+            &::-webkit-scrollbar
+                height: 6px
+            
+            &::-webkit-scrollbar-track
+                background: rgba(0, 53, 148, 0.1)
+                border-radius: 3px
+            
+            &::-webkit-scrollbar-thumb
+                background: rgba(0, 53, 148, 0.3)
+                border-radius: 3px
+                
+                &:hover
+                    background: rgba(0, 53, 148, 0.5)
+
+        .gallery-grid
+            display: flex
+            gap: 1rem
+            padding-bottom: 0.5rem
+            min-width: min-content
+            
+            .gallery-item
+                flex: 0 0 200px
+                max-width: 200px
+                overflow: hidden
+                border-radius: 8px
+                box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1)
+                transition: transform 0.2s ease, box-shadow 0.2s ease
+                scroll-snap-align: start
+                scroll-snap-stop: always
+                
+                @media (max-width: 900px)
+                    flex: 0 0 150px
+                    max-width: 150px
+                
+                &:hover
+                    transform: scale(1.03)
+                    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.15)
+
+                img
+                    width: 100%
+                    height: auto
+                    display: block
+                    border-radius: 0
+                    box-shadow: none
+                    transition: transform 0.2s ease
+                    cursor: pointer
+                    
+                    &:hover
+                        transform: none
+
+        .gallery-grid.gallery-grid-large .gallery-item
+            flex: 0 0 260px !important
+            max-width: 260px !important
+            
+            @media (max-width: 900px)
+                flex: 0 0 195px !important
+                max-width: 195px !important
+
+        .gallery-grid.gallery-grid-xlarge .gallery-item
+            flex: 0 0 300px !important
+            max-width: 300px !important
+            
+            @media (max-width: 900px)
+                flex: 0 0 225px !important
+                max-width: 225px !important
+
+// Lightbox
+.lightbox
+    display: none
+    position: absolute
+    z-index: 9999
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    background: white
+    border-radius: 12px
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3)
+    padding: 1.5rem
+    width: 40vw
+    max-width: 600px
+
+    .lightbox-image
+        width: 100%
+        height: auto
+        max-height: 50vh
+        border-radius: 8px
+        box-shadow: none !important
+        object-fit: contain
+        transform: none !important
+        display: block
+        
+        &:hover
+            transform: none !important
+            box-shadow: none !important
+
+    .lightbox-close
+        position: absolute
+        top: -12px
+        right: -12px
+        color: white
+        font-size: 18px
+        font-weight: bold
+        cursor: pointer
+        transition: background 0.2s ease
+        z-index: 10000
+        background: $primary-color
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        line-height: 1
+        
+        &:hover
+            background: darken($primary-color, 10%)
+
+    .lightbox-nav
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        background: $primary-color
+        color: white
+        border: none
+        padding: 0.5rem
+        font-size: 1rem
+        cursor: pointer
+        border-radius: 4px
+        transition: background 0.2s ease
+        z-index: 10000
+        
+        &:hover
+            background: darken($primary-color, 10%)
+
+    .lightbox-prev
+        left: -15px
+
+    .lightbox-next
+        right: -15px
+
+    .lightbox-counter
+        text-align: center
+        margin-top: 0.75rem
+        color: $text-color
+        font-size: 0.85rem
+        background: none
+        padding: 0
+        border-radius: 20px
+        z-index: 10000
+// }}}
+
 // Person Cards
 .person-card
     display: inline-block

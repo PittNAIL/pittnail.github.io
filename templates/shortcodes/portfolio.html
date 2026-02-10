@@ -1,0 +1,85 @@
+<div class="portfolio-card" data-gallery-id="{{ title | slugify }}">
+    <div class="portfolio-header">
+        <h2 class="portfolio-title">{{ title }}</h2>
+    </div>
+    
+    <div class="portfolio-content">
+        <div class="portfolio-description">
+            <h4>Overview</h4>
+            <p>{{ description }}</p>
+        </div>
+
+        <div class="portfolio-info">
+            {% if developers %}
+                <div class="portfolio-item">
+                    <span class="info-label">Developers:</span>
+                    <span class="info-value">{{ developers }}</span>
+                </div>
+            {% endif %}
+            
+            {% if collaborators %}
+                <div class="portfolio-item">
+                    <span class="info-label">Collaborators:</span>
+                    <span class="info-value">{{ collaborators }}</span>
+                </div>
+            {% endif %}
+
+            {% if technology %}
+                <div class="portfolio-item">
+                    <span class="info-label">Technology:</span>
+                    <span class="info-value">{{ technology }}</span>
+                </div>
+            {% endif %}
+
+            {% if publication %}
+                <div class="portfolio-item">
+                    <span class="info-label">Publication:</span>
+                    <span class="info-value">{{ publication }}</span>
+                </div>
+            {% endif %}
+
+            {% if link %}
+                <div class="portfolio-item">
+                    <span class="info-label">Live App:</span>
+                    <span class="info-value"><a href="{{ link }}" target="_blank" rel="noopener noreferrer">{{ link }}</a></span>
+                </div>
+            {% endif %}
+        </div>
+
+        {% if images %}
+            <div class="portfolio-gallery">
+                <h4>Screenshots</h4>
+                <div class="gallery-scroll">
+                    <div class="gallery-grid {% if title == 'SmartBack' %}gallery-grid-large{% endif %}{% if title == 'AIDA' %}gallery-grid-xlarge{% endif %}">
+                        {% for image in images %}
+                            <div class="gallery-item" onclick="openLightbox('{{ title | slugify }}', {{ loop.index0 }})">
+                                <img src="/{{ image }}" alt="{{ title }} screenshot {{ loop.index }}">
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% if images %}
+<!-- Lightbox Modal - Outside of card to avoid overflow issues -->
+<div class="lightbox" id="lightbox-{{ title | slugify }}" onclick="if(event.target === this) closeLightbox('{{ title | slugify }}')">
+    <span class="lightbox-close" onclick="closeLightbox('{{ title | slugify }}')">&times;</span>
+    <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox('{{ title | slugify }}', -1)">&#10094;</button>
+    <img class="lightbox-image" id="lightbox-img-{{ title | slugify }}" src="" alt="">
+    <button class="lightbox-nav lightbox-next" onclick="navigateLightbox('{{ title | slugify }}', 1)">&#10095;</button>
+    <div class="lightbox-counter" id="lightbox-counter-{{ title | slugify }}"></div>
+</div>
+
+<script>
+    (function() {
+        var galleryId = '{{ title | slugify }}';
+        var images = [{% for image in images %}'{{ "/" ~ image | safe }}'{% if not loop.last %}, {% endif %}{% endfor %}];
+        
+        if (!window.lightboxData) window.lightboxData = {};
+        window.lightboxData[galleryId] = { images: images, currentIndex: 0 };
+    })();
+</script>
+{% endif %}
