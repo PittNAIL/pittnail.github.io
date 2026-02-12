@@ -1,5 +1,5 @@
 +++
-title = "Portfolio"
+title = "Applications"
 template = "page.html"
 +++
 
@@ -72,7 +72,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <div class="section-intro fade-in">
-    <p class="lead">Our portfolio showcases the innovative software applications and tools we have developed to advance clinical decision support and healthcare research evaluation.</p>
+    <p class="lead">Our application portfolio showcases the innovative software applications and tools we have developed to advance clinical decision support and healthcare research evaluation.</p>
 </div>
 
 <div class="portfolio-list fade-in">
@@ -110,19 +110,19 @@ document.addEventListener('keydown', function(e) {
 
 {{ portfolio(
     title="AIDA",
-    description="AIDA is an intelligent chatbot that helps individuals find and access assistive technology funding programs in Pennsylvania. The platform uses Retrieval-Augmented Generation to provide personalized program recommendations based on user needs, location, diagnosis, and insurance coverage. Users can interact via text or voice input in English or Spanish.",
+    description="AIDA is an intelligent chatbot that helps individuals find and access assistive technology funding programs in Pennsylvania Assistive Technology Foundation (PATF). The platform uses Retrieval-Augmented Generation to provide personalized program recommendations based on user needs, location, diagnosis, and insurance coverage. Users can interact via text or voice input in English or Spanish.",
     developers="Mariano De Leon, MS",
-    collaborators="Yanshan Wang, PhD, University of Pittsburgh",
+    collaborators="Yanshan Wang, PhD; Ding Dan, PhD; Adit Shah; Gina Novario; University of Pittsburgh",
     technology="Angular 19, TypeScript, Django 5.1.4, MongoDB, Azure OpenAI, Azure AI Search, Azure Cognitive Services, TailwindCSS",
     publication="",
     images=["AIDA/AIDA1.png", "AIDA/AIDA2.png", "AIDA/AIDA3.png"]
 ) }}
 
 {{ portfolio(
-    title="AnatomyAssistant",
+    title="Anatomy Assistant",
     description="AnatomyAssistant is an intelligent AI-powered chatbot designed to enhance the learning experience for anatomy students. The application leverages advanced AI and Retrieval-Augmented Generation (RAG) to provide accurate, course-specific support by answering complex anatomical questions, generating customized quizzes to test knowledge retention, and precisely locating relevant content within video lectures with timestamp navigation. The system integrates with course materials to deliver contextually relevant responses, helping students master difficult concepts and prepare for examinations more effectively.",
     developers="Mariano De Leon, MS",
-    collaborators="Yanshan Wang, PhD, University of Pittsburgh",
+    collaborators="Yanshan Wang, PhD; Reivian Berrios Barillas, DPT; University of Pittsburgh",
     technology="React.js, Flask, OpenAI GPT-4, LangChain, Pinecone, AWS",
     publication="",
     link="http://anatomy-chatbot-alb-470813522.us-east-1.elb.amazonaws.com/",
