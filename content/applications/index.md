@@ -107,7 +107,7 @@ document.addEventListener('keydown', function(e) {
     collaborators="Leming Zhou, PhD; Becky Zhou; Xu Yi; University of Pittsburgh; ",
     technology="React.js, Next.js, Node.js, Express.js, Claude API, Anthropic SDK, Bootstrap, Docker, AWS",
     publication="",
-    link="http://smartback-alb-1910190298.us-east-1.elb.amazonaws.com",
+    <!-- link="http://smartback-alb-1910190298.us-east-1.elb.amazonaws.com", -->
     images=["SmartBack/SmartBack1.png", "SmartBack/SmartBack2.png", "SmartBack/SmartBack3.png"]
 ) }}
 
@@ -129,7 +129,7 @@ document.addEventListener('keydown', function(e) {
     PI="Yanshan Wang, PhD; Reivian Berrios Barillas, DPT; University of Pittsburgh",
     technology="React.js, Flask, OpenAI GPT-4, LangChain, Pinecone, AWS",
     publication="",
-    link="http://anatomy-chatbot-alb-470813522.us-east-1.elb.amazonaws.com/",
+    <!-- link="http://anatomy-chatbot-alb-470813522.us-east-1.elb.amazonaws.com/",-->
     images=["AnatomyAssistant/AnatomyAssistant1.png", "AnatomyAssistant/AnatomyAssistant2.png", "AnatomyAssistant/AnatomyAssistant3.png"]
 ) }}
 
