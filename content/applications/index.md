@@ -72,7 +72,7 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <div class="section-intro fade-in">
-    <p class="lead">Our application portfolio showcases the innovative software applications and tools we have developed to advance clinical decision support and healthcare research evaluation.</p>
+    <p class="lead">Our portfolio showcases the innovative AI applications and tools we have developed to advance clinical care, education, and research.</p>
 </div>
 
 <div class="portfolio-list fade-in">
