@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>PittNAIL</title>
+      <link>https://pittnail.github.io</link>
+      <description>The University of Pittsburgh Clinical NLP and AI Innovation Laboratory</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pittnail.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>2025 Summer BBQ Party</title>
+          <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pittnail.github.io/blog/blogpost0/</link>
+          <guid>https://pittnail.github.io/blog/blogpost0/</guid>
+          <description xml:base="https://pittnail.github.io/blog/blogpost0/">&lt;p&gt;BBQ Party for Celebrating Sonish&#x27;s Graduation
+&lt;img src=&quot;&#x2F;pic&#x2F;lab_25.jpg&quot; alt=&quot;Our Lab at the BBQ Party for Celebrating Sonish&amp;#39;s Graduation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Congratulations, Dr. Sivarajkumar!
+&lt;img src=&quot;&#x2F;pic&#x2F;sonish_grad.jpg&quot; alt=&quot;Celebrating Sonish&amp;#39;s Graduation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
