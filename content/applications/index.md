@@ -26,17 +26,9 @@ function openLightbox(galleryId, index) {
     var img = document.getElementById('lightbox-img-' + galleryId);
     var counter = document.getElementById('lightbox-counter-' + galleryId);
     
-    // Find the project card and position lightbox relative to it
-    var card = document.querySelector('[data-gallery-id="' + galleryId + '"]');
-    if (card) {
-        var cardRect = card.getBoundingClientRect();
-        var cardCenterY = cardRect.top + (cardRect.height / 2) + window.scrollY - (window.innerHeight * 0.15);
-        lightbox.style.top = cardCenterY + 'px';
-    }
-    
     img.src = data.images[index];
     counter.textContent = (index + 1) + ' / ' + data.images.length;
-    lightbox.style.display = 'block';
+    lightbox.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 }
 

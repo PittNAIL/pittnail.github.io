@@ -484,35 +484,34 @@ img
 // Lightbox
 .lightbox
     display: none
-    position: absolute
+    position: fixed
     z-index: 9999
-    left: 50%
-    transform: translateX(-50%) translateY(-50%)
-    background: white
-    border-radius: 12px
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3)
-    padding: 1.5rem
-    width: 40vw
-    max-width: 600px
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0, 0, 0, 0.85)
+    align-items: center
+    justify-content: center
 
     .lightbox-image
-        width: 100%
+        max-width: 90vw
+        max-height: 85vh
+        width: auto
         height: auto
-        max-height: 50vh
         border-radius: 8px
-        box-shadow: none !important
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important
         object-fit: contain
         transform: none !important
         display: block
-        
+
         &:hover
             transform: none !important
-            box-shadow: none !important
 
     .lightbox-close
-        position: absolute
-        top: -12px
-        right: -12px
+        position: fixed
+        top: 1rem
+        right: 1rem
         color: white
         font-size: 18px
         font-weight: bold
@@ -520,47 +519,49 @@ img
         transition: background 0.2s ease
         z-index: 10000
         background: $primary-color
-        width: 30px
-        height: 30px
+        width: 36px
+        height: 36px
         border-radius: 50%
         display: flex
         align-items: center
         justify-content: center
         line-height: 1
-        
+
         &:hover
             background: darken($primary-color, 10%)
 
     .lightbox-nav
-        position: absolute
+        position: fixed
         top: 50%
         transform: translateY(-50%)
         background: $primary-color
         color: white
         border: none
-        padding: 0.5rem
-        font-size: 1rem
+        padding: 0.6rem 0.9rem
+        font-size: 1.25rem
         cursor: pointer
         border-radius: 4px
         transition: background 0.2s ease
         z-index: 10000
-        
+
         &:hover
             background: darken($primary-color, 10%)
 
     .lightbox-prev
-        left: -15px
+        left: 0.75rem
 
     .lightbox-next
-        right: -15px
+        right: 0.75rem
 
     .lightbox-counter
-        text-align: center
-        margin-top: 0.75rem
-        color: $text-color
-        font-size: 0.85rem
-        background: none
-        padding: 0
+        position: fixed
+        bottom: 1.5rem
+        left: 50%
+        transform: translateX(-50%)
+        color: white
+        font-size: 0.9rem
+        background: rgba(0, 0, 0, 0.5)
+        padding: 0.25rem 0.75rem
         border-radius: 20px
         z-index: 10000
 // }}}
