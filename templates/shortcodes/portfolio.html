@@ -71,20 +71,10 @@
 </div>
 
 {% if images %}
-<!-- Lightbox Modal - Outside of card to avoid overflow issues -->
-<div class="lightbox" id="lightbox-{{ title | slugify }}" onclick="if(event.target === this) closeLightbox('{{ title | slugify }}')">
-    <span class="lightbox-close" onclick="closeLightbox('{{ title | slugify }}')">&times;</span>
-    <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox('{{ title | slugify }}', -1)">&#10094;</button>
-    <img class="lightbox-image" id="lightbox-img-{{ title | slugify }}" src="" alt="">
-    <button class="lightbox-nav lightbox-next" onclick="navigateLightbox('{{ title | slugify }}', 1)">&#10095;</button>
-    <div class="lightbox-counter" id="lightbox-counter-{{ title | slugify }}"></div>
-</div>
-
 <script>
     (function() {
         var galleryId = '{{ title | slugify }}';
         var images = [{% for image in images %}'{{ "/" ~ image | safe }}'{% if not loop.last %}, {% endif %}{% endfor %}];
-        
         if (!window.lightboxData) window.lightboxData = {};
         window.lightboxData[galleryId] = { images: images, currentIndex: 0 };
     })();

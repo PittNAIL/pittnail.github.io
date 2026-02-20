@@ -88,6 +88,15 @@
             {% endblock content %}
         </main>
 
+        <!-- Global Lightbox – direct child of body to avoid stacking-context issues -->
+        <div id="global-lightbox" class="lightbox" onclick="if(event.target===this && window._activeLightboxId) closeLightbox(window._activeLightboxId)">
+            <span class="lightbox-close" onclick="if(window._activeLightboxId) closeLightbox(window._activeLightboxId)">&times;</span>
+            <button class="lightbox-nav lightbox-prev" onclick="if(window._activeLightboxId) navigateLightbox(window._activeLightboxId,-1)">&#10094;</button>
+            <img class="lightbox-image" id="global-lightbox-img" src="" alt="">
+            <button class="lightbox-nav lightbox-next" onclick="if(window._activeLightboxId) navigateLightbox(window._activeLightboxId,1)">&#10095;</button>
+            <div class="lightbox-counter" id="global-lightbox-counter"></div>
+        </div>
+
         {% block footer %}
             <footer role="contentinfo" class="site-footer fade-in">
                 <hr />

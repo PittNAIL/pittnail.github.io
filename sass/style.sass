@@ -436,91 +436,86 @@ img
             min-width: min-content
             
             .gallery-item
-                flex: 0 0 200px
-                max-width: 200px
+                flex: 0 0 220px
+                height: 140px
                 overflow: hidden
                 border-radius: 8px
                 box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1)
                 transition: transform 0.2s ease, box-shadow 0.2s ease
                 scroll-snap-align: start
                 scroll-snap-stop: always
-                
+                cursor: pointer
+
                 @media (max-width: 900px)
-                    flex: 0 0 150px
-                    max-width: 150px
-                
+                    flex: 0 0 44vw
+                    height: 28vw
+
                 &:hover
                     transform: scale(1.03)
                     box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.15)
 
                 img
                     width: 100%
-                    height: auto
+                    height: 100%
+                    object-fit: cover
                     display: block
                     border-radius: 0
                     box-shadow: none
-                    transition: transform 0.2s ease
                     cursor: pointer
-                    
-                    &:hover
-                        transform: none
 
         .gallery-grid.gallery-grid-large .gallery-item
-            flex: 0 0 260px !important
-            max-width: 260px !important
-            
+            flex: 0 0 280px !important
+            height: 175px !important
+
             @media (max-width: 900px)
-                flex: 0 0 195px !important
-                max-width: 195px !important
+                flex: 0 0 48vw !important
+                height: 30vw !important
 
         .gallery-grid.gallery-grid-xlarge .gallery-item
-            flex: 0 0 300px !important
-            max-width: 300px !important
-            
+            flex: 0 0 320px !important
+            height: 200px !important
+
             @media (max-width: 900px)
-                flex: 0 0 225px !important
-                max-width: 225px !important
+                flex: 0 0 52vw !important
+                height: 33vw !important
 
 // Lightbox
 .lightbox
     display: none
     position: fixed
     z-index: 9999
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background: rgba(0, 0, 0, 0.85)
+    inset: 0
+    background: rgba(0, 0, 0, 0.88)
     align-items: center
     justify-content: center
 
     .lightbox-image
-        max-width: 90vw
-        max-height: 85vh
+        display: block
+        max-width: 92vw
+        max-height: 88vh
         width: auto
         height: auto
-        border-radius: 8px
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important
         object-fit: contain
+        border-radius: 6px
         transform: none !important
-        display: block
+        box-shadow: none !important
 
         &:hover
             transform: none !important
+            box-shadow: none !important
 
     .lightbox-close
-        position: fixed
+        position: absolute
         top: 1rem
         right: 1rem
         color: white
-        font-size: 18px
+        font-size: 20px
         font-weight: bold
         cursor: pointer
         transition: background 0.2s ease
-        z-index: 10000
-        background: $primary-color
-        width: 36px
-        height: 36px
+        background: rgba(255, 255, 255, 0.2)
+        width: 40px
+        height: 40px
         border-radius: 50%
         display: flex
         align-items: center
@@ -528,42 +523,50 @@ img
         line-height: 1
 
         &:hover
-            background: darken($primary-color, 10%)
+            background: rgba(255, 255, 255, 0.35)
 
     .lightbox-nav
-        position: fixed
+        position: absolute
         top: 50%
         transform: translateY(-50%)
-        background: $primary-color
+        background: rgba(255, 255, 255, 0.2)
         color: white
         border: none
-        padding: 0.6rem 0.9rem
+        width: 44px
+        height: 44px
+        display: flex
+        align-items: center
+        justify-content: center
         font-size: 1.25rem
         cursor: pointer
-        border-radius: 4px
+        border-radius: 50%
         transition: background 0.2s ease
-        z-index: 10000
 
         &:hover
-            background: darken($primary-color, 10%)
+            background: rgba(255, 255, 255, 0.35)
+
+        @media (max-width: 600px)
+            width: 36px
+            height: 36px
+            font-size: 1rem
 
     .lightbox-prev
-        left: 0.75rem
+        left: 1rem
 
     .lightbox-next
-        right: 0.75rem
+        right: 1rem
 
     .lightbox-counter
-        position: fixed
-        bottom: 1.5rem
+        position: absolute
+        bottom: 1.25rem
         left: 50%
         transform: translateX(-50%)
         color: white
-        font-size: 0.9rem
-        background: rgba(0, 0, 0, 0.5)
-        padding: 0.25rem 0.75rem
+        font-size: 0.85rem
+        background: rgba(0, 0, 0, 0.45)
+        padding: 0.2rem 0.7rem
         border-radius: 20px
-        z-index: 10000
+        white-space: nowrap
 // }}}
 
 // Person Cards
