@@ -14,8 +14,7 @@ page_class = "people-page"
           pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
           name="Dr. Yanshan Wang"
           position="Associate Professor (Tenured) of Health Informatics and Vice Chair of Research"
-          lab_position="Director of PittNAIL"
-          research_interests=["Artificial Intelligence", "Clinical Natural Language Processing", "Deep Learning"]
+          lab_position="Principle Investigator of PittNAIL"
     ) }}
 
 ## Staff
@@ -159,7 +158,7 @@ page_class = "people-page"
 {{ person(picture="/pic/profile.jpg"
           name="Becky Zhou"
           position="Research Assistant, BS in Health Informatics"
-          research_interests=["-"]
+          research_interests=["Usability Testing"]
     ) }}
 
 {{ person(picture="/pic/akhil.jpg"
