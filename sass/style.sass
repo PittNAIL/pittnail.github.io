@@ -588,7 +588,6 @@ article.people-page
     display: grid
     grid-template-columns: repeat(3, 1fr)
     gap: 1.5rem
-    align-items: start
 
     > *:not(.person-card)
         grid-column: 1 / -1
@@ -597,6 +596,7 @@ article.people-page
         display: block
         width: auto
         margin: 0
+        height: 100%
 
     @media (max-width: 900px)
         grid-template-columns: repeat(2, 1fr)
