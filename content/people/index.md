@@ -59,15 +59,6 @@ page_class = "people-page"
 
 ---
 
-<!-- {{ person(picture="/pic/sonish.jpg"
-          website="https://sonishsivarajkumar.github.io/homepage/"
-          pitt_portal="https://www.isp.pitt.edu/people/sonish-sivarajkumar"
-          name="Sonish Sivarajkumar"
-          position="Research Assistant, 4th Year PhD Student in Intelligent Systems Program"
-          research_interests=["Clinical Natural Language Processing", "Deep Learning"]
-    ) }} -->
-
-
 {{ person(picture="/pic/yuelyu.jpg"
           website="https://joydajunspacecraft.github.io/YuelyuJi.github.io"
           name="Yuelyu Ji"
@@ -79,17 +70,6 @@ page_class = "people-page"
             "Large Language Model Deployment"
           ]
     ) }}
-
-<!-- {{ person(picture="/pic/maneesh.jpg"
-          website="https://bmaneesh.github.io/"
-          pitt_portal="https://www.isp.pitt.edu/people/maneesh-bilalpur"
-          name="Maneesh Bilalpur"
-          position="Research Assistant, 4th Year PhD Student in Intelligent Systems Program"
-          research_interests=[
-            "Machine Learning for Healthcare",
-            "Multimodal Dialogue systems"
-          ]
-    ) }} -->
 
 {{ person(picture="/pic/xizhi.jpg"
           website=""
@@ -177,7 +157,7 @@ page_class = "people-page"
           position="Current: Senior NLP Research Scientist, Eli Lilly"    ) }}
 
 {{ person(picture="/pic/maneesh.jpg"
-          website=""
+          website="https://bmaneesh.github.io/"
           name="Maneesh Bilalpur, PhD Graduate"
           position="Current: "    ) }}
 
