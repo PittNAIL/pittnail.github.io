@@ -168,9 +168,9 @@ page_class = "people-page"
           research_interests=["AI", "Software Engineer"]
     ) }}
 
----
-
 ## Alumni
+
+---
 
 {{ person(picture="/pic/sonish.jpg"
           website="https://sonishsivarajkumar.github.io/"
