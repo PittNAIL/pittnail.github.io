@@ -29,7 +29,7 @@
 {%- endblock og_image %}
 
 {% block content %}
-    <article>
+    <article class="{{ page.extra.page_class | default(value='') }}">
         <h1>{{ page.title }}</h1>
 
         {% if page.date %}

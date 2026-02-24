@@ -21,10 +21,12 @@
                 {% endif %}
             </div>
 
+            {% set ri = research_interests | default(value=[]) %}
+            {% if ri | length > 0 and ri[0] != "" %}
             <div class="research-interests">
                 <h4>Research Interests</h4>
                 <p>
-                    {% for research_interest in research_interests %}
+                    {% for research_interest in ri %}
                         {% if loop.last %}
                             {{ research_interest }}
                         {% else %}
@@ -33,6 +35,7 @@
                     {% endfor %}
                 </p>
             </div>
+            {% endif %}
         </figcaption>
     </figure>
 </div>
