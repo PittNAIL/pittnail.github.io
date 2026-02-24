@@ -173,96 +173,112 @@ title = ""
           website="https://sonishsivarajkumar.github.io/"
           name="Sonish Sivarajkumar, PhD Graduate"
           position="Current: Senior NLP Research Scientist, Eli Lilly"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/maneesh.jpg"
           website=""
           name="Maneesh Bilalpur, PhD Graduate"
           position="Current: "
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/david.jpg"
           website="https://oniani.ai/"
           name="David Oniani, Machine Learning Research Scientist"
           position="Current: Applied Scientist II, Amazon"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/jordan.jpg"
           website=""
           name="Jordan Hilsman, AI Research Engineer"
           position="Current: Machine Learning Engineer, Children's healthcare of Atlanta"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website=""
           name="Kate Tikhonova, Research Project Manager"
           position="Current: "
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/thomas.jpg"
           website=""
           name="Thomas Tam, MS Research Assistant"
           position="Current: University City Science Center"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/hunter.jpg"
           website=""
           name="Hunter Osterhoudt, MS Research Assistant"
           position="Current: "
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/samuel.jpg"
           website=""
           name="Samuel Viggiano, MS Research Assistant"
           position="Current: Member of the Board of Advisors at MSHI"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/fengyi.jpg"
           website=""
           name="Fengyi Gao, MS Research Assistant"
           position="Current: PhD Student in ISP, University of Pittsburgh"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/haneef.jpg"
           website=""
           name="Haneef Ahamed, MS Research Assistant"
           position="Current: Data Scientist, Dynamics Inc."
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website=""
           name="Yifei Zhao, Undergrad Summer Intern"
           position="Current: Student, NYU"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website="https://www.linkedin.com/in/ananyagm/"
           name="Ananya Gubbi Mohanbabu, MS Summer Intern"
           position="Current: PhD student, UT Austin"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/alisa.jpg"
           website=""
           name="Alisa Stolyar, Undergrad Research Assistant"
           position="Current: AION Biosystems"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website=""
           name="Yuxuan Liao, Undergrad Research Assistant"
           position="Current: MS in Health Informatics, Yale University"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/premkumar.jpg"
           website=""
           name="Premkumar Chandrasekar, Undergrad Research Assistant"
           position="Current: MS in Computer Science, Northeastern University"
+          research_interests=[""]
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website=""
           name="Karleigh McCarthy, Undergrad Research Assistant"
           position="Current: Data Analyst, Kaleida Health"
+          research_interests=[""]
     ) }}
 
 <!-- 
