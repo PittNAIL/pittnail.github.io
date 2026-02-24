@@ -169,6 +169,103 @@ title = ""
 
 ## Alumni
 
+{{ person(picture="/pic/sonish.jpg"
+          website="https://sonishsivarajkumar.github.io/"
+          name="Sonish Sivarajkumar, PhD Graduate"
+          position="Current: Senior NLP Research Scientist, Eli Lilly"
+    ) }}
+
+{{ person(picture="/pic/maneesh.jpg"
+          website=""
+          name="Maneesh Bilalpur, PhD Graduate"
+          position="Current: "
+    ) }}
+
+{{ person(picture="/pic/david.jpg"
+          website="https://oniani.ai/"
+          name="David Oniani, Machine Learning Research Scientist"
+          position="Current: Applied Scientist II, Amazon"
+    ) }}
+
+{{ person(picture="/pic/jordan.jpg"
+          website=""
+          name="Jordan Hilsman, AI Research Engineer"
+          position="Current: Machine Learning Engineer, Children's healthcare of Atlanta"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Kate Tikhonova, Research Project Manager"
+          position="Current: "
+    ) }}
+
+{{ person(picture="/pic/thomas.jpg"
+          website=""
+          name="Thomas Tam, MS Research Assistant"
+          position="Current: University City Science Center"
+    ) }}
+
+{{ person(picture="/pic/hunter.jpg"
+          website=""
+          name="Hunter Osterhoudt, MS Research Assistant"
+          position="Current: "
+    ) }}
+
+{{ person(picture="/pic/samuel.jpg"
+          website=""
+          name="Samuel Viggiano, MS Research Assistant"
+          position="Current: Member of the Board of Advisors at MSHI"
+    ) }}
+
+{{ person(picture="/pic/fengyi.jpg"
+          website=""
+          name="Fengyi Gao, MS Research Assistant"
+          position="Current: PhD Student in ISP, University of Pittsburgh"
+    ) }}
+
+{{ person(picture="/pic/haneef.jpg"
+          website=""
+          name="Haneef Ahamed, MS Research Assistant"
+          position="Current: Data Scientist, Dynamics Inc."
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Yifei Zhao, Undergrad Summer Intern"
+          position="Current: Student, NYU"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website="https://www.linkedin.com/in/ananyagm/"
+          name="Ananya Gubbi Mohanbabu, MS Summer Intern"
+          position="Current: PhD student, UT Austin"
+    ) }}
+
+{{ person(picture="/pic/alisa.jpg"
+          website=""
+          name="Alisa Stolyar, Undergrad Research Assistant"
+          position="Current: AION Biosystems"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Yuxuan Liao, Undergrad Research Assistant"
+          position="Current: MS in Health Informatics, Yale University"
+    ) }}
+
+{{ person(picture="/pic/premkumar.jpg"
+          website=""
+          name="Premkumar Chandrasekar, Undergrad Research Assistant"
+          position="Current: MS in Computer Science, Northeastern University"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Karleigh McCarthy, Undergrad Research Assistant"
+          position="Current: Data Analyst, Kaleida Health"
+    ) }}
+
+<!-- 
 - Sonish Sivarajkumar, PhD Graduate. Current: Senior NLP Research Scientist, Eli Lilly.
 - Maneesh Bilalpur, PhD Graduate. Current: TBD.
 - Alisa Stolyar, Research Assistant. Current: AION Biosystems.
@@ -188,3 +285,4 @@ title = ""
 - [Stephen Shaffran](https://www.linkedin.com/in/stephen-shaffran-bb0839225/), Research Assistant. 
 - [Chenyu Li](https://www.linkedin.com/in/chenyu-li-80375196/), Research Assistant. Current: AI Research Engineer, Pitt.
 - Shiven Verma, High School Student Research Assistant at Upper St. Clair High School. Current: Student, Pitt.
+-->
