@@ -62,7 +62,7 @@ page_class = "people-page"
 {{ person(picture="/pic/yuelyu.jpg"
           website="https://joydajunspacecraft.github.io/YuelyuJi.github.io"
           name="Yuelyu Ji"
-          position="Research Assistant, 2nd Year PhD Student in Information Science"
+          position="Research Assistant, PhD Student in Information Science"
           research_interests=[
             "Natural Language Understanding in Biomedical Area",
             "Multi-Model Generation, Reinforcement Learning",
@@ -74,7 +74,7 @@ page_class = "people-page"
 {{ person(picture="/pic/xizhi.jpg"
           website=""
           name="Xizhi Wu"
-          position="Research Assistant, 1st Year PhD Student in Health Informatics"
+          position="Research Assistant, PhD Student in Health Informatics"
           research_interests=["Graph Neural Networks", "Large Language Models", "Clinical Decision Support"]
     ) }}
 
@@ -82,11 +82,10 @@ page_class = "people-page"
 {{ person(picture="/pic/Hang.png"
           website=""
           name="Hang (Brady) Zhang"
-          position="Research Assistant, 1st Year PhD Student in Intelligent Systems Program"
+          position="Research Assistant, PhD Student in Intelligent Systems Program"
           research_interests=[
-            "Neural Networks",
             "Large Language Models",
-            "Clinical Natural Language Processing"
+            "Reinforcement Learning"
           ]
     ) }}
 
