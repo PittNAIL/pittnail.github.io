@@ -152,83 +152,103 @@ page_class = "people-page"
 
 {{ person(picture="/pic/sonish.jpg"
           website="https://sonishsivarajkumar.github.io/"
-          name="Sonish Sivarajkumar, PhD Graduate"
-          position="Current: Senior NLP Research Scientist, Eli Lilly"    ) }}
+          name="Sonish Sivarajkumar"
+          position="PhD Graduate"
+          current="Senior NLP Research Scientist, Eli Lilly"
+    ) }}
 
 {{ person(picture="/pic/maneesh.jpg"
           website="https://bmaneesh.github.io/"
-          name="Maneesh Bilalpur, PhD Graduate"
-          position="Current: "    ) }}
+          name="Maneesh Bilalpur"
+          position="PhD Graduate"
+          current=""
+    ) }}
 
 {{ person(picture="/pic/david.jpg"
           website="https://oniani.ai/"
-          name="David Oniani, Machine Learning Research Scientist"
-          position="Current: Applied Scientist II, Amazon"    ) }}
+          name="David Oniani"
+          position="Machine Learning Research Scientist"
+          current="Applied Scientist II, Amazon"
+    ) }}
 
 {{ person(picture="/pic/jordan.jpg"
-          website=""
-          name="Jordan Hilsman, AI Research Engineer"
-          position="Current: Machine Learning Engineer, Children's healthcare of Atlanta"    ) }}
+          name="Jordan Hilsman"
+          position="AI Research Engineer"
+          current="Machine Learning Engineer, Children's Healthcare of Atlanta"
+    ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Kate Tikhonova, Research Project Manager"
-          position="Current: "    ) }}
+          name="Kate Tikhonova"
+          position="Research Project Manager"
+          current=""
+    ) }}
 
 {{ person(picture="/pic/thomas.jpg"
-          website=""
-          name="Thomas Tam, MS Research Assistant"
-          position="Current: University City Science Center"    ) }}
+          name="Thomas Tam"
+          position="MS Research Assistant"
+          current="University City Science Center"
+    ) }}
 
 {{ person(picture="/pic/hunter.jpg"
-          website=""
-          name="Hunter Osterhoudt, MS Research Assistant"
-          position="Current: "    ) }}
+          name="Hunter Osterhoudt"
+          position="MS Research Assistant"
+          current=""
+    ) }}
 
 {{ person(picture="/pic/samuel.jpg"
-          website=""
-          name="Samuel Viggiano, MS Research Assistant"
-          position="Current: Member of the Board of Advisors at MSHI"    ) }}
+          name="Samuel Viggiano"
+          position="MS Research Assistant"
+          current="Member of the Board of Advisors at MSHI"
+    ) }}
 
 {{ person(picture="/pic/fengyi.jpg"
-          website=""
-          name="Fengyi Gao, MS Research Assistant"
-          position="Current: PhD Student in ISP, University of Pittsburgh"    ) }}
+          name="Fengyi Gao"
+          position="MS Research Assistant"
+          current="PhD Student in ISP, University of Pittsburgh"
+    ) }}
 
 {{ person(picture="/pic/haneef.jpg"
-          website=""
-          name="Haneef Ahamed, MS Research Assistant"
-          position="Current: Data Scientist, Dynamics Inc."    ) }}
+          name="Haneef Ahamed"
+          position="MS Research Assistant"
+          current="Data Scientist, Dynamics Inc."
+    ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Yifei Zhao, Undergrad Summer Intern"
-          position="Current: Student, NYU"    ) }}
+          name="Yifei Zhao"
+          position="Undergrad Summer Intern"
+          current="Student, NYU"
+    ) }}
 
 {{ person(picture="/pic/profile.jpg"
           website="https://www.linkedin.com/in/ananyagm/"
-          name="Ananya Gubbi Mohanbabu, MS Summer Intern"
-          position="Current: PhD student, UT Austin"    ) }}
+          name="Ananya Gubbi Mohanbabu"
+          position="MS Summer Intern"
+          current="PhD Student, UT Austin"
+    ) }}
 
 {{ person(picture="/pic/alisa.jpg"
-          website=""
-          name="Alisa Stolyar, Undergrad Research Assistant"
-          position="Current: AION Biosystems"    ) }}
+          name="Alisa Stolyar"
+          position="Undergrad Research Assistant"
+          current="AION Biosystems"
+    ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Yuxuan Liao, Undergrad Research Assistant"
-          position="Current: MS in Health Informatics, Yale University"    ) }}
+          name="Yuxuan Liao"
+          position="Undergrad Research Assistant"
+          current="MS in Health Informatics, Yale University"
+    ) }}
 
 {{ person(picture="/pic/premkumar.jpg"
-          website=""
-          name="Premkumar Chandrasekar, Undergrad Research Assistant"
-          position="Current: MS in Computer Science, Northeastern University"    ) }}
+          name="Premkumar Chandrasekar"
+          position="Undergrad Research Assistant"
+          current="MS in Computer Science, Northeastern University"
+    ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Karleigh McCarthy, Undergrad Research Assistant"
-          position="Current: Data Analyst, Kaleida Health"    ) }}
+          name="Karleigh McCarthy"
+          position="Undergrad Research Assistant"
+          current="Data Analyst, Kaleida Health"
+    ) }}
 
 <!-- 
 - Sonish Sivarajkumar, PhD Graduate. Current: Senior NLP Research Scientist, Eli Lilly.

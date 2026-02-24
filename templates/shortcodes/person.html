@@ -21,6 +21,12 @@
                 {% endif %}
             </div>
 
+            {% if current %}
+            <div class="person-current">
+                <span class="current-label">Current</span>{{ current }}
+            </div>
+            {% endif %}
+
             {% set ri = research_interests | default(value=[]) %}
             {% if ri | length > 0 and ri[0] != "" %}
             <div class="research-interests">
