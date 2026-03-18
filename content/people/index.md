@@ -41,6 +41,13 @@ page_class = "people-page"
           research_interests=["Interface Design", "Generative AI"]
     ) }}
 
+{{ person(picture="/pic/maneesh.jpg"
+          website="https://bmaneesh.github.io/"
+          name="Maneesh Bilalpur"
+          position="AI Research Scientist"
+          research_interests=[]
+    ) }}
+
 {{ person(picture="/pic/hongjian.jpg"
           website=""
           name="Hongjian Wang"
@@ -161,7 +168,7 @@ page_class = "people-page"
           website="https://bmaneesh.github.io/"
           name="Maneesh Bilalpur"
           position="PhD Graduate"
-          current=""
+          current="Staff AI Research Scientist, PittNAIL"
     ) }}
 
 {{ person(picture="/pic/david.jpg"

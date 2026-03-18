@@ -23,6 +23,10 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Mar, 2026. Welcome Maneesh Bilalpur back to join the lab as a staff AI Research Scientist.
+- Feb, 2026. Congratulations to our undergraduate research assistant Yufan Ren on being accepted into Johns Hopkins graduate school!
+- Feb, 2026. All five of our submissions to the AMIA 2026 Informatics Summit were accepted, including 2 full papers, 2 panels, and 1 Ignite talk. Congratulations to Xizhi Wu, Hang Zhang, and all collaborators!
+- Jan, 2026. Congratulations to our undergraduate research assistant Becky Zhou on being accepted into Yale University's graduate school with a $40k scholarship!
 - Aug, 2025. We have received a 4-year R01 grant “ARISE-CARE: Advancing Rehabilitation for Stroke Patients with AI to Elevate Therapy Care”, funded by the NIH/National Library of Medicine with a total award amount of ~$1.5m.
 - Jul, 2025. Sonish successfully defended his PhD dissertation. Congratulations, Dr. Sivarajkumar! He will join Eli Lilly as a Senior NLP Research Scientist.
 - May, 2025. Our paper "Mitigating the risk of health inequity exacerbated by large language models" is published in the Nature npj Digital Medicine.
