@@ -45,7 +45,7 @@ page_class = "people-page"
           website="https://bmaneesh.github.io/"
           name="Maneesh Bilalpur"
           position="AI Research Scientist"
-          research_interests=["Multimodal AI", "Generative AI]
+          research_interests=["Multimodal AI", "Generative AI"]
     ) }}
 
 {{ person(picture="/pic/hongjian.jpg"
