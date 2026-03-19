@@ -852,6 +852,132 @@ pre
         gap: 0.5rem
 // }}}
 
+// Services Page {{{
+.services-page
+    .services-section
+        margin-bottom: 3rem
+
+    .services-category
+        margin-bottom: 1.5rem
+
+    .category-header
+        padding-bottom: 0.75rem
+        border-bottom: 3px solid $accent-color
+        margin-bottom: 0
+
+    .category-title
+        font-size: 1.75rem
+        font-weight: 700
+        color: $primary-color
+        margin: 0
+        display: flex
+        align-items: center
+        gap: 0.75rem
+
+        i
+            font-size: 1.5rem
+            color: $accent-color
+
+    .service-card
+        background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.95))
+        border: 1px solid rgba(0, 53, 148, 0.08)
+        border-left: 4px solid $primary-color
+        border-radius: 0 12px 12px 0
+        margin-bottom: 1.5rem
+        box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.08)
+        transition: transform 0.2s ease, box-shadow 0.2s ease
+        overflow: hidden
+
+        &:hover
+            transform: translateY(-2px)
+            box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.12)
+
+    .service-header
+        background: linear-gradient(135deg, rgba(0, 53, 148, 0.04), rgba(0, 53, 148, 0.08))
+        padding: 1.25rem 2rem
+        border-bottom: 1px solid rgba(0, 53, 148, 0.08)
+
+    .service-role
+        font-size: 1.35rem
+        font-weight: 700
+        color: $primary-color
+        margin: 0 0 0.25rem
+        letter-spacing: -0.01em
+
+    .service-org
+        font-size: 0.95rem
+        color: lighten($text-color, 15%)
+        font-style: italic
+        display: block
+
+    .service-body
+        padding: 1.5rem 2rem
+
+        > p
+            line-height: 1.7
+            color: lighten($text-color, 5%)
+            font-size: 1rem
+
+        h4
+            font-size: 1.05rem
+            font-weight: 600
+            color: $primary-color
+            margin: 1.5rem 0 0.75rem
+            padding-bottom: 0.35rem
+            border-bottom: 2px solid rgba($accent-color, 0.4)
+            display: inline-block
+
+    .service-highlights
+        list-style: none
+        padding: 0
+        margin: 0 0 1.25rem
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+        gap: 0.5rem
+
+        li
+            padding: 0.5rem 0.75rem 0.5rem 1.5rem
+            position: relative
+            font-size: 0.95rem
+            line-height: 1.5
+            color: lighten($text-color, 8%)
+            background: rgba(0, 53, 148, 0.02)
+            border-radius: 6px
+            transition: background 0.2s ease
+
+            &::before
+                content: ''
+                position: absolute
+                left: 0.5rem
+                top: 0.85rem
+                width: 8px
+                height: 8px
+                background: $accent-color
+                border-radius: 50%
+
+            &:hover
+                background: rgba(0, 53, 148, 0.05)
+
+    .service-note
+        font-size: 0.95rem
+        color: lighten($text-color, 15%)
+        font-style: italic
+        margin: 0
+        padding-top: 0.5rem
+        border-top: 1px solid rgba(0, 53, 148, 0.06)
+
+@media screen and (max-width: 768px)
+    .services-page
+        .service-header
+            padding: 1rem 1.25rem
+
+        .service-body
+            padding: 1.25rem
+
+        .service-highlights
+            grid-template-columns: 1fr
+// }}}
+
 // Animations {{{
 @keyframes fadeIn
     from
