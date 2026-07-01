@@ -13,7 +13,7 @@ page_class = "people-page"
           website="https://sites.pitt.edu/~yaw89/"
           pitt_portal="https://www.shrs.pitt.edu/people/yanshan-wang"
           name="Dr. Yanshan Wang"
-          position="Associate Professor (Tenured) of Health Informatics and Vice Chair of Research"
+          position="Associate Professor (Tenured) of Biomedical Informatics and Vice Chair of Research"
           lab_position="Principle Investigator of PittNAIL"
     ) }}
 
@@ -22,11 +22,6 @@ page_class = "people-page"
 ---
 
 
-{{ person(picture="/pic/mingu.jpg"
-          name="MinGu Kwak"
-          position="Machine Learning Research Scientist"
-          research_interests=["Clinical Data Warehouse", "Clinical Natural Language Processing", "Foundation Models", "Clinical Research Informatics"]
-    ) }}
 
 {{ person(picture="/pic/chenyu.jpg"
           name="Chenyu Li"
@@ -35,17 +30,9 @@ page_class = "people-page"
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          website=""
-          name="Mariano De Leon"
-          position="Software Developer"
-          research_interests=["Interface Design", "Generative AI"]
-    ) }}
-
-{{ person(picture="/pic/maneesh.jpg"
-          website="https://bmaneesh.github.io/"
-          name="Maneesh Bilalpur"
+          name="Mohammad Jakir Hossain"
           position="AI Research Scientist"
-          research_interests=["Multimodal AI", "Generative AI"]
+          research_interests=["Large Language Models", "Knowledge Graph"]
     ) }}
 
 {{ person(picture="/pic/hongjian.jpg"
@@ -96,6 +83,12 @@ page_class = "people-page"
           ]
     ) }}
 
+{{ person(picture="/pic/profile.jpg"
+          name="Simon Bin Akter"
+          position="Research Assistant, PhD Student in Intelligent Systems Program"
+          research_interests=["Large Language Models", "Clinical Natural Language Processing"]
+    ) }}
+
 ## Master's Students
 
 ---
@@ -117,58 +110,48 @@ page_class = "people-page"
 
 ---
 
-{{ person(picture="/pic/Yufan.jpg"
-          name="Yufan Ren"
-          position="Research Assistant, BS in Health Informatics"
-          research_interests=["-"]
+{{ person(picture="/pic/profile.jpg"
+          name="Yifei Zhao"
+          position="Undergrad Summer Intern"
+          current="Student, NYU"
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
-          name="Shiven Verma"
-          position="Research Assistant, BS in Computer Science"
-          research_interests=["Clinical Natural Language Processing", "Artificial Intelligence in Healthcare"]
-    ) }}
-
-{{ person(picture="/pic/profile.jpg"
-          name="Praz Nagarajan"
-          position="Research Assistant, BS in Computer Science"
-          research_interests=["AI Agents", "Artificial Intelligence in Healthcare"]
-    ) }}
-
-{{ person(picture="/pic/haoyang.jpg"
-          name="Haoyang Sun"
-          position="Research Assistant, BS in Computer Science, Sichuan University-Pittsburgh Institute"
-          research_interests=["Large Langauge Models"]
-    ) }}
-
-{{ person(picture="/pic/profile.jpg"
-          name="Becky Zhou"
-          position="Research Assistant, BS in Health Informatics"
-          research_interests=["Usability Testing"]
-    ) }}
-
-{{ person(picture="/pic/akhil.jpg"
-          name="Akhil Bodahanapati"
-          position="Research Assistant, BS in Computer Science"
-          research_interests=["AI", "Software Engineer"]
+          name="Emily Su"
+          position="Undergrad Summer Intern"
+          current="Student, Williams College"
     ) }}
 
 ## Alumni
 
 ---
 
-{{ person(picture="/pic/sonish.jpg"
-          website="https://sonishsivarajkumar.github.io/"
-          name="Sonish Sivarajkumar"
-          position="PhD Graduate"
-          current="Senior NLP Research Scientist, Eli Lilly"
+
+{{ person(picture="/pic/mingu.jpg"
+          name="MinGu Kwak"
+          position="Machine Learning Research Scientist"
+          current="Data Science Manager, Capital One"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          website=""
+          name="Mariano De Leon"
+          position="Software Developer"
+          current=""
     ) }}
 
 {{ person(picture="/pic/maneesh.jpg"
           website="https://bmaneesh.github.io/"
           name="Maneesh Bilalpur"
+          position="AI Research Scientist"
+          current="Applied Scientist, Adobe"
+    ) }}
+
+{{ person(picture="/pic/sonish.jpg"
+          website="https://sonishsivarajkumar.github.io/"
+          name="Sonish Sivarajkumar"
           position="PhD Graduate"
-          current="Staff AI Research Scientist, PittNAIL"
+          current="Senior NLP Research Scientist, Eli Lilly"
     ) }}
 
 {{ person(picture="/pic/david.jpg"
@@ -255,6 +238,42 @@ page_class = "people-page"
           name="Karleigh McCarthy"
           position="Undergrad Research Assistant"
           current="Data Analyst, Kaleida Health"
+    ) }}
+
+{{ person(picture="/pic/Yufan.jpg"
+          name="Yufan Ren"
+          position="Research Assistant, BS in Health Informatics"
+          current="MS in Health Informatics, Johns Hopkins University"
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Shiven Verma"
+          position="Research Assistant, BS in Computer Science"
+          current=""
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Praz Nagarajan"
+          position="Research Assistant, BS in Computer Science"
+          current=""
+    ) }}
+
+{{ person(picture="/pic/haoyang.jpg"
+          name="Haoyang Sun"
+          position="Research Assistant, BS in Computer Science, Sichuan University-Pittsburgh Institute"
+          current=""
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Becky Zhou"
+          position="Research Assistant, BS in Health Informatics"
+          current="Data Engineer, IBM"
+    ) }}
+
+{{ person(picture="/pic/akhil.jpg"
+          name="Akhil Bodahanapati"
+          position="Research Assistant, BS in Computer Science"
+          current=""
     ) }}
 
 <!-- 
