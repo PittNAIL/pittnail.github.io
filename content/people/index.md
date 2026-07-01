@@ -29,7 +29,7 @@ page_class = "people-page"
           research_interests=["Clinical Natural Language Processing", "Informatics Infrastructure", "Translational Research Informatics"]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/jakir.jpg"
           name="Mohammad Jakir Hossain"
           position="AI Research Scientist"
           research_interests=["Large Language Models", "Knowledge Graph"]
