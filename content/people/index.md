@@ -83,7 +83,7 @@ page_class = "people-page"
           ]
     ) }}
 
-{{ person(picture="/pic/profile.jpg"
+{{ person(picture="/pic/simon.jpg"
           name="Simon Bin Akter"
           position="Research Assistant, PhD Student in Intelligent Systems Program"
           research_interests=["Large Language Models", "Clinical Natural Language Processing"]
