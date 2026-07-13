@@ -23,6 +23,9 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Jul, 2026. Great news! We have received a 5-year R01 grant “Precision Rehab for Patients Post-Stroke Through Artificial Intelligence”, funded by the NIH/NICHD with a total award amount of >$4m.
+- Jun, 2026. Welcome Simon Bin Akter to join the lab as a new ISP PhD student.
+- May, 2026. Welcome Yi-fei and Emily to join the lab as 2026 summer interns.
 - Mar, 2026. Welcome Maneesh Bilalpur back to join the lab as a staff AI Research Scientist.
 - Feb, 2026. Congratulations to our undergraduate research assistant Yufan Ren on being accepted into Johns Hopkins graduate school!
 - Feb, 2026. All five of our submissions to the AMIA 2026 Informatics Summit were accepted, including 2 full papers, 2 panels, and 1 Ignite talk. Congratulations to Xizhi Wu, Hang Zhang, and all collaborators!
