@@ -10,6 +10,11 @@ template = "page.html"
 <div class="funding-list fade-in">
 
 <div class="funding-card">
+<div class="funding-title">Precision Rehab for Patients Post-Stroke Through Artificial Intelligence</div>
+<div class="funding-source">NIH NICHD-R01</div>
+</div>
+
+<div class="funding-card">
 <div class="funding-title">ARISE-CARE: Advancing Rehabilitation for Stroke Patients with AI to Elevate Therapy Care</div>
 <div class="funding-source">NIH NLM-R01</div>
 </div>
