@@ -23,6 +23,8 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Aug, 2026. Two papers from our lab, "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation" and "Agentic Reward Modeling for Medical Reasoning", are accepted by EMNLP 2026. Congrats to Yuelyu Ji and Hang (Brady) Zhang!
+- Aug, 2026. Welcome Nan Wang to join the lab as a new DBMI PhD student.
 - Jul, 2026. Great news! We have received a 5-year R01 grant “Precision Rehab for Patients Post-Stroke Through Artificial Intelligence”, funded by the NIH/NICHD with a total award amount of >$4m.
 - Jun, 2026. Welcome Simon Bin Akter to join the lab as a new ISP PhD student.
 - May, 2026. Welcome Yi-fei and Emily to join the lab as 2026 summer interns.
