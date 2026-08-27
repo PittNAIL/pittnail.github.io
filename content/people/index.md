@@ -49,6 +49,20 @@ page_class = "people-page"
           research_interests=["Software Engineer", "Generative AI"]
     ) }}
 
+{{ person(picture="/pic/andrew.jpg"
+          website=""
+          name="Andrew Liu"
+          position="Postdoctoral Researcher"
+          research_interests=["Pathology", "Generative AI"]
+    ) }}
+
+{{ person(picture="/pic/luke.jpg"
+          website=""
+          name="Luke Breitfeller"
+          position="Postdoctoral Researcher"
+          research_interests=["Clinical Natural Language Processing", "Generative AI"]
+    ) }}
+
 ## PhD Students
 
 ---
@@ -89,6 +103,18 @@ page_class = "people-page"
           research_interests=["Large Language Models", "Clinical Natural Language Processing"]
     ) }}
 
+{{ person(picture="/pic/nan.jpg"
+          name="Nan Wang"
+          position="Research Assistant, PhD Student in Biomedical Informatics"
+          research_interests=["Large Language Models", "Clinical Natural Language Processing"]
+    ) }}
+
+{{ person(picture="/pic/profile.jpg"
+          name="Lufeiya Liu"
+          position="Research Assistant, PhD Student in Biostatistics"
+          research_interests=["AI for Science"]
+    ) }}
+
 ## Master's Students
 
 ---
@@ -113,13 +139,19 @@ page_class = "people-page"
 {{ person(picture="/pic/profile.jpg"
           name="Yifei Zhao"
           position="Undergrad Summer Intern"
-          current="Student, NYU"
+          current="Statistics and Computer Science, NYU"
     ) }}
 
 {{ person(picture="/pic/profile.jpg"
           name="Emily Su"
           position="Undergrad Summer Intern"
-          current="Student, Williams College"
+          current="Statistics, Williams College"
+    ) }}
+
+{{ person(picture="/pic/kyle.jpg"
+          name="Kyle Dickinson"
+          position="Undergrad Research Assistant"
+          current="Mathematics, Carnegie Mellon University"
     ) }}
 
 ## Alumni
