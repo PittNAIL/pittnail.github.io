@@ -20,7 +20,7 @@ page_class = "services-page"
 <div class="service-card fade-in">
 <div class="service-header">
 <h3 class="service-role">Vice Chair of Research</h3>
-<span class="service-org">Department of Health Informatics &mdash; University of Pittsburgh</span>
+<span class="service-org">Department of Biomedical Informatics (DBMI), University of Pittsburgh</span>
 </div>
 <div class="service-body">
 <p>As Vice Chair of Research, Dr. Wang leads the strategic growth of the department's research enterprise, focusing on expanding federally funded research, strengthening interdisciplinary collaboration, and positioning the department as a national leader in AI-driven health informatics.</p>
