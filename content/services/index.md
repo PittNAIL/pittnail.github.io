@@ -27,8 +27,12 @@ page_class = "services-page"
 <p>His leadership spans research portfolio strategy, faculty development, funding growth, and research infrastructure development.</p>
 <h4>Key Outcomes</h4>
 <ul class="service-highlights">
+<!-- PENDING APPROVAL (Oct 2026): withheld because these figures were added in
+     Mar 2026, before the Oct 1, 2026 DBMI appointment, so they cannot describe
+     DBMI outcomes. Restore only with a verified department, baseline, and period.
 <li>Departmental research expenditures increased 3&ndash;4 fold</li>
 <li>Pending research funding increased approximately six-fold</li>
+-->
 <li>Faculty participation in major grant programs expanded significantly</li>
 <li>Cross-school collaborations increased across clinical, engineering, and data science programs</li>
 </ul>
