@@ -13,7 +13,7 @@ page_class = "people-page"
           website="https://sites.pitt.edu/~yaw89/"
           pitt_portal="https://www.dbmi.pitt.edu/person/yanshan-wang/"
           name="Dr. Yanshan Wang"
-          position="Associate Professor (Tenured) and Vice Chair of Research, Department of Biomedical Informatics (DBMI)<br> Director of AI, Clinical and Translational Science Institute (CTSI)"
+          position="Associate Professor (Tenured) and Vice Chair for Research, Department of Biomedical Informatics (DBMI)<br> Director of AI, Clinical and Translational Science Institute (CTSI)"
           lab_position="Principal Investigator of PittNAIL"
     ) }}
 
