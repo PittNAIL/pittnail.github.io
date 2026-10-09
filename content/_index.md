@@ -23,9 +23,11 @@ approaches (NLP/AI/ML/DL) to meet the needs of clinicians, researchers, patients
 
 ### News
 
+- Oct, 2026. Dr. Wang has been appointed as the inaugural Director of AI for the Pitt Clinical and Translational Science Institute (CTSI).
 - Sep, 2026. Great news! We have received a UG3/UH3 grant “Advancing the development, dissemination, and sustainable implementation of evidence-based screening and treatment with trustworthy GenAI and responsible AI workforce”, funded by the NIH/NCATS with a total project award amount of ~$2.1m. The project, led by [Dr. Yifan Peng][yifan] at Weill Cornell Medicine with Dr. Wang as a multiple PI, will use generative AI to translate clinical practice guidelines into computer-interpretable guidelines and implement them across CTSA sites, together with Columbia, UT Southwestern, and Virginia Commonwealth University.
 - Aug, 2026. Two papers from our lab, "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation" and "Agentic Reward Modeling for Medical Reasoning", are accepted by EMNLP 2026. Congrats to Yuelyu Ji and Hang (Brady) Zhang!
 - Aug, 2026. Welcome Nan Wang to join the lab as a new DBMI PhD student.
+- Jul, 2026. Dr. Wang transitioned to the Department of Biomedical Informatics (DBMI) in the School of Medicine as Associate Professor with tenure and Vice Chair for Research.
 - Jul, 2026. Great news! We have received a 5-year R01 grant “Precision Rehab for Patients Post-Stroke Through Artificial Intelligence”, funded by the NIH/NICHD with a total award amount of >$4m.
 - Jun, 2026. Welcome Simon Bin Akter to join the lab as a new ISP PhD student.
 - May, 2026. Welcome Yi-fei and Emily to join the lab as 2026 summer interns.
